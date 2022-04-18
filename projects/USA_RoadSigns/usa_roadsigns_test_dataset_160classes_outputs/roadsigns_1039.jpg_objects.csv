@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1039.jpg,Truck_crossing,0.7,854,519,1023,681
+roadsigns_1039.jpg,No_left_or_u_turn,0.55,17,40,180,198
+roadsigns_1039.jpg,Metric_low_clearance,0.44,649,394,808,503
+roadsigns_1039.jpg,No_straight_through,0.42,438,280,599,440

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1016.jpg,Bicycles,0.79,17,38,178,199
+roadsigns_1016.jpg,Yield,0.69,228,159,390,300
+roadsigns_1016.jpg,Side_road_at_a_perpendicular_angle,0.65,856,520,1018,676
+roadsigns_1016.jpg,No_parking_Loading_zone,0.51,648,401,758,556
+roadsigns_1016.jpg,Merging_traffic,0.42,437,280,601,439

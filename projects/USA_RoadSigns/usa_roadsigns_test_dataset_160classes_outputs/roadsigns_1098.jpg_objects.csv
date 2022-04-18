@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1098.jpg,Minimum_speed_limit_60km,0.69,228,162,361,320
+roadsigns_1098.jpg,No_standing_any_time,0.65,15,37,127,199
+roadsigns_1098.jpg,Truck_crossing,0.65,856,520,1021,680
+roadsigns_1098.jpg,No_hitch_hiking,0.44,439,280,600,442

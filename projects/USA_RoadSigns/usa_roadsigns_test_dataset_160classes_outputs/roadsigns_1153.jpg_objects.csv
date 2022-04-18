@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1153.jpg,Wrong_way,0.96,859,520,1019,628
+roadsigns_1153.jpg,Speed_limit_80km,0.73,440,280,571,481
+roadsigns_1153.jpg,Truck_speed_Limit_40,0.68,227,160,364,316

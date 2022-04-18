@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1078.jpg,Detour,0.79,16,38,178,139
+roadsigns_1078.jpg,Pass_road,0.66,225,157,333,320
+roadsigns_1078.jpg,Truck_crossing,0.45,436,279,602,438
+roadsigns_1078.jpg,No_parking_from_830am_to_530pm_2,0.44,858,520,966,677

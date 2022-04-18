@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1058.jpg,Metric_low_clearance,0.57,860,521,1022,719
+roadsigns_1058.jpg,Truck_speed_Limit_40,0.5,649,400,831,580
+roadsigns_1058.jpg,Flagger_present,0.48,15,35,181,200

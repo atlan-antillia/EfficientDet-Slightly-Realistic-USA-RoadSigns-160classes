@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1046.jpg,Keep_right,0.74,858,519,990,678
+roadsigns_1046.jpg,Right_lane,0.73,649,401,809,464
+roadsigns_1046.jpg,Two_way_traffic,0.59,437,277,600,440
+roadsigns_1046.jpg,Two_way_traffic,0.42,226,159,393,321

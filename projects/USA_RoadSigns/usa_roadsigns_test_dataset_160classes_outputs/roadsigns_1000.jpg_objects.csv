@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1000.jpg,Stop,0.67,647,399,810,560
+roadsigns_1000.jpg,Center_lane,0.63,15,39,177,106
+roadsigns_1000.jpg,Truck_speed_Limit_40,0.46,444,282,560,440
+roadsigns_1000.jpg,Truck_rollover_warning,0.46,856,514,1022,679

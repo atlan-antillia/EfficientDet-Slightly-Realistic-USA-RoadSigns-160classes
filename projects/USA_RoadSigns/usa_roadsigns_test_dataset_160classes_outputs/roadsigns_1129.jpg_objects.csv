@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1129.jpg,Stay_in_lane,0.94,859,520,990,677
+roadsigns_1129.jpg,Yield_here_to_peds,0.73,441,280,602,438
+roadsigns_1129.jpg,No_stopping_on_pavement,0.4,648,399,776,559

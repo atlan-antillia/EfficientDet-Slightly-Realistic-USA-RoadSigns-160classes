@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1134.jpg,Do_not_enter,0.87,15,35,181,200
+roadsigns_1134.jpg,Stop,0.83,857,519,1021,679
+roadsigns_1134.jpg,Y_roads,0.67,436,279,602,438
+roadsigns_1134.jpg,Metric_low_clearance,0.61,226,157,388,320

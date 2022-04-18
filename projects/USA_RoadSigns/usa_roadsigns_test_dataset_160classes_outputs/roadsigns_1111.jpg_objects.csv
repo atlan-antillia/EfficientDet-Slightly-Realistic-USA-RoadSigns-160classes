@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1111.jpg,No_hitch_hiking,0.65,439,278,600,442
+roadsigns_1111.jpg,Merging_traffic,0.51,229,158,389,320
+roadsigns_1111.jpg,No_hitch_hiking,0.4,11,30,188,199

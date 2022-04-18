@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1055.jpg,Truck_route_sign,0.9,232,159,387,277
+roadsigns_1055.jpg,Truck_rollover_warning,0.75,649,400,807,557
+roadsigns_1055.jpg,Merging_traffic,0.71,855,519,1022,680
+roadsigns_1055.jpg,Speed_limit_80km,0.67,436,282,571,480

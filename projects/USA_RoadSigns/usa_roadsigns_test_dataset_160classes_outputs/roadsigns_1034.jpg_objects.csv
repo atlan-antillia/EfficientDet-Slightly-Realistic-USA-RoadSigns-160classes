@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1034.jpg,Steep grade,0.79,441,279,599,438
+roadsigns_1034.jpg,Minimum_speed_limit_60km,0.76,856,520,989,678
+roadsigns_1034.jpg,Winding_road,0.53,648,397,812,557
+roadsigns_1034.jpg,Weight_limit_10t,0.48,229,160,390,320
+roadsigns_1034.jpg,Y_roads,0.42,16,38,180,200

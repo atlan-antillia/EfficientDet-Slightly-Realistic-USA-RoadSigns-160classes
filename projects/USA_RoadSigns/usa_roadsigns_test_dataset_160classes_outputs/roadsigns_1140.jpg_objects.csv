@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1140.jpg,Truck_rollover_warning,0.79,855,517,1022,678
+roadsigns_1140.jpg,Bicycles_left_pedestrians_right,0.55,16,36,179,238
+roadsigns_1140.jpg,No_hitch_hiking,0.43,650,398,810,560
+roadsigns_1140.jpg,Detour,0.42,439,279,601,379

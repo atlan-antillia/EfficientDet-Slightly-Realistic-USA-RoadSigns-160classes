@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1025.jpg,Railroad_crossing,0.87,17,35,178,198
+roadsigns_1025.jpg,Merge,0.74,438,278,601,439
+roadsigns_1025.jpg,No_entre,0.71,856,519,1022,681
+roadsigns_1025.jpg,Pass_road,0.46,647,399,754,561

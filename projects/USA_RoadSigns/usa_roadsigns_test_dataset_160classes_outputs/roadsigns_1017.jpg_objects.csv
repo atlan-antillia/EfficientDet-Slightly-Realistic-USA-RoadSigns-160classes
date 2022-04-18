@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1017.jpg,Merge,0.76,230,159,389,318
+roadsigns_1017.jpg,No_standing_any_time,0.62,17,37,126,199
+roadsigns_1017.jpg,No_straight_through,0.51,649,397,810,559
+roadsigns_1017.jpg,No_straight_through,0.45,438,279,601,437
+roadsigns_1017.jpg,Sharp_turn,0.44,856,518,1022,680

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1095.jpg,Steep_grade_percentage,0.95,858,518,968,677
+roadsigns_1095.jpg,Added_lane,0.72,15,35,177,196
+roadsigns_1095.jpg,No_large_trucks,0.62,647,400,808,560
+roadsigns_1095.jpg,Narrow_bridge,0.48,229,157,387,321
+roadsigns_1095.jpg,Detour,0.46,442,280,600,358

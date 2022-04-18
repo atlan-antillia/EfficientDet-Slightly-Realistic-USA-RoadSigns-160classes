@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1059.jpg,Stay_in_lane,0.94,440,282,569,438
+roadsigns_1059.jpg,Speed_limit_80km,0.78,858,520,996,718
+roadsigns_1059.jpg,T_roads,0.6,228,157,390,323
+roadsigns_1059.jpg,Truck_crossing,0.52,652,398,757,561

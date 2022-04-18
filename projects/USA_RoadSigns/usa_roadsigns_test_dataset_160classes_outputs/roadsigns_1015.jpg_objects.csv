@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1015.jpg,Added_lane_from_entering_roadway,0.79,15,37,180,200
+roadsigns_1015.jpg,Tractor_farm_vehicle_crossing,0.72,647,399,809,560
+roadsigns_1015.jpg,Merging_traffic,0.55,855,517,1021,679
+roadsigns_1015.jpg,Except_right_turn,0.42,225,161,392,280
+roadsigns_1015.jpg,Winding_road,0.41,437,279,600,446

@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1076.jpg,No_parking_from_830am_to_530pm,0.83,856,517,966,675
+roadsigns_1076.jpg,Keep_right,0.7,649,400,777,561
+roadsigns_1076.jpg,Merging_traffic,0.68,226,155,389,318
+roadsigns_1076.jpg,No_left_or_u_turn,0.4,17,40,180,200

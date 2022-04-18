@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1100.jpg,Railroad_crossing_ahead,0.8,855,520,1023,681
+roadsigns_1100.jpg,Two_direction,0.67,437,281,601,408
+roadsigns_1100.jpg,Flagger_present,0.58,16,38,178,199
+roadsigns_1100.jpg,Right_turn_or_straight,0.43,228,160,363,320

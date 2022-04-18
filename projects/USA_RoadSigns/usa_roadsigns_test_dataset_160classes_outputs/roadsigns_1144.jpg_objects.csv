@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1144.jpg,Turn_only_lanes,0.89,858,521,1020,619
+roadsigns_1144.jpg,Hill_bicycle,0.67,648,397,812,560
+roadsigns_1144.jpg,One_way,0.52,17,40,178,92

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1116.jpg,Truck_route_sign,0.68,230,159,390,279
+roadsigns_1116.jpg,Merge,0.62,857,518,1024,680
+roadsigns_1116.jpg,Bike_lane_slippery_when_wet,0.57,647,397,811,558
+roadsigns_1116.jpg,Right_turn_or_straight,0.56,18,42,125,200
+roadsigns_1116.jpg,No_parking_Loading_zone,0.52,440,282,545,439

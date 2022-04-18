@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1137.jpg,Bike_lane_slippery_when_wet,0.83,19,38,180,200
+roadsigns_1137.jpg,Railroad_crossing_ahead,0.82,434,278,603,441
+roadsigns_1137.jpg,Tractor_farm_vehicle_crossing,0.76,855,519,1021,680
+roadsigns_1137.jpg,Work_zone_for_speed_limit,0.75,230,159,389,280
+roadsigns_1137.jpg,Steep_grade_percentage,0.68,650,399,755,560

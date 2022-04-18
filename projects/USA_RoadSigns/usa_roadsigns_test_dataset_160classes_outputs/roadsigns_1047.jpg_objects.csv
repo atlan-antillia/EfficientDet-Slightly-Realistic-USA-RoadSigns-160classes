@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1047.jpg,Minimum_speed_limit_60km,0.71,226,158,364,359
+roadsigns_1047.jpg,No_straight_through,0.65,19,38,178,201
+roadsigns_1047.jpg,Lane_ends,0.65,856,519,1022,679
+roadsigns_1047.jpg,Railroad_intersection_warning,0.48,649,399,810,562
+roadsigns_1047.jpg,Side_road_at_a_perpendicular_angle,0.45,439,280,600,443

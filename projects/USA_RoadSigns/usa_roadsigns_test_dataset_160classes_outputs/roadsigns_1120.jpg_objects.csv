@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1120.jpg,School,0.89,859,521,1022,573
+roadsigns_1120.jpg,Bicycles_left_pedestrians_right,0.89,16,40,128,199
+roadsigns_1120.jpg,Hill_bicycle,0.75,439,279,600,441
+roadsigns_1120.jpg,Railroad_intersection_warning,0.46,228,154,388,319

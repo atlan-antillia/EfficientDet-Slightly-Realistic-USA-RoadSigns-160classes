@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1139.jpg,Stop,0.86,17,38,128,200
+roadsigns_1139.jpg,Truck_crossing,0.82,857,518,1021,678
+roadsigns_1139.jpg,Tractor_farm_vehicle_crossing_2,0.81,648,400,808,559
+roadsigns_1139.jpg,Speed_limit_80km,0.78,442,279,571,479

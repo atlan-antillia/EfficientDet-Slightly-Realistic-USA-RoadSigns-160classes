@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1128.jpg,Detour_right,0.97,651,401,807,527
+roadsigns_1128.jpg,Bicycle_wrong_way,0.89,18,38,126,200
+roadsigns_1128.jpg,Speed_limit_80km,0.77,858,521,995,718
+roadsigns_1128.jpg,Two_way_traffic,0.45,227,156,387,320

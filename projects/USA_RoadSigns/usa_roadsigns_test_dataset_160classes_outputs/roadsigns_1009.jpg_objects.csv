@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1009.jpg,Truck_route_sign,0.8,437,280,598,399
+roadsigns_1009.jpg,No_parking_Loading_zone,0.51,648,399,761,557
+roadsigns_1009.jpg,No_stopping_on_pavement,0.41,229,158,361,319

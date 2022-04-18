@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1077.jpg,Center_lane,0.84,20,38,177,105
+roadsigns_1077.jpg,Work_zone_for_speed_limit,0.84,436,280,599,397
+roadsigns_1077.jpg,No_entre,0.7,227,158,387,319

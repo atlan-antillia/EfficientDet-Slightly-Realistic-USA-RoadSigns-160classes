@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1088.jpg,Winding_road,0.83,650,396,809,558
+roadsigns_1088.jpg,Winding_road,0.8,440,279,598,441
+roadsigns_1088.jpg,Low_clearance,0.63,19,37,178,199

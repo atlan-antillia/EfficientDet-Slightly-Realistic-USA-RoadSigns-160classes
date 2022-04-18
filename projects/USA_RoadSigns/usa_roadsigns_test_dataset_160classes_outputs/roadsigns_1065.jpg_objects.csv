@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1065.jpg,No_parking_from_830am_to_530pm_2,0.63,229,158,335,319
+roadsigns_1065.jpg,Road_closed,0.6,650,398,809,498
+roadsigns_1065.jpg,No_bicycles,0.57,857,519,1021,681
+roadsigns_1065.jpg,Truck_rollover_warning,0.48,438,277,600,441

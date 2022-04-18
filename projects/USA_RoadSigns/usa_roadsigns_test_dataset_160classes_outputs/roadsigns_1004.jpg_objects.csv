@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1004.jpg,No_left_turn_across_tracks,0.8,226,156,355,320
+roadsigns_1004.jpg,No_large_trucks,0.65,648,402,809,557
+roadsigns_1004.jpg,Two_direction,0.57,16,35,178,119
+roadsigns_1004.jpg,Be_prepared_to_stop,0.5,856,518,1021,680

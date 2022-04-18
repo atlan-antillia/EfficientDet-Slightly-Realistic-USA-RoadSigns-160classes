@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1064.jpg,Keep_right,0.81,648,399,777,560
+roadsigns_1064.jpg,All_way,0.77,439,280,596,333
+roadsigns_1064.jpg,Night_speed_limit_70km,0.65,861,517,1020,719
+roadsigns_1064.jpg,No_parking_from_830am_to_530pm_2,0.47,230,157,389,319

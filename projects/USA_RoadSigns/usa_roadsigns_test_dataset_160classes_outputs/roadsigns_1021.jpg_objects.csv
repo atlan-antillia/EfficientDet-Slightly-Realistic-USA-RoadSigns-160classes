@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1021.jpg,Straight_ahead_only,0.68,18,40,153,199
+roadsigns_1021.jpg,Pass_road,0.64,436,280,546,438
+roadsigns_1021.jpg,Detour,0.45,854,523,1020,650

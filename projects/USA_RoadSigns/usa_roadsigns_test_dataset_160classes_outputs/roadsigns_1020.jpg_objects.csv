@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1020.jpg,Steep_grade_percentage,0.62,18,37,179,200
+roadsigns_1020.jpg,Night_speed_limit_70km,0.6,645,397,809,600
+roadsigns_1020.jpg,Center_lane,0.58,230,160,387,225
+roadsigns_1020.jpg,Detour_right,0.54,856,523,1018,650
+roadsigns_1020.jpg,Wait_on_stop,0.46,439,283,549,437

@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1143.jpg,Turning_vehicles_yield_to_pedestrians,0.82,857,520,1022,679
+roadsigns_1143.jpg,Workers_on_road,0.63,647,400,808,559
+roadsigns_1143.jpg,Yield,0.53,230,160,386,299
+roadsigns_1143.jpg,Yield_here_to_pedestrians,0.46,438,283,562,438

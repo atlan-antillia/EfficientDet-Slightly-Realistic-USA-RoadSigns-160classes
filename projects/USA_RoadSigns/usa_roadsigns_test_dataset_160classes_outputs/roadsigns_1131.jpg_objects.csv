@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1131.jpg,Steep_grade_percentage,0.74,857,520,1019,678
+roadsigns_1131.jpg,Winding_road,0.63,229,159,389,319
+roadsigns_1131.jpg,School_bus_turn_ahead,0.61,432,279,598,447
+roadsigns_1131.jpg,Steep_grade_percentage,0.43,16,38,181,200

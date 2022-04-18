@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1135.jpg,School_speed_limit_ahead,0.87,649,397,809,558
+roadsigns_1135.jpg,Straight_ahead_only,0.7,860,520,994,678
+roadsigns_1135.jpg,Loading_zone,0.63,230,160,389,279
+roadsigns_1135.jpg,Single_lane_shift_left,0.45,439,278,600,441

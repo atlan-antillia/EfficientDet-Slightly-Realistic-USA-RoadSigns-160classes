@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1068.jpg,National_network_prohibited,0.8,227,158,393,279
+roadsigns_1068.jpg,Keep_left,0.59,438,281,570,439
+roadsigns_1068.jpg,No_straight_through,0.46,859,518,1021,679
+roadsigns_1068.jpg,No_straight_through,0.44,648,395,811,561

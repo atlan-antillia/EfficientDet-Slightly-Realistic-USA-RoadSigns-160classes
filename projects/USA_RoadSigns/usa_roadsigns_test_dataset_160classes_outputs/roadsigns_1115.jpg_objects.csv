@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1115.jpg,Metric_low_clearance,0.81,857,520,1021,679
+roadsigns_1115.jpg,Truck_crossing,0.66,648,401,759,560
+roadsigns_1115.jpg,Detour,0.61,441,278,598,379

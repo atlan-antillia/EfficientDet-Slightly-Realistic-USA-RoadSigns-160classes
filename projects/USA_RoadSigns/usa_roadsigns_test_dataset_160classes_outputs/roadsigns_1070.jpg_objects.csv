@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1070.jpg,Stay_in_lane,0.89,441,278,568,437
+roadsigns_1070.jpg,Hill_bicycle,0.63,14,36,182,200
+roadsigns_1070.jpg,Truck_crossing,0.53,230,159,336,319

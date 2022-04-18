@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns_1075.jpg,All_way,0.86,444,279,599,332
+roadsigns_1075.jpg,School_speed_limit_ahead,0.82,646,396,807,559
+roadsigns_1075.jpg,Left_turn_or_straight,0.63,228,160,365,319
+roadsigns_1075.jpg,Curve,0.59,13,36,183,200
+roadsigns_1075.jpg,No_parking_Loading_zone,0.46,856,525,968,678
