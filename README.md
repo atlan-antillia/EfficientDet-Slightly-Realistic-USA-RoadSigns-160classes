@@ -54,7 +54,7 @@ EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes
 <br>
 <b>Note:</b><br>
  You can download USA_RoadSigns tfrecord dataset from  
- <a href="https://github.com/sarah-antillia/TFRecord_Realistic_USA_RoadSigns-160classes">TFRecord_Realistic_USA_RoadSigns-160classes</a>
+ <a href="https://github.com/sarah-antillia/TFRecord_Realistic_USA_RoadSigns_160classes">TFRecord_Realistic_USA_RoadSigns_160classes</a>
 <br>
 
 
