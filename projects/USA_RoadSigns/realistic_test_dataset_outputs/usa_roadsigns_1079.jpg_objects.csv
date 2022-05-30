@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1079.jpg,Single_lane_shift_left,0.86,857,516,1018,681
+usa_roadsigns_1079.jpg,Double_side_roads,0.81,14,35,210,231
+usa_roadsigns_1079.jpg,No_pedestrians,0.63,440,280,632,360

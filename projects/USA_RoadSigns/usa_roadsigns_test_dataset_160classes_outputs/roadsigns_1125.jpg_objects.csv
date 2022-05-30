@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1125.jpg,Skewed_railroad_crossing,0.9,856,520,1021,679
-roadsigns_1125.jpg,Stop_here_for_peds,0.77,437,280,597,440
-roadsigns_1125.jpg,No_stopping_on_pavement,0.73,647,399,779,560
-roadsigns_1125.jpg,Narrow_bridge,0.73,17,40,179,199
-roadsigns_1125.jpg,Reverse_turn,0.43,229,160,390,317

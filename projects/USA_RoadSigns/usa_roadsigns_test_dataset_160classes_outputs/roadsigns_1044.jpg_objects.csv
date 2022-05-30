@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1044.jpg,Tractor_farm_vehicle_crossing,0.77,439,277,600,443
-roadsigns_1044.jpg,No_left_turn_across_tracks,0.71,12,35,151,201
-roadsigns_1044.jpg,Side_road_at_an_acute_angle,0.61,650,398,809,557
-roadsigns_1044.jpg,Narrow_bridge,0.59,227,160,386,319
-roadsigns_1044.jpg,Keep_left,0.54,858,521,990,679

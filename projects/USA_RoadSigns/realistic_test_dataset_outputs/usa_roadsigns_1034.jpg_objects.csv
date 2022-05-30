@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1034.jpg,Right_lane,0.92,649,399,810,464
+usa_roadsigns_1034.jpg,School_speed_limit_ahead,0.63,858,520,963,634
+usa_roadsigns_1034.jpg,No_standing_any_time,0.56,22,41,150,232
+usa_roadsigns_1034.jpg,T_roads,0.42,438,277,599,440

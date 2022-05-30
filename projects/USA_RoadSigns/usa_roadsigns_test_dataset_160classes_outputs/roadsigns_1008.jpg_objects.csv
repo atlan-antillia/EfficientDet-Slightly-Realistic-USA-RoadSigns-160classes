@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1008.jpg,Stay_in_lane,0.67,441,280,569,441
-roadsigns_1008.jpg,Curve,0.6,15,35,182,198
-roadsigns_1008.jpg,Two_way_traffic,0.51,648,396,808,560
-roadsigns_1008.jpg,Two_way_traffic,0.43,230,155,388,316

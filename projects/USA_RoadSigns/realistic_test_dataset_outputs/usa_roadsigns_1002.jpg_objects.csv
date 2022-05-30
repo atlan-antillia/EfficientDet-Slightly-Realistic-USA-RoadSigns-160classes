@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1002.jpg,Pedestrian_crossing,0.64,441,277,632,473
+usa_roadsigns_1002.jpg,No_horseback_riding,0.56,650,399,842,593
+usa_roadsigns_1002.jpg,Road_closed_ahead,0.53,14,38,214,234
+usa_roadsigns_1002.jpg,Bicycles_left_pedestrians_right,0.51,859,516,989,711

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1078.jpg,Pass_road,0.85,438,280,545,440
+usa_roadsigns_1078.jpg,Turning_vehicles_yield_to_pedestrians,0.67,227,159,361,322
+usa_roadsigns_1078.jpg,Railroad_intersection_warning,0.65,649,396,840,593
+usa_roadsigns_1078.jpg,Truck_speed_limit_40,0.62,860,522,1012,712
+usa_roadsigns_1078.jpg,Flagger_present,0.43,14,39,180,203

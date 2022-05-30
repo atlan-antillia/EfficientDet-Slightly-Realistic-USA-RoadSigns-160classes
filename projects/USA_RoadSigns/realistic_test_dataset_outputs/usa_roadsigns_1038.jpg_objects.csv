@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1038.jpg,Turn_only_lanes,0.83,227,160,424,279
+usa_roadsigns_1038.jpg,Flagger_present,0.56,13,37,181,205
+usa_roadsigns_1038.jpg,Reverse_turn,0.4,649,399,840,594
+usa_roadsigns_1038.jpg,Turning_vehicles_yield_to_pedestrians,0.4,859,522,981,680

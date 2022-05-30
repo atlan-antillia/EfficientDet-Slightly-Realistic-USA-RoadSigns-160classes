@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1011.jpg,Metric_low_clearance,0.7,855,520,1021,680
-roadsigns_1011.jpg,Merging_traffic,0.6,436,279,602,440
-roadsigns_1011.jpg,No_parking_Loading_zone,0.58,650,402,757,554
-roadsigns_1011.jpg,Turn_only_lanes,0.47,18,38,179,139
-roadsigns_1011.jpg,Metric_low_clearance,0.41,228,158,392,320

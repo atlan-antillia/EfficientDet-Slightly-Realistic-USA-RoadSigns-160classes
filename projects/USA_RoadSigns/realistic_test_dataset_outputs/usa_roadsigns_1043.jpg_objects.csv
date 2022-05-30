@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1043.jpg,Truck_rollover_warning,0.94,649,396,842,594
+usa_roadsigns_1043.jpg,Pass_road,0.84,859,518,968,681
+usa_roadsigns_1043.jpg,Keep_left_2,0.61,228,159,359,322
+usa_roadsigns_1043.jpg,Low_ground_clearance_railroad_crossing,0.45,439,278,600,440

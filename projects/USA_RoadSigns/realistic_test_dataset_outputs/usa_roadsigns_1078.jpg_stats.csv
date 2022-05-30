@@ -1,0 +1,6 @@
+id, class, count
+1,Pass_road,1
+2,Turning_vehicles_yield_to_pedestrians,1
+3,Railroad_intersection_warning,1
+4,Truck_speed_limit_40,1
+5,Flagger_present,1

@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1029.jpg,Bicycles_left_pedestrians_right,0.85,19,40,125,201
-roadsigns_1029.jpg,Two_way_traffic,0.65,227,154,392,319
-roadsigns_1029.jpg,No_parking_Loading_zone,0.43,436,282,546,435
-roadsigns_1029.jpg,No_parking_Loading_zone,0.4,646,402,758,555

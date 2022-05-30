@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1085.jpg,Wrong_way,0.73,858,518,1054,648
+usa_roadsigns_1085.jpg,Hill_bicycle,0.7,230,156,389,321
+usa_roadsigns_1085.jpg,Emergency_signal,0.68,15,41,181,203
+usa_roadsigns_1085.jpg,Stop_here_when_flashing,0.66,441,280,548,440
+usa_roadsigns_1085.jpg,Reverse_curve,0.45,648,397,840,593

@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1004.jpg,Speed_limit_80km,0.68,439,281,598,517
+usa_roadsigns_1004.jpg,Double_side_roads,0.51,13,37,181,206
+usa_roadsigns_1004.jpg,Speed_limit_50,0.48,650,399,862,618
+usa_roadsigns_1004.jpg,Chevron_alignment,0.42,860,518,988,711

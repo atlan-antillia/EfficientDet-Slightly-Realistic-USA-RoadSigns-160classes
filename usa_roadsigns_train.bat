@@ -12,6 +12,6 @@ python main2.py ^
   --early_stopping=map ^
   --patience=10 ^
   --eval_batch_size=1 ^
-  --eval_samples=400  ^
-  --num_examples_per_epoch=1200 ^
-  --num_epochs=160   
+  --eval_samples=1000  ^
+  --num_examples_per_epoch=2000 ^
+  --num_epochs=80 

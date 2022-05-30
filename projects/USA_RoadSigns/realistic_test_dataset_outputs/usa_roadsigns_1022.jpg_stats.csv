@@ -1,0 +1,6 @@
+id, class, count
+1,Left_lane,1
+2,Truck_crossing,1
+3,Lane_ends,1
+4,Emergency_signal,1
+5,Runaway_vehicles_only,1

@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1096.jpg,Railroad_crossing_ahead,0.77,16,38,181,204
-roadsigns_1096.jpg,Steep grade,0.74,436,277,600,439
-roadsigns_1096.jpg,Railroad_crossing,0.72,230,157,392,322
-roadsigns_1096.jpg,Steep grade,0.71,855,517,1023,679

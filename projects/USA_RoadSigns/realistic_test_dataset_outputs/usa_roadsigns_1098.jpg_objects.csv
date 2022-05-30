@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1098.jpg,Stay_in_lane,0.91,861,523,1016,715
+usa_roadsigns_1098.jpg,Emergency_signal,0.79,15,39,178,202
+usa_roadsigns_1098.jpg,Weight_limit_10t,0.41,649,399,809,558
+usa_roadsigns_1098.jpg,Flagger_present,0.4,229,157,423,356

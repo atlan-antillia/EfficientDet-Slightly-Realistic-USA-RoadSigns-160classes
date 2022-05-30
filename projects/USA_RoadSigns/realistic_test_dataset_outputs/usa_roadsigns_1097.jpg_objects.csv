@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1097.jpg,Skewed_railroad_crossing,0.9,650,399,839,594
+usa_roadsigns_1097.jpg,Truck_route_sign,0.79,230,159,387,280
+usa_roadsigns_1097.jpg,Keep_left_2,0.76,859,519,1015,714
+usa_roadsigns_1097.jpg,Left_turn_yield_on_green,0.72,440,280,569,473
+usa_roadsigns_1097.jpg,No_standing_any_time,0.44,18,39,128,201

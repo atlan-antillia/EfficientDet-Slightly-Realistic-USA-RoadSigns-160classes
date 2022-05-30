@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1091.jpg,No_left_turn_across_tracks,0.82,229,156,384,351
+usa_roadsigns_1091.jpg,No_pedestrian_crossing,0.5,861,519,1019,680
+usa_roadsigns_1091.jpg,Truck_rollover_warning,0.49,438,280,602,443

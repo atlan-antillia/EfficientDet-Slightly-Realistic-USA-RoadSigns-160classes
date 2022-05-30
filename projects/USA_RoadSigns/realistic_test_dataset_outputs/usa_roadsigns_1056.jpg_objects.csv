@@ -1,0 +1,3 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1056.jpg,T_roads,0.54,860,520,1019,679
+usa_roadsigns_1056.jpg,Horse_drawn_vehicle_ahead,0.53,227,157,419,354

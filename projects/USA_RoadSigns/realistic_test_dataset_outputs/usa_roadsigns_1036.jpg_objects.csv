@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1036.jpg,Right_turn_or_straight,0.77,16,40,179,230
+usa_roadsigns_1036.jpg,Offset_roads,0.71,857,517,1051,714
+usa_roadsigns_1036.jpg,Low_clearance,0.61,227,155,421,354
+usa_roadsigns_1036.jpg,Stop,0.53,440,279,601,440

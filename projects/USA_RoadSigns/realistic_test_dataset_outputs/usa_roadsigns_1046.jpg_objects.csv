@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1046.jpg,No_left_turn,0.83,229,159,392,324
+usa_roadsigns_1046.jpg,Railroad_crossing,0.78,858,517,1055,717
+usa_roadsigns_1046.jpg,No_left_turn,0.66,649,398,844,593
+usa_roadsigns_1046.jpg,Detour_right,0.66,18,39,198,220
+usa_roadsigns_1046.jpg,Side_road_at_a_perpendicular_angle,0.58,437,279,601,442

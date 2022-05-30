@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1107.jpg,Railroad_crossing,0.85,16,35,179,201
-roadsigns_1107.jpg,No_parking_from_830am_to_530pm_2,0.62,649,401,755,558
-roadsigns_1107.jpg,Right_lane,0.59,858,522,1016,584
-roadsigns_1107.jpg,Truck_crossing,0.53,229,158,387,319

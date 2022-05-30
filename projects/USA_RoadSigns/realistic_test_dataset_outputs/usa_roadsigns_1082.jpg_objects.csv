@@ -1,0 +1,3 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1082.jpg,School,0.94,861,520,1052,584
+usa_roadsigns_1082.jpg,No_straight_through,0.61,15,39,208,232

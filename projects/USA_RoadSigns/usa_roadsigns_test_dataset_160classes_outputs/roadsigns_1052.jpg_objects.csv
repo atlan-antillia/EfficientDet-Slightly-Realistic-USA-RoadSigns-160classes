@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1052.jpg,No_stopping_on_pavement,0.83,13,35,150,199
-roadsigns_1052.jpg,Night_speed_limit_70km,0.75,648,397,812,600
-roadsigns_1052.jpg,Tractor_farm_vehicle_crossing,0.66,230,159,390,321
-roadsigns_1052.jpg,Truck_crossing,0.51,438,276,600,439

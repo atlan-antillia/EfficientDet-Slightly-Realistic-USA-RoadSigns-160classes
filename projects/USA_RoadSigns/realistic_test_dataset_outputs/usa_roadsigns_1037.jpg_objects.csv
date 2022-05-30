@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1037.jpg,Railroad_crossing_ahead,0.65,435,276,601,445
+usa_roadsigns_1037.jpg,No_left_turn,0.63,230,158,391,322
+usa_roadsigns_1037.jpg,Pedestrian_crossing,0.58,857,517,1053,714
+usa_roadsigns_1037.jpg,Left_turn_yield_on_green,0.41,20,38,153,203

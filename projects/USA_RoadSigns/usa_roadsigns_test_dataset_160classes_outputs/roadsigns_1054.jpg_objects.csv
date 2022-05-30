@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1054.jpg,Hill_bicycle,0.69,229,157,389,318
-roadsigns_1054.jpg,School,0.64,649,400,809,464
-roadsigns_1054.jpg,Pass_road,0.58,439,280,544,440
-roadsigns_1054.jpg,Reserved_parking_wheelchair,0.42,858,519,1022,676

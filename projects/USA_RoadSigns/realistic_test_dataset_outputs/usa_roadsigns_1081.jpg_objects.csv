@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1081.jpg,Two_direction,0.94,230,157,388,242
+usa_roadsigns_1081.jpg,Road_slippery_when_wet,0.49,15,37,210,232
+usa_roadsigns_1081.jpg,Pedestrian_crossing,0.47,437,277,598,441
+usa_roadsigns_1081.jpg,Tractor_farm_vehicle_crossing_2,0.41,858,519,1053,714
+usa_roadsigns_1081.jpg,Metric_low_clearance,0.4,645,399,811,561

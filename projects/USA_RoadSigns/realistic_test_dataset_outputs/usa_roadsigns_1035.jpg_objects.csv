@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1035.jpg,Except_right_turn,0.83,19,40,209,184
+usa_roadsigns_1035.jpg,No_parking_bus_stop,0.7,648,401,776,590
+usa_roadsigns_1035.jpg,Steep_grade,0.62,858,518,1020,682
+usa_roadsigns_1035.jpg,Horizontal_alignment_intersection,0.61,227,158,391,320
+usa_roadsigns_1035.jpg,No_outlet,0.42,439,278,633,473

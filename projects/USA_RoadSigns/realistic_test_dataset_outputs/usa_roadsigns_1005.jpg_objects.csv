@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1005.jpg,Horizontal_alignment_intersection,0.87,227,156,392,318
+usa_roadsigns_1005.jpg,Keep_right,0.8,17,40,171,232
+usa_roadsigns_1005.jpg,Right_lane,0.79,649,398,842,478
+usa_roadsigns_1005.jpg,Bicycles_and_pedestrians,0.54,859,518,1023,682
+usa_roadsigns_1005.jpg,Truck_speed_limit_40,0.49,439,279,571,441

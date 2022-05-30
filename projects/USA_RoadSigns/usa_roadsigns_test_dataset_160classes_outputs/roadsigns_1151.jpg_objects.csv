@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1151.jpg,Do_not_enter,0.79,15,34,182,202
-roadsigns_1151.jpg,Snowmobile,0.72,227,158,389,321
-roadsigns_1151.jpg,Y_roads,0.71,436,278,602,437
-roadsigns_1151.jpg,No_stopping_on_pavement,0.62,647,398,776,564
-roadsigns_1151.jpg,Workers_on_road,0.6,854,516,1021,679

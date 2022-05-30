@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1057.jpg,Tractor_farm_vehicle_crossing_2,0.84,226,159,389,318
-roadsigns_1057.jpg,No_hitch_hiking,0.63,436,280,599,440
-roadsigns_1057.jpg,Hidden_driveway,0.61,14,38,180,201
-roadsigns_1057.jpg,Y_roads,0.61,856,519,1021,679

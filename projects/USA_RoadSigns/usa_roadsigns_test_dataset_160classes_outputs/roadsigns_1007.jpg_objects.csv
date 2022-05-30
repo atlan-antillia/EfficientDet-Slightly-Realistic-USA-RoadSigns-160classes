@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1007.jpg,Y_roads,0.69,437,278,600,442
-roadsigns_1007.jpg,Night_speed_limit_70km,0.68,14,37,179,240
-roadsigns_1007.jpg,School_bus_turn_ahead,0.63,649,398,808,559
-roadsigns_1007.jpg,Low_clearance,0.55,857,517,1021,679
-roadsigns_1007.jpg,Truck_speed_Limit_40,0.47,226,160,394,321

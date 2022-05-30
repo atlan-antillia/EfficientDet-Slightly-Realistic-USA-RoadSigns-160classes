@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1057.jpg,Work_zone_for_speed_limit,0.89,650,400,840,543
+usa_roadsigns_1057.jpg,Railroad_crossing,0.87,437,276,633,474
+usa_roadsigns_1057.jpg,Reverse_curve,0.81,858,518,1054,716
+usa_roadsigns_1057.jpg,Reverse_curve,0.72,15,39,209,234
+usa_roadsigns_1057.jpg,T_roads,0.48,230,156,419,351

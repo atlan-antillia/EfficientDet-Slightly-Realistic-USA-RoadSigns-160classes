@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1110.jpg,Stop_here_for_peds,0.86,649,400,806,557
-roadsigns_1110.jpg,Center_lane,0.76,15,38,177,103
-roadsigns_1110.jpg,Truck_crossing,0.63,856,518,1022,680
-roadsigns_1110.jpg,No_parking_Loading_zone,0.42,439,281,542,436

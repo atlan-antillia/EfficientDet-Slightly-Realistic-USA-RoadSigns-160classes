@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1008.jpg,No_pedestrian_crossing,0.81,648,399,814,601
+usa_roadsigns_1008.jpg,No_unauthorized_vehicles,0.78,16,41,182,228
+usa_roadsigns_1008.jpg,Turning_vehicles_yield_to_pedestrians,0.78,860,520,989,682
+usa_roadsigns_1008.jpg,No_standing_any_time,0.65,230,159,335,318

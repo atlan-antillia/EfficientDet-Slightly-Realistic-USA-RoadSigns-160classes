@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/04/20)
+EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/05/31)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in US based on 
@@ -7,7 +7,9 @@ This is a slightly realistic project to train and detect RoadSigns in US based o
 <br>
 Please also refer to our experimental project <a href="https://github.com/atlan-antillia/EfficientDet-Realistic-USA-RoadSigns">EfficientDet-Realistic-USA-RoadSigns</a>.
 <br>
-
+Modified to use the TFRecord_USA_RoadSigns_160classes_V2 in
+<a href="https://drive.google.com/drive/folders/1ht0J3WnqNWXqfHT4QzzZ5xPheYpnhRWW?usp=sharing">USA_RoadSigns_160classes_V2</a>
+<br>
 <h3>
 1. Installing tensorflow on Windows10
 </h3>
@@ -46,17 +48,16 @@ EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes
     └─USA_RoadSigns
         ├─saved_model
         │  └─variables
-        ├─usa_roadsigns_test_dataset_160classes
-        ├─usa_roadsigns_test_dataset_160classes_outputs
+        ├─realistic_test_dataset
+        ├─realistic_test_dataset_outputs
         ├─train
         └─valid
 </pre>
 <br>
 <b>Note:</b><br>
- You can download USA_RoadSigns tfrecord dataset from  
- <a href="https://github.com/sarah-antillia/TFRecord_Realistic_USA_RoadSigns_160classes">TFRecord_Realistic_USA_RoadSigns_160classes</a>
+ You can download TRecord_USA_RoadSigns 160classes_V2 dataset from  
+<a href="https://drive.google.com/drive/folders/1ht0J3WnqNWXqfHT4QzzZ5xPheYpnhRWW?usp=sharing">USA_RoadSigns_160classes_V2</a>
 <br>
-
 
 <h3>3. Inspect tfrecord</h3>
   You can use <a href="https://github.com/sarah-antillia/TFRecordInspector">TFRecordInspector</a> to inspect train and valid tfrecods. 
@@ -88,7 +89,7 @@ See: https://github.com/google/automl/tree/master/efficientdet<br>
 
 <h3>5. Training USA RoadSigns Model by using pretrained-model</h3>
 We use the usa_roadsigns_train.bat file.
-We created a main2.py from main.py to be able to write COCO metrics to a csv files.<br>
+We created a main2.py from main.py to be able to write COCO metrics to the csv files.<br>
 
 <pre>
 python main2.py ^
@@ -105,10 +106,10 @@ python main2.py ^
   --early_stopping=map ^
   --patience=10 ^
   --eval_batch_size=1 ^
-  --eval_samples=400  ^
-  --num_examples_per_epoch=1200 ^
-  --num_epochs=160   
-</pre>
+  --eval_samples=1000  ^
+  --num_examples_per_epoch=2000 ^
+  --num_epochs=80 
+ </pre>
 
 <table style="border: 1px solid #000;">
 <tr>
@@ -165,30 +166,30 @@ python main2.py ^
 </tr>
 <tr>
 <td>
---eval_samples</td><td>400</td>
+--eval_samples</td><td>1000</td>
 </tr>
 <tr>
 <td>
---num_examples_per_epoch</td><td>1200</td>
+--num_examples_per_epoch</td><td>2000</td>
 </tr>
 <tr>
 <td>
---num_epochs</td><td>160</td>
+--num_epochs</td><td>80</td>
 </tr>
 </table>
 <br>
 <br>
-<b>label_map.yaml</b>
+<b>label_map.yaml: Updated in V2</b>
 <pre>
 1: '270_degree_loop'
 2: 'Added_lane'
 3: 'Added_lane_from_entering_roadway'
 4: 'All_way'
 5: 'Be_prepared_to_stop'
-6: 'Bicycles'
-7: 'Bicycles_and_pedestrians'
-8: 'Bicycles_left_pedestrians_right'
-9: 'Bicycle_wrong_way'
+6: 'Bicycle_wrong_way'
+7: 'Bicycles'
+8: 'Bicycles_and_pedestrians'
+9: 'Bicycles_left_pedestrians_right'
 10: 'Bike_lane'
 11: 'Bike_lane_slippery_when_wet'
 12: 'Bump'
@@ -203,18 +204,18 @@ python main2.py ^
 21: 'Detour'
 22: 'Detour_right'
 23: 'Dip'
-24: 'Double_side_roads'
-25: 'Do_not_drive_on_tracks'
-26: 'Do_not_enter'
-27: 'Do_not_pass_stopped_trains'
+24: 'Do_not_drive_on_tracks'
+25: 'Do_not_enter'
+26: 'Do_not_pass_stopped_trains'
+27: 'Double_side_roads'
 28: 'Emergency_signal'
 29: 'End_detour'
 30: 'Except_right_turn'
 31: 'Fallen_rocks'
 32: 'Flagger_present'
 33: 'Fog_area'
-34: 'Golf_cart_crossing'
-35: 'Go_on_slow'
+34: 'Go_on_slow'
+35: 'Golf_cart_crossing'
 36: 'Gusty_winds_area'
 37: 'Hairpin_curve'
 38: 'Hazardous_material_prohibited'
@@ -240,30 +241,30 @@ python main2.py ^
 58: 'Metric_low_clearance'
 59: 'Minimum_speed_limit_40'
 60: 'Minimum_speed_limit_60km'
-61: 'Narrow_bridge.jpg'
-62: 'Narrow_bridge'
-63: 'National_network_prohibited'
-64: 'National_network_route'
-65: 'Night_speed_limit_45'
-66: 'Night_speed_limit_70km'
-67: 'No_bicycles'
-68: 'No_entre'
-69: 'No_hitch_hiking'
-70: 'No_horseback_riding'
-71: 'No_large_trucks'
-72: 'No_left_or_u_turn'
-73: 'No_left_turn'
-74: 'No_left_turn_across_tracks'
-75: 'No_outlet'
-76: 'No_parking'
+61: 'Narrow_bridge'
+62: 'National_network_prohibited'
+63: 'National_network_route'
+64: 'Night_speed_limit_45'
+65: 'Night_speed_limit_70km'
+66: 'No_bicycles'
+67: 'No_entre'
+68: 'No_hitch_hiking'
+69: 'No_horseback_riding'
+70: 'No_large_trucks'
+71: 'No_left_or_u_turn'
+72: 'No_left_turn'
+73: 'No_left_turn_across_tracks'
+74: 'No_outlet'
+75: 'No_parking'
+76: 'No_parking_any_time'
 77: 'No_parking_bus_stop'
 78: 'No_parking_from_830am_to_530pm'
 79: 'No_parking_from_830am_to_530pm_2'
 80: 'No_parking_in_fire_lane'
-81: 'No_parking_Loading_zone'
+81: 'No_parking_loading_zone'
 82: 'No_parking_on_pavement'
-83: 'No_pedestrians'
-84: 'No_pedestrian_crossing'
+83: 'No_pedestrian_crossing'
+84: 'No_pedestrians'
 85: 'No_right_turn'
 86: 'No_rollerblading'
 87: 'No_standing_any_time'
@@ -271,94 +272,92 @@ python main2.py ^
 89: 'No_straight_through'
 90: 'No_train_horn_warning'
 91: 'No_turns'
-92: 'No_unauthorized_vehicles'
-93: 'No_u_turn'
+92: 'No_u_turn'
+93: 'No_unauthorized_vehicles'
 94: 'Offset_roads'
 95: 'One_direction'
 96: 'One_way'
 97: 'Parking_with_time_restrictions'
 98: 'Pass_on_either_side'
 99: 'Pass_road'
-100: 'Path_narrows.jpg'
-101: 'Path_narrows'
-102: 'Pedestrian_crossing'
-103: 'Railroad_crossing'
-104: 'Railroad_crossing_ahead'
-105: 'Railroad_intersection_warning'
-106: 'Ramp_narrows'
-107: 'Reserved_parking_wheelchair'
-108: 'Reverse_curve'
-109: 'Reverse_turn'
-110: 'Right_lane'
-111: 'Right_turn_only'
-112: 'Right_turn_or_straight'
-113: 'Road_closed'
-114: 'Road_closed_ahead'
-115: 'Road_narrows'
-116: 'Road_slippery_when_wet'
-117: 'Rough_road'
-118: 'Runaway_vehicles_only'
-119: 'School'
-120: 'School_advance'
-121: 'School_bus_stop_ahead'
-122: 'School_bus_turn_ahead'
-123: 'School_speed_limit_ahead'
-124: 'Sharp_turn'
+100: 'Path_narrows'
+101: 'Pedestrian_crossing'
+102: 'Railroad_crossing'
+103: 'Railroad_crossing_ahead'
+104: 'Railroad_intersection_warning'
+105: 'Ramp_narrows'
+106: 'Reserved_parking_wheelchair'
+107: 'Reverse_curve'
+108: 'Reverse_turn'
+109: 'Right_lane'
+110: 'Right_turn_only'
+111: 'Right_turn_or_straight'
+112: 'Road_closed'
+113: 'Road_closed_ahead'
+114: 'Road_narrows'
+115: 'Road_slippery_when_wet'
+116: 'Rough_road'
+117: 'Runaway_vehicles_only'
+118: 'School'
+119: 'School_advance'
+120: 'School_bus_stop_ahead'
+121: 'School_bus_turn_ahead'
+122: 'School_speed_limit_ahead'
+123: 'Sharp_turn'
+124: 'Side_road_at_a_perpendicular_angle'
 125: 'Side_road_at_an_acute_angle'
-126: 'Side_road_at_a_perpendicular_angle'
-127: 'Single_lane_shift_left'
-128: 'Skewed_railroad_crossing'
-129: 'Snowmobile'
-130: 'Speed_limit_50'
-131: 'Speed_limit_80km'
-132: 'Stay_in_lane'
-133: 'Steep grade'
-134: 'Steep_grade_percentage'
-135: 'Stop'
-136: 'Stop_here_for_pedestrians'
-137: 'Stop_here_for_peds'
+126: 'Single_lane_shift_left'
+127: 'Skewed_railroad_crossing'
+128: 'Snowmobile'
+129: 'Speed_limit_50'
+130: 'Speed_limit_80km'
+131: 'Stay_in_lane'
+132: 'Steep_grade'
+133: 'Steep_grade_percentage'
+134: 'Stop'
+135: 'Stop_here_for_pedestrians'
+136: 'Stop_here_for_peds'
+137: 'Stop_here_when_flashing'
 138: 'Straight_ahead_only'
-139: 'Tractor_farm_vehicle_crossing'
-140: 'Tractor_farm_vehicle_crossing_2'
-141: 'Truck crossing_2'
-142: 'Truck_crossing'
-143: 'Truck_rollover_warning'
-144: 'Truck_route_sign'
-145: 'Truck_speed_Limit_40'
-146: 'Turning_vehicles_yield_to_pedestrians'
+139: 'T_roads'
+140: 'Tractor_farm_vehicle_crossing'
+141: 'Tractor_farm_vehicle_crossing_2'
+142: 'Truck crossing_2'
+143: 'Truck_crossing'
+144: 'Truck_rollover_warning'
+145: 'Truck_route_sign'
+146: 'Truck_speed_limit_40'
 147: 'Turn_only_lanes'
-148: 'Two_direction'
-149: 'Two_way_traffic'
-150: 'T_roads'
+148: 'Turning_vehicles_yield_to_pedestrians'
+149: 'Two_direction'
+150: 'Two_way_traffic'
 151: 'Wait_on_stop'
 152: 'Weight_limit_10t'
 153: 'Winding_road'
-154: 'Workers_on_road'
-155: 'Work_zone_for_speed_limit'
+154: 'Work_zone_for_speed_limit'
+155: 'Workers_on_road'
 156: 'Wrong_way'
-157: 'Yield'
-158: 'Yield_here_to_pedestrians'
-159: 'Yield_here_to_peds'
-160: 'Y_roads'
+157: 'Y_roads'
+158: 'Yield'
+159: 'Yield_here_to_pedestrians'
+160: 'Yield_here_to_peds'
 </pre>
 <br>
 <br>
 <br>
-<b>COCO meticss f and map</b><br>
-<img src="./asset/coco_metrics.png" width="1024" height="auto">
+<b><a href="./projects/USA_RoadSigns/eval/coco_metrics.csv">COCO meticss f and map</a></b><br>
+<img src="./asset/coco_metrics_at_epoch80.png" width="1024" height="auto">
 <br>
 <br>
-<b>Train losses at epoch</b><br>
-<img src="./asset/train_losses.png" width="1024" height="auto">
+<b><a href="./projects/USA_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
+<img src="./asset/train_losses_at_epoch80.png" width="1024" height="auto">
 <br>
 <br>
-<!--
-<b>COCO ap per class at epoch</b><br>
-<img src="./asset/coco_ap_per_class_epoch.png" width="1024" height="auto">
+
+<b><a href="./projects/USA_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
+<img src="./asset/coco_ap_per_class_at_epoch80.png" width="1024" height="auto">
 <br>
-<br>
-<br>
--->
+
 <h3>
 6. Create a saved_model from the checkpoint
 </h3>
@@ -408,15 +407,14 @@ python model_inspect.py ^
   --saved_model_dir=./projects/USA_RoadSigns/saved_model ^
   --min_score_thresh=0.3 ^
   --hparams="num_classes=160,label_map=./projects/USA_RoadSigns/label_map.yaml" ^
-  --input_image=./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes/*.jpg ^
-  --output_image_dir=./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs
+  --input_image=./projects/USA_RoadSigns/realistic_test_dataset/*.jpg ^
+  --output_image_dir=./projects/USA_RoadSigns/realistic_test_dataset_outputs
 </pre>
 
 <table style="border: 1px solid #000;">
 <tr>
 <td>--runmode</td><td>saved_model_infer </td>
 </tr>
-
 <tr>
 <td>--model_name</td><td>efficientdet-d0 </td>
 </tr>
@@ -434,11 +432,11 @@ python model_inspect.py ^
 </tr>
 
 <tr>
-<td>--input_image</td><td>./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes/*.jpg</td>
+<td>--input_image</td><td>./projects/USA_RoadSigns/realistic_test_dataset/*.jpg</td>
 </tr>
 
 <tr>
-<td>--output_image_dir</td><td>./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs</td>
+<td>--output_image_dir</td><td>./projects/USA_RoadSigns/realistic_test_dataset_outputs</td>
 </tr>
 </table>
 <br>
@@ -446,33 +444,33 @@ python model_inspect.py ^
 8. Some detection results of USA RoadSigns
 </h3>
 
-<img src="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1001.jpg" width="1280" height="auto"><br>
-<a href="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1001.jpg_objects.csv">roadsigns1001.jpg_objects.csv</a><br>
+<img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1001.jpg" width="1280" height="auto"><br>
+<a href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1001.jpg_objects.csv">roadsigns1001.jpg_objects.csv</a><br>
 <br>
-<img src="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1002.jpg" width="1280" height="auto"><br>
-<a  href="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1002.jpg_objects.csv">roadsigns1002.jpg_objects.csv</a><br>
+<img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1012.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1012.jpg_objects.csv">roadsigns1002.jpg_objects.csv</a><br>
 <br>
-<img src="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1003.jpg" width="1280" height="auto"><br>
-<a  href="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1003.jpg_objects.csv">roadsigns1003.jpg_objects.csv</a><br>
+<img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1023.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1023.jpg_objects.csv">roadsigns1003.jpg_objects.csv</a><br>
 <br>
-<img src="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1004.jpg" width="1280" height="auto"><br>
-<a  href="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1004.jpg_objects.csv">roadsigns1004.jpg_objects.csv</a><br>
+<img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1034.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1034.jpg_objects.csv">roadsigns1004.jpg_objects.csv</a><br>
 <br>
-<img src="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1005.jpg" width="1280" height="auto"><br>
-<a  href="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1005.jpg_objects.csv">roadsigns1005.jpg_objects.csv</a><br>
+<img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1045.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1045.jpg_objects.csv">roadsigns1005.jpg_objects.csv</a><br>
 <br>
-<img src="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1006.jpg" width="1280" height="auto"><br>
-<a  href="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1006.jpg_objects.csv">roadsigns1006.jpg_objects.csv</a><br>
+<img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1056.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1056.jpg_objects.csv">roadsigns1006.jpg_objects.csv</a><br>
 <br>
-<img src="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1007.jpg" width="1280" height="auto"><br>
-<a  href="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1007.jpg_objects.csv">roadsigns1007.jpg_objects.csv</a><br>
+<img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1067.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1067.jpg_objects.csv">roadsigns1007.jpg_objects.csv</a><br>
 <br>
-<img src="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1008.jpg" width="1280" height="auto"><br>
-<a  href="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1008.jpg_objects.csv">roadsigns1008.jpg_objects.csv</a><br>
+<img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1078.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1078.jpg_objects.csv">roadsigns1008.jpg_objects.csv</a><br>
 <br>
-<img src="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1009.jpg" width="1280" height="auto"><br>
-<a  href="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1009.jpg_objects.csv">roadsigns1009.jpg_objects.csv</a><br>
+<img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1089.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1089.jpg_objects.csv">roadsigns1009.jpg_objects.csv</a><br>
 <br>
-<img src="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1010.jpg" width="1280" height="auto"><br>
-<a  href="./projects/USA_RoadSigns/usa_roadsigns_test_dataset_160classes_outputs/roadsigns_1010.jpg_objects.csv">roadsigns1010.jpg_objects.csv</a><br>
+<img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1099.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1099.jpg_objects.csv">roadsigns1010.jpg_objects.csv</a><br>
 <br>

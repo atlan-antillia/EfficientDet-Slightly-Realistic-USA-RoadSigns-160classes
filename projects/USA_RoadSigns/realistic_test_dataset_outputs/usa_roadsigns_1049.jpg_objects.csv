@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1049.jpg,Speed_limit_80km,0.9,859,519,995,720
+usa_roadsigns_1049.jpg,Do_not_enter,0.7,14,37,183,203
+usa_roadsigns_1049.jpg,Stop_here_when_flashing,0.68,231,161,360,349
+usa_roadsigns_1049.jpg,Workers_on_road,0.66,438,277,635,478
+usa_roadsigns_1049.jpg,Keep_right_2,0.49,649,400,805,593

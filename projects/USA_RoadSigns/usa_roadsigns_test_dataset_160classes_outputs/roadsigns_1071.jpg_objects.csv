@@ -1,4 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1071.jpg,No_left_turn_across_tracks,0.82,856,518,991,682
-roadsigns_1071.jpg,Truck_speed_Limit_40,0.72,228,159,366,317
-roadsigns_1071.jpg,Y_roads,0.66,647,397,810,557

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1021.jpg,Do_not_enter,0.89,15,36,214,233
+usa_roadsigns_1021.jpg,No_standing_any_time,0.66,228,158,334,319
+usa_roadsigns_1021.jpg,No_entre,0.64,647,398,813,562
+usa_roadsigns_1021.jpg,Wrong_way,0.63,434,278,631,408
+usa_roadsigns_1021.jpg,Truck_speed_limit_40,0.52,855,520,997,688

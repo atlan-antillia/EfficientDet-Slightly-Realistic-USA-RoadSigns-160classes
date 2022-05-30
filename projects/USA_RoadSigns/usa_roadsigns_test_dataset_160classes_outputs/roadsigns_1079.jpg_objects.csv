@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1079.jpg,No_stopping_on_pavement,0.65,858,519,991,679
-roadsigns_1079.jpg,Stay_in_lane,0.52,648,398,756,561
-roadsigns_1079.jpg,Workers_on_road,0.48,230,160,387,319
-roadsigns_1079.jpg,Straight_ahead_only,0.42,441,278,573,440

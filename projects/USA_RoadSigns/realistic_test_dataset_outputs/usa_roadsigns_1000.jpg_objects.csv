@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1000.jpg,Do_not_drive_on_tracks,0.93,16,38,213,234
+usa_roadsigns_1000.jpg,Truck_crossing,0.62,226,159,394,323
+usa_roadsigns_1000.jpg,Stop_here_when_flashing,0.59,860,520,965,678
+usa_roadsigns_1000.jpg,T_roads,0.54,439,279,601,440
+usa_roadsigns_1000.jpg,Runaway_vehicles_only,0.43,650,400,843,594

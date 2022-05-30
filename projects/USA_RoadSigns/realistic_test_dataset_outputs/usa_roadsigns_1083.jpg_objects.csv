@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1083.jpg,Truck_crossing,0.86,855,516,1019,683
+usa_roadsigns_1083.jpg,Stop_here_when_flashing,0.74,442,281,572,471
+usa_roadsigns_1083.jpg,Cross_roads,0.68,14,38,179,202
+usa_roadsigns_1083.jpg,Left_turn_yield_on_green,0.55,647,400,782,562

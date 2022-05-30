@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1030.jpg,Truck_crossing,0.81,856,518,1023,681
-roadsigns_1030.jpg,National_network_prohibited,0.67,652,398,805,522
-roadsigns_1030.jpg,Right_lane,0.6,442,280,597,343
-roadsigns_1030.jpg,School_bus_turn_ahead,0.45,230,156,390,318

@@ -209,7 +209,8 @@ class TFRecordInspector:
 #
 # python TFRecordInspector.py ./tfrecord/sample.tfrecord ./tfrecord/label_map.pbtxt ./output   [True/False]
 # python TFRecordInspector.py ./tfrecord/valid/valid.tfrecord ./label_map.pbtxt ./output/valid [True/False]
-# python TFRecordInsep1ector.py ./projects/USA_RoadSigns/train/train.tfrecord ./projects/USA_RoadSigns/label_map.pbtxt ./inspector/train
+# python TFRecordInspector.py ./projects/USA_RoadSigns/train/train.tfrecord ./projects/USA_RoadSigns/label_map.pbtxt ../inspector/train
+
 #
 if __name__ == '__main__':
   #tf.disable_eager_execution()

@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1077.jpg,Tractor_farm_vehicle_crossing_2,0.8,648,397,841,593
+usa_roadsigns_1077.jpg,Stop,0.77,860,518,1019,682
+usa_roadsigns_1077.jpg,Merge,0.56,437,280,576,443
+usa_roadsigns_1077.jpg,Metric_low_clearance,0.43,228,159,390,322

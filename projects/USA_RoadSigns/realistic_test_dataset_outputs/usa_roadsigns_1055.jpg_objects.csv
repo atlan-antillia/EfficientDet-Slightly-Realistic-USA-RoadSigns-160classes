@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1055.jpg,National_network_route,0.82,18,38,211,235
+usa_roadsigns_1055.jpg,No_left_turn_across_tracks,0.62,438,278,595,474
+usa_roadsigns_1055.jpg,Workers_on_road,0.52,230,159,361,352
+usa_roadsigns_1055.jpg,Metric_low_clearance,0.49,858,517,1021,682

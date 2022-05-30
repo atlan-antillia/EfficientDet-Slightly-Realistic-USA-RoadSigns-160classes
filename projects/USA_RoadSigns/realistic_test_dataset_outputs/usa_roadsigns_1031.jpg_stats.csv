@@ -1,0 +1,5 @@
+id, class, count
+1,Single_lane_shift_left,1
+2,No_left_turn,2
+3,Stop_here_when_flashing,1
+4,Truck_crossing,1

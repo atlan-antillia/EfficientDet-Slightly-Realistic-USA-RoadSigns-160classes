@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1018.jpg,School,0.94,440,278,632,343
+usa_roadsigns_1018.jpg,Truck_speed_limit_40,0.88,650,397,861,618
+usa_roadsigns_1018.jpg,Railroad_crossing_ahead,0.75,13,36,179,204
+usa_roadsigns_1018.jpg,No_parking_from_830am_to_530pm_2,0.4,857,518,968,680

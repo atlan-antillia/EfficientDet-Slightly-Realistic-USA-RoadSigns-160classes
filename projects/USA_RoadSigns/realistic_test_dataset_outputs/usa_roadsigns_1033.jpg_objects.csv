@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1033.jpg,No_pedestrians,0.92,442,279,631,375
+usa_roadsigns_1033.jpg,Loading_zone,0.91,229,158,392,282
+usa_roadsigns_1033.jpg,Left_turn_yield_on_green,0.9,18,39,147,201
+usa_roadsigns_1033.jpg,Stop_here_when_flashing,0.81,648,399,759,559
+usa_roadsigns_1033.jpg,Offset_roads,0.77,858,517,1052,715

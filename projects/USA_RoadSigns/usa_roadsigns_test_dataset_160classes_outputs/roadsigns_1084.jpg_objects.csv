@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1084.jpg,Minimum_speed_limit_40,0.68,438,279,601,481
-roadsigns_1084.jpg,Metric_low_clearance,0.67,647,401,810,558
-roadsigns_1084.jpg,Single_lane_shift_left,0.64,856,517,1021,680
-roadsigns_1084.jpg,Weight_limit_10t,0.47,232,159,359,321

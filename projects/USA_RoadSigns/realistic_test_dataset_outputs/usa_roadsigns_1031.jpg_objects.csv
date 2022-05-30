@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1031.jpg,Single_lane_shift_left,0.8,226,160,389,320
+usa_roadsigns_1031.jpg,No_left_turn,0.6,649,398,813,561
+usa_roadsigns_1031.jpg,Stop_here_when_flashing,0.57,18,39,147,202
+usa_roadsigns_1031.jpg,No_left_turn,0.49,440,279,601,441
+usa_roadsigns_1031.jpg,Truck_crossing,0.44,856,516,1022,683

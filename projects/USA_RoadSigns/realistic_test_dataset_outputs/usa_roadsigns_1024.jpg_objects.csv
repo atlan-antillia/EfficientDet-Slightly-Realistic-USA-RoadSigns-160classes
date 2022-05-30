@@ -1,0 +1,3 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1024.jpg,Railroad_crossing,0.93,14,35,215,238
+usa_roadsigns_1024.jpg,Minimum_speed_limit_40,0.87,230,160,419,400

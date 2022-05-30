@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1026.jpg,Added_lane_from_entering_roadway,0.84,14,37,178,201
+usa_roadsigns_1026.jpg,Sharp_turn,0.77,439,279,634,478
+usa_roadsigns_1026.jpg,No_parking_bus_stop,0.65,858,519,1052,714
+usa_roadsigns_1026.jpg,Turn_only_lanes,0.64,227,159,391,279
+usa_roadsigns_1026.jpg,Stop_here_when_flashing,0.52,648,400,778,589

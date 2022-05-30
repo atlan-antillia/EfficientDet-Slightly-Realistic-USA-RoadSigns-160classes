@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1062.jpg,Stop_here_for_peds,0.74,230,160,390,319
+usa_roadsigns_1062.jpg,Right_turn_or_straight,0.64,440,278,599,471
+usa_roadsigns_1062.jpg,National_network_route,0.63,649,400,809,560
+usa_roadsigns_1062.jpg,Do_not_enter,0.45,20,37,178,200

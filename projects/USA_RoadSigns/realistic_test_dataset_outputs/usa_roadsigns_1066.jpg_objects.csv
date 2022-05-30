@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1066.jpg,No_pedestrian_crossing,0.79,440,280,631,473
+usa_roadsigns_1066.jpg,Reverse_curve,0.77,14,41,212,234
+usa_roadsigns_1066.jpg,Offset_roads,0.58,650,398,812,561
+usa_roadsigns_1066.jpg,Truck_crossing,0.55,228,160,390,322

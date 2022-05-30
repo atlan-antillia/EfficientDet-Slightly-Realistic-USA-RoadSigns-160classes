@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1019.jpg,Right_lane,0.78,862,520,1019,587
+usa_roadsigns_1019.jpg,No_horseback_riding,0.7,15,37,181,203
+usa_roadsigns_1019.jpg,Detour_right,0.67,440,277,631,433
+usa_roadsigns_1019.jpg,All_way,0.66,650,399,841,464
+usa_roadsigns_1019.jpg,Bicycles_left_pedestrians_right,0.51,228,158,357,346

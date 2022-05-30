@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1069.jpg,Keep_left,0.87,230,161,361,317
-roadsigns_1069.jpg,Railroad_crossing,0.83,16,32,179,199
-roadsigns_1069.jpg,Hill_bicycle,0.72,435,277,600,441
-roadsigns_1069.jpg,No_large_trucks,0.52,859,521,1020,679
-roadsigns_1069.jpg,No_hitch_hiking,0.48,650,399,811,559

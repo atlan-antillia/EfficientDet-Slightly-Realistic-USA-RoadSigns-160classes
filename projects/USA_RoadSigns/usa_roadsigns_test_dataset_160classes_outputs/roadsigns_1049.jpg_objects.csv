@@ -1,4 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1049.jpg,No_pedestrian_crossing,0.83,14,36,179,201
-roadsigns_1049.jpg,Left_turn_only,0.52,859,519,993,678
-roadsigns_1049.jpg,Right_turn_or_straight,0.49,438,279,573,436

@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1154.jpg,Do_not_pass_stopped_trains,0.96,19,38,148,200
-roadsigns_1154.jpg,National_network_prohibited,0.76,226,158,392,280
-roadsigns_1154.jpg,Truck_speed_Limit_40,0.72,858,520,981,677
-roadsigns_1154.jpg,Right_turn_or_straight,0.66,648,397,786,562
-roadsigns_1154.jpg,Speed_limit_50,0.48,437,279,602,478

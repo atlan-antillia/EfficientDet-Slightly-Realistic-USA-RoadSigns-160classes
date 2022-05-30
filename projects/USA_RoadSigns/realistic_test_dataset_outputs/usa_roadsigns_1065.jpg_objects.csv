@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1065.jpg,No_pedestrian_crossing,0.91,858,519,1054,715
+usa_roadsigns_1065.jpg,No_standing_any_time,0.8,18,38,125,200
+usa_roadsigns_1065.jpg,Stop_here_when_flashing,0.54,648,400,778,588
+usa_roadsigns_1065.jpg,Narrow_bridge,0.48,231,156,419,355

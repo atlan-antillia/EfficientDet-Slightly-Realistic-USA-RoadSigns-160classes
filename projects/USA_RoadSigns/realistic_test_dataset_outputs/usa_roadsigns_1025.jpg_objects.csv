@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1025.jpg,Road_slippery_when_wet,0.71,860,518,1020,682
+usa_roadsigns_1025.jpg,Reverse_curve,0.59,648,398,810,560
+usa_roadsigns_1025.jpg,Be_prepared_to_stop,0.52,230,160,388,226
+usa_roadsigns_1025.jpg,Flagger_present,0.46,14,34,180,200

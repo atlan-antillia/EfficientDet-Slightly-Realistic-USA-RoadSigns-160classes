@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1012.jpg,Turn_only_lanes,0.85,228,160,424,280
+usa_roadsigns_1012.jpg,Turning_vehicles_yield_to_pedestrians,0.63,859,519,1017,713
+usa_roadsigns_1012.jpg,Stop_here_when_flashing,0.55,648,398,779,561
+usa_roadsigns_1012.jpg,No_hitch_hiking,0.47,15,38,211,236
+usa_roadsigns_1012.jpg,Snowmobile,0.45,439,280,634,476

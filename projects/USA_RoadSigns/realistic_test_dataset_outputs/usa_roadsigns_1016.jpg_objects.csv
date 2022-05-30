@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1016.jpg,Truck_crossing,0.61,857,519,1020,683
+usa_roadsigns_1016.jpg,Low_ground_clearance_railroad_crossing,0.57,232,156,422,355
+usa_roadsigns_1016.jpg,Turning_vehicles_yield_to_pedestrians,0.55,438,278,601,442
+usa_roadsigns_1016.jpg,Bump,0.53,15,36,209,236
+usa_roadsigns_1016.jpg,Side_road_at_a_perpendicular_angle,0.44,649,402,807,558

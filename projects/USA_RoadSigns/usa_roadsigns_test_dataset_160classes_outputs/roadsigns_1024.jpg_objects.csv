@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1024.jpg,Lane_ends,0.76,441,275,598,439
-roadsigns_1024.jpg,No_straight_through,0.56,18,39,179,198
-roadsigns_1024.jpg,Railroad_intersection_warning,0.53,225,158,391,321
-roadsigns_1024.jpg,No_parking_Loading_zone,0.47,650,399,756,556

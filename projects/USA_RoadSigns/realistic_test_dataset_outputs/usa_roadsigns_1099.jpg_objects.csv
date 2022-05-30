@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1099.jpg,Left_turn_yield_on_green,0.74,228,163,386,355
+usa_roadsigns_1099.jpg,Workers_on_road,0.68,860,514,1053,715
+usa_roadsigns_1099.jpg,No_parking_on_pavement,0.59,435,279,598,476
+usa_roadsigns_1099.jpg,No_left_turn,0.51,15,38,211,231

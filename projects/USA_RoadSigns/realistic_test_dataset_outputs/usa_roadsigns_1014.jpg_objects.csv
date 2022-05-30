@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1014.jpg,No_large_trucks,0.85,649,398,845,593
+usa_roadsigns_1014.jpg,Straight_ahead_only,0.81,438,281,574,438
+usa_roadsigns_1014.jpg,Fog_area,0.69,15,36,177,200
+usa_roadsigns_1014.jpg,Emergency_signal,0.59,229,161,422,305
+usa_roadsigns_1014.jpg,Offset_roads,0.54,858,516,1022,683

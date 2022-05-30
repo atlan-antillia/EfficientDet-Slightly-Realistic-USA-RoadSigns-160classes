@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns_1083.jpg,Minimum_speed_limit_60km,0.72,648,397,777,557
-roadsigns_1083.jpg,Loading_zone,0.66,441,279,599,397
-roadsigns_1083.jpg,Tractor_farm_vehicle_crossing,0.61,14,36,183,198
-roadsigns_1083.jpg,No_stopping_on_pavement,0.59,229,158,358,319
-roadsigns_1083.jpg,No_pedestrian_crossing,0.51,858,517,1023,680
