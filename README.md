@@ -69,11 +69,11 @@ Run the following command to inspect train.tfreord.<br>
 This will generate annotated images with bboxes and labels from the tfrecord, and cout the number of annotated objects in it.<br>
 <br>
 <b>TFRecordInspecotr: annotated images in train.tfrecord</b><br>
-<img src="./asset/TFRecordInspector_train_annotated_images.png">
+<img src="./asset/TFRecordInspector_train_annotated_images_V2.png">
 <br>
 <br>
 <b>TFRecordInspecotr: objects_count train.tfrecord</b><br>
-<img src="./asset/TFRecordInspector_train_objects_count.png">
+<img src="./asset/TFRecordInspector_train_objects_count_V2.png">
 <br>
 This bar graph shows that the number of the objects contained in train.tfrecord.
 <br>
