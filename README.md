@@ -46,17 +46,24 @@ You can see the following folder <b>projects</b> in  EfficientDet-USA-RoadSigns 
 EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes
 └─projects
     └─USA_RoadSigns
+        ├─eval
         ├─saved_model
         │  └─variables
         ├─realistic_test_dataset
-        ├─realistic_test_dataset_outputs
-        ├─train
-        └─valid
+        └─realistic_test_dataset_outputs
 </pre>
 <br>
 <b>Note:</b><br>
- You can download TRecord_USA_RoadSigns 160classes_V2 dataset from  
+ You can download TRecord_USA_RoadSigns 160classes_V2 dataset from 
 <a href="https://drive.google.com/drive/folders/1ht0J3WnqNWXqfHT4QzzZ5xPheYpnhRWW?usp=sharing">USA_RoadSigns_160classes_V2</a>
+<br>
+The downloaded train and valid dataset must be placed in ./projects/USA_RoadSigns folder.
+<pre>
+└─projects
+    └─USA_RoadSigns
+        ├─train
+        └─valid
+</pre>
 <br>
 
 <h3>3. Inspect tfrecord</h3>
