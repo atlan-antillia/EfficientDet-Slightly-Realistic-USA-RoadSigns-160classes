@@ -12,9 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
+
+# 2022/06/01 Copyright (C) antillia.com
+# This code has been taken from main.py in google/automl/efficientdet.
+
 """The main training script."""
 import multiprocessing
 import os
+import sys
+#2022/05/12
+sys.path.append("../../")
+
 os.environ["TF_FORCE_GPU_ALLOW_GROWTH"] = "true"
 from absl import app
 from absl import flags
@@ -47,6 +55,7 @@ import det_model_fn2 as det_model_fn
 
 import hparams_config
 import utils
+
 
 # <added date="2021/11/20"> atlan-antillia
 from LabelMapReader          import LabelMapReader
@@ -437,11 +446,10 @@ def main(_):
       if early_stopping != None:
         ap = eval_results['AP']
         ar = eval_results['ARmax1']
-        #2022/05/10 
+        #2022/05/10
         early_stop = early_stopping.validate(e, ap, ar)
       return early_stop
       # </added>
-
 
     epochs_per_cycle = 1  # higher number has less graph construction overhead.
     for e in range(current_epoch + 1, config.num_epochs + 1, epochs_per_cycle):
