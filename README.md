@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/05/31)
+EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/06/05)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in US based on 
@@ -10,6 +10,10 @@ Please also refer to our experimental project <a href="https://github.com/atlan-
 Modified to use the TFRecord_USA_RoadSigns_160classes_V2 in
 <a href="https://drive.google.com/drive/folders/1ht0J3WnqNWXqfHT4QzzZ5xPheYpnhRWW?usp=sharing">USA_RoadSigns_160classes_V2</a>
 <br>
+Modified to write the COCO metrics(f, map and mar) of inference for <b>realistic_test_dataset</b> to <a href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">
+prediction_f_map_mar.csv</a> file (2022/06/05).<br>
+<br>
+
 <h3>
 1. Installing tensorflow on Windows10
 </h3>
@@ -67,12 +71,18 @@ The downloaded train and valid dataset must be placed in ./projects/USA_RoadSign
 <br>
 
 <h3>3. Inspect tfrecord</h3>
-  You can use <a href="https://github.com/sarah-antillia/TFRecordInspector">TFRecordInspector</a> to inspect train and valid tfrecods. 
-Run the following command to inspect train.tfreord.<br>
+  Move to ./projects/USA_RoadSigns directory, and run the following bat file:<br>
 <pre>
->python TFRecordInspector.py ./projects/USA_RoadSigns/train/train.tfrecord ./projects/USA_RoadSigns/label_map.pbtxt ./inspector/train
+tfrecord_inspect.bat
 </pre>
-<br><br>
+, which is the following:
+<pre>
+python ../../TFRecordInspector.py ^
+  ./train/*.tfrecord ^
+  ./label_map.pbtxt ^
+  ./Inspector/train
+</pre>
+<br>
 This will generate annotated images with bboxes and labels from the tfrecord, and cout the number of annotated objects in it.<br>
 <br>
 <b>TFRecordInspecotr: annotated images in train.tfrecord</b><br>
@@ -95,20 +105,24 @@ See: https://github.com/google/automl/tree/master/efficientdet<br>
 
 
 <h3>5. Training USA RoadSigns Model by using pretrained-model</h3>
-We use the usa_roadsigns_train.bat file.
-We created a main2.py from main.py to be able to write COCO metrics to the csv files.<br>
+Please change your current directory to <b>./projects/USA_RoadSigns</b>,
+and run the following bat file to train USA-Roadsigns Efficientdet Model by using the train and valid tfrecords.
+<pre>
+1_train.bat
+</pre>
 
 <pre>
-python main2.py ^
+rem 1_train.bat
+python ../../ModelTrainer.py ^
   --mode=train_and_eval ^
-  --train_file_pattern=./projects/USA_RoadSigns/train/*.tfrecord  ^
-  --val_file_pattern=./projects/USA_RoadSigns/valid/*.tfrecord ^
+  --train_file_pattern=./train/*.tfrecord  ^
+  --val_file_pattern=./valid/*.tfrecord ^
   --model_name=efficientdet-d0 ^
-  --hparams="input_rand_hflip=False,num_classes=160,label_map=./projects/USA_RoadSigns/label_map.yaml" ^
-  --model_dir=./projects/USA_RoadSigns/models ^
-  --label_map_pbtxt=./projects/USA_RoadSigns/label_map.pbtxt ^
-  --eval_dir=./projects/USA_RoadSigns/eval ^
-  --ckpt=efficientdet-d0  ^
+  --hparams="input_rand_hflip=False,image_size=512x512,num_classes=160,label_map=./label_map.yaml" ^
+  --model_dir=./models ^
+  --label_map_pbtxt=./label_map.pbtxt ^
+  --eval_dir=./eval ^
+  --ckpt=../../efficientdet-d0  ^
   --train_batch_size=4 ^
   --early_stopping=map ^
   --patience=10 ^
@@ -116,7 +130,7 @@ python main2.py ^
   --eval_samples=1000  ^
   --num_examples_per_epoch=2000 ^
   --num_epochs=80 
- </pre>
+</pre>
 
 <table style="border: 1px solid #000;">
 <tr>
@@ -125,34 +139,34 @@ python main2.py ^
 </tr>
 <tr>
 <td>
---train_file_pattern</td><td>./projects/USA_RoadSigns/train/train.tfrecord</td>
+--train_file_pattern</td><td>./train/*.tfrecord</td>
 </tr>
 <tr>
 <td>
---val_file_pattern</td><td>./projects/USA_RoadSigns/valid/valid.tfrecord</td>
+--val_file_pattern</td><td>./valid/*.tfrecord</td>
 </tr>
 <tr>
 <td>
 --model_name</td><td>efficientdet-d0</td>
 </tr>
 <tr><td>
---hparams</td><td>"input_rand_hflip=False,num_classes=160,label_map=./projects/USA_RoadSigns/label_map.yaml"
+--hparams</td><td>"input_rand_hflip=False,num_classes=160,label_map=./label_map.yaml"
 </td></tr>
 <tr>
 <td>
---model_dir</td><td>./projects/USA_RoadSigns/models</td>
+--model_dir</td><td>./models</td>
 </tr>
 <tr><td>
---label_map_pbtxt</td><td>./projects/USA_RoadSigns/label_map.pbtxt
+--label_map_pbtxt</td><td>./label_map.pbtxt
 </td></tr>
 
 <tr><td>
---eval_dir</td><td>./projects/USA_RoadSigns/eval
+--eval_dir</td><td>./eval
 </td></tr>
 
 <tr>
 <td>
---ckpt</td><td>efficientdet-d0</td>
+--ckpt</td><td>../../efficientdet-d0</td>
 </tr>
 <tr>
 <td>
@@ -368,16 +382,21 @@ python main2.py ^
 <h3>
 6. Create a saved_model from the checkpoint
 </h3>
- We use the following usa_roadsigns_create_saved_model.bat file.
+  Please run the following bat file to create a saved_model from the checkpoint files in <b>./models</b> folder.<br> 
 <pre>
-python model_inspect.py ^
+2_create_saved_model.bat
+</pre>
+, which is the following:
+<pre>
+rem 2_create_saved_model.bat
+python ../../SavedModelCreator.py ^
   --runmode=saved_model ^
   --model_name=efficientdet-d0 ^
-  --ckpt_path=./projects/USA_RoadSigns/models  ^
+  --ckpt_path=./models  ^
   --hparams="image_size=512x512,num_classes=160" ^
-  --saved_model_dir=./projects/USA_RoadSigns/saved_model
- 
+  --saved_model_dir=./saved_model
 </pre>
+
 
 <table style="border: 1px solid #000;">
 <tr>
@@ -389,7 +408,7 @@ python model_inspect.py ^
 </tr>
 
 <tr>
-<td>--ckpt_path</td><td>./projects/USA_RoadSigns/models</td>
+<td>--ckpt_path</td><td>./models</td>
 </tr>
 
 <tr>
@@ -397,25 +416,32 @@ python model_inspect.py ^
 </tr>
 
 <tr>
-<td>--saved_model_dir</td><td>./projects/USA_RoadSigns/saved_model</td>
+<td>--saved_model_dir</td><td>./saved_model</td>
 </tr>
 </table>
 
 <br>
 <br>
 <h3>
-7. Detect USA_road_signs by using a saved_model
+7. Inference USA_road_signs by using the saved_model
 </h3>
- We use the following usa_roadsigns_detect.bat file.
+ Please run the following bat file to infer the roadsigns in images of test_dataset:
 <pre>
-python model_inspect.py ^
+3_inference.bat
+</pre>
+, which is the folllowing:
+<pre>
+rem 3_inference.bat
+python ../../SavedModelInferencer.py ^
   --runmode=saved_model_infer ^
   --model_name=efficientdet-d0 ^
-  --saved_model_dir=./projects/USA_RoadSigns/saved_model ^
-  --min_score_thresh=0.3 ^
-  --hparams="num_classes=160,label_map=./projects/USA_RoadSigns/label_map.yaml" ^
-  --input_image=./projects/USA_RoadSigns/realistic_test_dataset/*.jpg ^
-  --output_image_dir=./projects/USA_RoadSigns/realistic_test_dataset_outputs
+  --saved_model_dir=./saved_model ^
+  --min_score_thresh=0.4 ^
+  --hparams="num_classes=160,label_map=./label_map.yaml" ^
+  --input_image=./realistic_test_dataset/*.jpg ^
+  --classes_file=./classes.txt ^
+  --ground_truth_json=./realistic_test_dataset/annotation.json ^
+  --output_image_dir=./realistic_test_dataset_outputs
 </pre>
 
 <table style="border: 1px solid #000;">
@@ -427,28 +453,37 @@ python model_inspect.py ^
 </tr>
 
 <tr>
-<td>--saved_model_dir</td><td>./projects/USA_RoadSigns/saved_model </td>
+<td>--saved_model_dir</td><td>./saved_model </td>
 </tr>
 
 <tr>
-<td>--min_score_thresh</td><td>0.3 </td>
+<td>--min_score_thresh</td><td>0.4 </td>
 </tr>
 
 <tr>
-<td>--hparams</td><td>"num_classes=160,label_map=./projects/USA_RoadSigns/label_map.yaml"</td>
+<td>--hparams</td><td>"num_classes=160,label_map=./label_map.yaml"</td>
 </tr>
 
 <tr>
-<td>--input_image</td><td>./projects/USA_RoadSigns/realistic_test_dataset/*.jpg</td>
+<td>--input_image</td><td>./realistic_test_dataset/*.jpg</td>
 </tr>
 
 <tr>
-<td>--output_image_dir</td><td>./projects/USA_RoadSigns/realistic_test_dataset_outputs</td>
+<td>--classes_file</td><td>./classes.txt</td>
+</tr>
+
+<tr>
+<td>--ground_truth_json</td><td>./realistic_test_dataset/annotation.json</td>
+</tr>
+
+<tr>
+<td>--output_image_dir</td><td>./realistic_test_dataset_outputs</td>
 </tr>
 </table>
+
 <br>
 <h3>
-8. Some detection results of USA RoadSigns
+8. Some Inference results of USA RoadSigns
 </h3>
 
 <img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1001.jpg" width="1280" height="auto"><br>
@@ -481,3 +516,11 @@ python model_inspect.py ^
 <img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1099.jpg" width="1280" height="auto"><br>
 <a  href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1099.jpg_objects.csv">roadsigns1010.jpg_objects.csv</a><br>
 <br>
+
+<h3>9. COCO metrics of inference result</h3>
+The 3_inference.bat computes also the COCO metrics(f, map, mar) to the <b>realistic_test_dataset</b> as shown below:<br>
+
+<a href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
+<br>
+<img src="./asset/cocometric_ap_for_test_dataset_V2.png" width="740" height="auto"><br>
+
