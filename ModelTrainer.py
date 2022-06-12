@@ -30,22 +30,9 @@ from absl import logging
 import numpy as np
 import tensorflow.compat.v1 as tf
 
+
 #Tensorflow2.0
-"""
-gpus = tf.config.experimental.list_physical_devices('GPU')
-print("---- gpus {}".format(gpus))
-if gpus:
-  # Restrict TensorFlow to only allocate 1GB of memory on the first GPU
-  try:
-    tf.config.experimental.set_virtual_device_configuration(
-        gpus[0],
-        [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=1024*5)])
-    logical_gpus = tf.config.experimental.list_logical_devices('GPU')
-    print(len(gpus), "Physical GPUs,", len(logical_gpus), "Logical GPUs")
-  except RuntimeError as e:
-    # Virtual devices must be set before GPUs have been initialized
-    print(e)
-"""
+from tensorflow.python.framework import ops
 
 import dataloader
 
@@ -285,6 +272,7 @@ def main(_):
       testdev_dir            = FLAGS.testdev_dir,
       profile                = FLAGS.profile,
       mode                   = FLAGS.mode)
+  #
   config_proto = tf.ConfigProto(
       allow_soft_placement=True, log_device_placement=False)
   if FLAGS.strategy != 'tpu':
@@ -425,13 +413,11 @@ def main(_):
       print('\n   =====> Starting training, epoch: %d.' % e)
       # 2021/11/20
       os.environ['epoch'] = str(e)
-      
       train_est.train(
           input_fn=train_input_fn,
           max_steps=e * FLAGS.num_examples_per_epoch // FLAGS.train_batch_size)
       print('\n   =====> Starting evaluation, epoch: %d.' % e)
       eval_results = eval_est.evaluate(input_fn=eval_input_fn, steps=eval_steps)
-
 
       ckpt = tf.train.latest_checkpoint(FLAGS.model_dir)
       utils.archive_ckpt(eval_results, eval_results['AP'], ckpt)
@@ -463,8 +449,8 @@ def main(_):
         tf.reset_default_graph()
         early_stop = run_train_and_eval(e)
         if early_stop:
-           print("==== EarlyStopping validated: break training loop.") 
-           break
+          print("==== EarlyStopping validated: break training loop.") 
+          break
   else:
     logging.info('Invalid mode: %s', FLAGS.mode)
 

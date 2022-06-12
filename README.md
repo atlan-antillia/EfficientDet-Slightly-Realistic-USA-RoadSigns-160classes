@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/06/05)
+EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/06/12)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in US based on 
@@ -7,44 +7,65 @@ This is a slightly realistic project to train and detect RoadSigns in US based o
 <br>
 Please also refer to our experimental project <a href="https://github.com/atlan-antillia/EfficientDet-Realistic-USA-RoadSigns">EfficientDet-Realistic-USA-RoadSigns</a>.
 <br>
+<li>
 Modified to use the TFRecord_USA_RoadSigns_160classes_V2 in
 <a href="https://drive.google.com/drive/folders/1ht0J3WnqNWXqfHT4QzzZ5xPheYpnhRWW?usp=sharing">USA_RoadSigns_160classes_V2</a>
 <br>
+</li>
+<li>
 Modified to write the COCO metrics(f, map and mar) of inference for <b>realistic_test_dataset</b> to <a href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">
 prediction_f_map_mar.csv</a> file (2022/06/05).<br>
-<br>
-
-<h3>
-1. Installing tensorflow on Windows10
-</h3>
-We use Python 3.8.10 to run tensoflow 2.4.2 on Windows10.<br>
-At first, please install <a href="https://visualstudio.microsoft.com/ja/vs/community/">Microsoft Visual Studio Community</a>, which can be used to compile source code of 
+</li>
+<li>
+Modified to use tensorflow 2.7.1 on Windows11 (2022/06/12)<br>
+</li>
+<li>
+Modified to use the latest <a href="https://github.com/google/automl/tree/master/efficientdet">google/automl/efficientdet</a>.(2022/06/12)<br>
+</li>
+<h2>
+1. Installing tensorflow on Windows11
+</h2>
+We use Python 3.8.10 to run tensoflow 2.7.1 on Windows11.<br>
+<h3>1.1 Install Microsoft Visual Studio Community</h3>
+Please install <a href="https://visualstudio.microsoft.com/ja/vs/community/">Microsoft Visual Studio Community</a>, 
+which can be used to compile source code of 
 <a href="https://github.com/cocodataset/cocoapi">cocoapi</a> for PythonAPI.<br>
-Subsequently, please create a working folder "c:\google" folder for your repository, and install the python packages.<br>
+<h3>1.2 Create a python virtualenv </h3>
+Please run the following command to create a python virtualenv of name <b>py38-efficientdet</b>.
+<pre>
+>cd c:\
+>python38\python.exe -m venv py38-efficientdet
+>cd c:\py38-efficientdet
+>./scripts/activate
+</pre>
+<h3>1.3 Create a working folder </h3>
+Please create a working folder "c:\google" for your repository, and install the python packages.<br>
 
 <pre>
 >mkdir c:\google
 >cd    c:\google
->pip install -r requirements.txt
+>pip install cython
 >git clone https://github.com/cocodataset/cocoapi
 >cd cocoapi/PythonAPI
 </pre>
-You have to modify extra_compiler_args in setup.py in the following way:<br>
-   extra_compile_args=[],
+You have to modify extra_compiler_args in setup.py in the following way:
+<pre>
+   extra_compile_args=[]
+</pre>
 <pre>
 >python setup.py build_ext install
 </pre>
 
 <br>
-<br>
-<h3>
-2. Installing EfficientDet-Realistic-USA-RoadSigns
-</h3>
-Please clone EfficientDet-USA-RoadSigns in the working folder <b>c:\google</b>.<br>
+<h2>
+2. Installing EfficientDet-Realistic-USA-RoadSigns-160classes
+</h2>
+<h3>2.1 Clone repository</h3>
+Please clone EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes.git in the working folder <b>c:\google</b>.<br>
 <pre>
->git clone https://github.com/atlan-antillia/EfficientDet-Slightly-Realistic-USA-RoadSigns.git<br>
+>git clone https://github.com/atlan-antillia/EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes.git<br>
 </pre>
-You can see the following folder <b>projects</b> in  EfficientDet-USA-RoadSigns folder of the working folder.<br>
+You can see the following folder <b>projects</b> in  EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes of the working folder.<br>
 
 <pre>
 EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes
@@ -56,8 +77,16 @@ EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes
         ├─realistic_test_dataset
         └─realistic_test_dataset_outputs
 </pre>
+<h3>2.2 Install python packages</h3>
+
+Please run the following command to install python packages for this project.<br>
+<pre>
+>cd ./EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes
+>pip install -r requirements.txt
+</pre>
+
 <br>
-<b>Note:</b><br>
+<h3>2.3 Download TFRecord dataset</h3>
  You can download TRecord_USA_RoadSigns 160classes_V2 dataset from 
 <a href="https://drive.google.com/drive/folders/1ht0J3WnqNWXqfHT4QzzZ5xPheYpnhRWW?usp=sharing">USA_RoadSigns_160classes_V2</a>
 <br>
@@ -68,6 +97,45 @@ The downloaded train and valid dataset must be placed in ./projects/USA_RoadSign
         ├─train
         └─valid
 </pre>
+<br>
+
+<br>
+
+<h3>2.4 Workarounds for Windows</h3>
+As you know or may not know, the efficientdet scripts of training a model and creating a saved_model do not 
+run well on Windows environment in case of tensorflow 2.7.1(probably after the version 2.5.0) as shown below:. 
+<pre>
+INFO:tensorflow:Saving checkpoints for 0 into ./models\model.ckpt.
+I0609 06:22:50.961521  3404 basic_session_run_hooks.py:634] Saving checkpoints for 0 into ./models\model.ckpt.
+2022-06-09 06:22:52.780440: W tensorflow/core/framework/op_kernel.cc:1745] OP_REQUIRES failed at save_restore_v2_ops.cc:110 :
+ NOT_FOUND: Failed to create a NewWriteableFile: ./models\model.ckpt-0_temp\part-00000-of-00001.data-00000-of-00001.tempstate8184773265919876648 :
+</pre>
+
+The real problem seems to happen in the original <b> save_restore_v2_ops.cc</b>. The simple workarounds to the issues are 
+to modify the following tensorflow/python scripts in your virutalenv folder. 
+<pre>
+c:\py38-efficientdet\Lib\site-packages\tensorflow\python\training
+ +- basic_session_run_hooks.py
+ 
+634    logging.info("Saving checkpoints for %d into %s.", step, self._save_path)
+635    ### workaround date="2022/06/10" os="Windows"
+636    temp_dir = self._save_path + "-" + str(step) + "_temp"
+637    os.makedirs(temp_dir, exist_ok=True)
+638    #### workaround
+</pre>
+
+<pre>
+c:\py38-efficientdet\Lib\site-packages\tensorflow\python\saved_model
+ +- builder_impl.py
+
+595    variables_path = saved_model_utils.get_variables_path(self._export_dir)
+596    ### workaround date="2022/06/10" os="Windows" 
+597    temp_dir = self._export_dir + "/variables/variables_temp"
+598    os.makedirs(temp_dir, exist_ok=True)    
+599    ### workaround
+</pre>
+
+
 <br>
 
 <h3>3. Inspect tfrecord</h3>
@@ -129,7 +197,7 @@ python ../../ModelTrainer.py ^
   --eval_batch_size=1 ^
   --eval_samples=1000  ^
   --num_examples_per_epoch=2000 ^
-  --num_epochs=80 
+  --num_epochs=160 
 </pre>
 
 <table style="border: 1px solid #000;">
@@ -195,7 +263,7 @@ python ../../ModelTrainer.py ^
 </tr>
 <tr>
 <td>
---num_epochs</td><td>80</td>
+--num_epochs</td><td>160</td>
 </tr>
 </table>
 <br>
@@ -367,16 +435,16 @@ python ../../ModelTrainer.py ^
 <br>
 <br>
 <b><a href="./projects/USA_RoadSigns/eval/coco_metrics.csv">COCO meticss f and map</a></b><br>
-<img src="./asset/coco_metrics_at_epoch80.png" width="1024" height="auto">
+<img src="./asset/coco_metrics_at_epoch130.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/USA_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
-<img src="./asset/train_losses_at_epoch80.png" width="1024" height="auto">
+<img src="./asset/train_losses_at_epoch130.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/USA_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
-<img src="./asset/coco_ap_per_class_at_epoch80.png" width="1024" height="auto">
+<img src="./asset/coco_ap_per_class_at_epoch130.png" width="1024" height="auto">
 <br>
 
 <h3>
@@ -520,7 +588,8 @@ python ../../SavedModelInferencer.py ^
 <h3>9. COCO metrics of inference result</h3>
 The 3_inference.bat computes also the COCO metrics(f, map, mar) to the <b>realistic_test_dataset</b> as shown below:<br>
 
-<a href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
+<a href="./projects/Japanese_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
+
 <br>
-<img src="./asset/cocometric_ap_for_test_dataset_V2.png" width="740" height="auto"><br>
+<img src="./asset/cocometric_ap_for_test_dataset_V2_130.png" width="740" height="auto"><br>
 
