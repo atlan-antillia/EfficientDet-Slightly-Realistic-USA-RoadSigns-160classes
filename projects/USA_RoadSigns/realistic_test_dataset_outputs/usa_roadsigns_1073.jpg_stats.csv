@@ -1,5 +1,6 @@
 id, class, count
 1,Parking_with_time_restrictions,1
 2,Speed_limit_80km,1
-3,Steep_grade,1
-4,Keep_left_2,1
+3,Keep_left_2,1
+4,Steep_grade,1
+5,Do_not_pass_stopped_trains,1

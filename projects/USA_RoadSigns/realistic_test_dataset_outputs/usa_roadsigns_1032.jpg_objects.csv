@@ -1,6 +1,7 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1032.jpg,Truck_rollover_warning,0.87,858,514,1020,680
-usa_roadsigns_1032.jpg,Bicycle_wrong_way,0.85,18,35,152,232
-usa_roadsigns_1032.jpg,Lane_ends,0.61,229,158,388,317
-usa_roadsigns_1032.jpg,Weight_limit_10t,0.56,648,401,803,593
-usa_roadsigns_1032.jpg,Double_side_roads,0.43,436,276,601,441
+usa_roadsigns_1032.jpg,Bicycle_wrong_way,0.95,17,40,152,231
+usa_roadsigns_1032.jpg,Truck_rollover_warning,0.87,859,515,1020,682
+usa_roadsigns_1032.jpg,Lane_ends,0.69,230,159,389,320
+usa_roadsigns_1032.jpg,Stay_in_lane,0.61,649,401,802,590
+usa_roadsigns_1032.jpg,Two_way_traffic,0.43,438,277,601,441
+usa_roadsigns_1032.jpg,Golf_cart_crossing,0.4,11,317,238,670

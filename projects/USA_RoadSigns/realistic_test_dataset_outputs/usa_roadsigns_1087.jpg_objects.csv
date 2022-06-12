@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1087.jpg,Steep_grade,0.71,439,280,602,441
-usa_roadsigns_1087.jpg,Work_zone_for_speed_limit,0.66,230,159,424,306
-usa_roadsigns_1087.jpg,Do_not_enter,0.64,856,518,990,682
-usa_roadsigns_1087.jpg,Yield_here_to_pedestrians,0.5,17,40,165,229
+usa_roadsigns_1087.jpg,Offset_roads,0.75,16,40,164,228
+usa_roadsigns_1087.jpg,Truck_crossing,0.64,650,397,809,559
+usa_roadsigns_1087.jpg,End_detour,0.63,228,159,422,302
+usa_roadsigns_1087.jpg,Steep_grade,0.6,438,279,603,440
+usa_roadsigns_1087.jpg,No_parking_on_pavement,0.56,856,520,988,679

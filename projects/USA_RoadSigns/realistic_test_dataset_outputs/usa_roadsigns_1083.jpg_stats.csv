@@ -1,5 +1,6 @@
 id, class, count
-1,Truck_crossing,1
-2,Stop_here_when_flashing,1
-3,Cross_roads,1
-4,Left_turn_yield_on_green,1
+1,Left_turn_yield_on_green,1
+2,Cross_roads,1
+3,Stop_here_for_peds,1
+4,Truck_crossing,1
+5,Dead_end,1

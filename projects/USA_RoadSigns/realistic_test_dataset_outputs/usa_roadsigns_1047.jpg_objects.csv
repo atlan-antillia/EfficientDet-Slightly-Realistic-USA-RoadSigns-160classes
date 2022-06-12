@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1047.jpg,Speed_limit_50,0.93,862,520,1063,726
-usa_roadsigns_1047.jpg,Metric_low_clearance,0.79,648,399,812,562
-usa_roadsigns_1047.jpg,Night_speed_limit_45,0.6,233,160,410,341
-usa_roadsigns_1047.jpg,Snowmobile,0.51,437,279,600,441
-usa_roadsigns_1047.jpg,No_left_or_u_turn,0.42,13,34,179,203
+usa_roadsigns_1047.jpg,Speed_limit_50,0.92,860,520,1065,728
+usa_roadsigns_1047.jpg,Night_speed_limit_45,0.59,229,160,408,342
+usa_roadsigns_1047.jpg,Two_way_traffic,0.48,649,400,814,560
+usa_roadsigns_1047.jpg,Double_side_roads,0.4,14,36,179,201

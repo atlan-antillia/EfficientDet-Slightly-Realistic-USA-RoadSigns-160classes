@@ -1,4 +1,7 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1089.jpg,Tractor_farm_vehicle_crossing,0.86,436,277,633,473
-usa_roadsigns_1089.jpg,Straight_ahead_only,0.84,649,401,784,560
-usa_roadsigns_1089.jpg,Keep_left_2,0.76,229,161,381,355
+usa_roadsigns_1089.jpg,Winding_road,0.93,438,276,632,473
+usa_roadsigns_1089.jpg,Straight_ahead_only,0.88,651,402,787,561
+usa_roadsigns_1089.jpg,Keep_left_2,0.73,227,161,383,351
+usa_roadsigns_1089.jpg,Dip,0.69,15,38,182,205
+usa_roadsigns_1089.jpg,Golf_cart_crossing,0.53,14,347,250,640
+usa_roadsigns_1089.jpg,Narrow_bridge,0.5,858,516,1023,682

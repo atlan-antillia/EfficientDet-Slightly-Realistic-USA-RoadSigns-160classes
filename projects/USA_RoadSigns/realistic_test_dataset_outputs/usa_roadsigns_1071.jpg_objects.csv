@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1071.jpg,Side_road_at_an_acute_angle,0.85,440,279,629,473
-usa_roadsigns_1071.jpg,Night_speed_limit_70km,0.73,17,39,179,241
-usa_roadsigns_1071.jpg,Horizontal_alignment_intersection,0.67,226,159,393,322
-usa_roadsigns_1071.jpg,No_parking_from_830am_to_530pm_2,0.52,858,519,968,681
+usa_roadsigns_1071.jpg,Side_road_at_an_acute_angle,0.93,439,278,631,471
+usa_roadsigns_1071.jpg,No_parking_from_830am_to_530pm_2,0.86,859,520,969,680
+usa_roadsigns_1071.jpg,Night_speed_limit_70km,0.74,18,38,177,239
+usa_roadsigns_1071.jpg,Winding_road,0.57,229,158,394,320

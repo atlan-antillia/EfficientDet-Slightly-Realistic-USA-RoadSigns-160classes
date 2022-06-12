@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1007.jpg,Weight_limit_10t,0.64,860,520,1016,716
-usa_roadsigns_1007.jpg,Rough_road,0.54,649,397,844,597
-usa_roadsigns_1007.jpg,Hairpin_curve,0.51,15,37,211,235
-usa_roadsigns_1007.jpg,Railroad_crossing_ahead,0.43,436,276,602,444
+usa_roadsigns_1007.jpg,Hairpin_curve,0.88,15,38,211,235
+usa_roadsigns_1007.jpg,Railroad_crossing_ahead,0.85,437,275,603,442
+usa_roadsigns_1007.jpg,Stay_in_lane,0.8,860,520,1016,716
+usa_roadsigns_1007.jpg,Truck_crossing,0.8,650,397,845,598

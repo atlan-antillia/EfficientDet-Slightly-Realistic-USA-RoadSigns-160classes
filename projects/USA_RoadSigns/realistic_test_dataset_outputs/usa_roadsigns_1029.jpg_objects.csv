@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1029.jpg,Speed_limit_50,0.62,439,280,659,499
-usa_roadsigns_1029.jpg,No_parking,0.61,861,518,1052,713
-usa_roadsigns_1029.jpg,Workers_on_road,0.49,652,399,839,593
-usa_roadsigns_1029.jpg,Low_clearance,0.47,231,160,425,356
-usa_roadsigns_1029.jpg,No_standing_any_time,0.45,20,42,147,230
+usa_roadsigns_1029.jpg,Single_lane_shift_left,0.98,651,398,842,594
+usa_roadsigns_1029.jpg,No_standing_any_time,0.58,16,39,147,230
+usa_roadsigns_1029.jpg,Hill_bicycle,0.55,438,279,659,501
+usa_roadsigns_1029.jpg,Speed_limit_50,0.42,859,519,1052,714

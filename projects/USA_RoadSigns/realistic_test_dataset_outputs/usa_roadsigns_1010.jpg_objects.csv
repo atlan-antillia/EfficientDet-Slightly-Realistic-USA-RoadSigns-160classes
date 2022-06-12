@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1010.jpg,Turning_vehicles_yield_to_pedestrians,0.87,859,518,1052,713
-usa_roadsigns_1010.jpg,Speed_limit_80km,0.79,440,283,572,481
-usa_roadsigns_1010.jpg,School,0.62,229,157,422,252
-usa_roadsigns_1010.jpg,Weight_limit_10t,0.51,649,402,807,594
+usa_roadsigns_1010.jpg,Turning_vehicles_yield_to_pedestrians,0.97,859,518,1051,713
+usa_roadsigns_1010.jpg,One_direction,0.92,229,159,422,255
+usa_roadsigns_1010.jpg,Wait_on_stop,0.72,650,399,807,593
+usa_roadsigns_1010.jpg,Minimum_speed_limit_60km,0.7,440,280,571,480
+usa_roadsigns_1010.jpg,Circular_intersection_warning,0.5,17,37,180,200

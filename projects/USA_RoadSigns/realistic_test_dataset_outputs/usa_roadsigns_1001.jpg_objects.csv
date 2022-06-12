@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1001.jpg,No_pedestrians,0.96,649,400,843,496
-usa_roadsigns_1001.jpg,Fog_area,0.88,15,38,213,237
-usa_roadsigns_1001.jpg,Railroad_intersection_warning,0.71,859,518,1054,716
-usa_roadsigns_1001.jpg,No_parking_on_pavement,0.62,228,157,386,355
+usa_roadsigns_1001.jpg,Added_lane,0.89,14,39,214,237
+usa_roadsigns_1001.jpg,No_pedestrians,0.78,648,402,841,496
+usa_roadsigns_1001.jpg,No_parking_on_pavement,0.75,229,159,387,356
+usa_roadsigns_1001.jpg,Sharp_turn,0.72,859,520,1053,715
+usa_roadsigns_1001.jpg,Dead_end,0.47,438,279,600,440

@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1090.jpg,Minimum_speed_limit_40,0.78,440,281,632,521
-usa_roadsigns_1090.jpg,Sharp_turn,0.62,859,521,962,633
-usa_roadsigns_1090.jpg,Truck_speed_limit_40,0.61,648,399,782,564
-usa_roadsigns_1090.jpg,Curve,0.6,13,37,212,236
+usa_roadsigns_1090.jpg,Ramp_narrows,0.87,860,520,961,629
+usa_roadsigns_1090.jpg,Offset_roads,0.84,13,38,215,237
+usa_roadsigns_1090.jpg,Left_turn_yield_on_green,0.72,440,281,632,524
+usa_roadsigns_1090.jpg,Keep_right_2,0.4,229,162,390,321

@@ -1,6 +1,5 @@
 id, class, count
 1,Do_not_drive_on_tracks,1
-2,Truck_crossing,1
-3,Stop_here_when_flashing,1
+2,Weight_limit_10t,1
+3,Fog_area,1
 4,T_roads,1
-5,Runaway_vehicles_only,1

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1015.jpg,Side_road_at_a_perpendicular_angle,0.79,858,516,1053,715
-usa_roadsigns_1015.jpg,Keep_right,0.78,15,39,212,196
-usa_roadsigns_1015.jpg,Pedestrian_crossing,0.61,230,159,393,323
-usa_roadsigns_1015.jpg,Emergency_signal,0.46,648,402,838,525
-usa_roadsigns_1015.jpg,No_right_turn,0.45,443,280,636,475
+usa_roadsigns_1015.jpg,Deer_crossing,0.73,230,159,394,319
+usa_roadsigns_1015.jpg,Emergency_signal,0.68,14,42,214,197
+usa_roadsigns_1015.jpg,Workers_on_road,0.68,857,518,1052,715
+usa_roadsigns_1015.jpg,Detour_right,0.59,440,281,635,474
+usa_roadsigns_1015.jpg,Right_lane,0.54,651,401,842,525

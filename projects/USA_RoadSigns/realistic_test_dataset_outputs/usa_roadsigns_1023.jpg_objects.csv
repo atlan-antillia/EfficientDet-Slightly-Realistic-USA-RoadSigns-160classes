@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1023.jpg,Speed_limit_50,0.96,651,401,822,601
-usa_roadsigns_1023.jpg,Two_direction,0.95,861,518,1020,602
-usa_roadsigns_1023.jpg,Be_prepared_to_stop,0.85,14,37,181,202
-usa_roadsigns_1023.jpg,Right_turn_or_straight,0.62,229,159,391,352
-usa_roadsigns_1023.jpg,Weight_limit_10t,0.61,440,283,594,472
+usa_roadsigns_1023.jpg,Be_prepared_to_stop,0.97,17,38,181,201
+usa_roadsigns_1023.jpg,Speed_limit_50,0.93,650,402,822,602
+usa_roadsigns_1023.jpg,Two_direction,0.91,862,519,1021,601
+usa_roadsigns_1023.jpg,Left_turn_or_straight,0.89,227,159,388,351
+usa_roadsigns_1023.jpg,Weight_limit_10t,0.64,439,281,593,471

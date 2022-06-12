@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1074.jpg,Straight_ahead_only,0.92,861,520,1019,712
-usa_roadsigns_1074.jpg,Cross_roads,0.69,16,37,212,234
-usa_roadsigns_1074.jpg,Railroad_crossing_ahead,0.5,646,398,814,564
-usa_roadsigns_1074.jpg,School_speed_limit_ahead,0.46,231,158,420,353
+usa_roadsigns_1074.jpg,Railroad_crossing_ahead,0.9,645,399,813,565
+usa_roadsigns_1074.jpg,School_speed_limit_ahead,0.89,232,160,422,352
+usa_roadsigns_1074.jpg,School_speed_limit_ahead,0.89,16,39,214,235
+usa_roadsigns_1074.jpg,Straight_ahead_only,0.83,860,519,1020,715

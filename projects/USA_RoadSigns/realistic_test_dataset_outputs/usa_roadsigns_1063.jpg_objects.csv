@@ -1,4 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1063.jpg,Metric_low_clearance,0.52,229,159,391,320
-usa_roadsigns_1063.jpg,Offset_roads,0.52,858,519,1049,713
-usa_roadsigns_1063.jpg,Bicycles_left_pedestrians_right,0.42,20,39,147,233
+usa_roadsigns_1063.jpg,Bicycles_left_pedestrians_right,0.96,19,38,147,230
+usa_roadsigns_1063.jpg,Lane_ends,0.92,650,400,840,593
+usa_roadsigns_1063.jpg,Side_road_at_a_perpendicular_angle,0.87,859,519,1051,713
+usa_roadsigns_1063.jpg,Lane_ends,0.84,440,280,633,474
+usa_roadsigns_1063.jpg,Narrow_bridge,0.43,229,156,389,320

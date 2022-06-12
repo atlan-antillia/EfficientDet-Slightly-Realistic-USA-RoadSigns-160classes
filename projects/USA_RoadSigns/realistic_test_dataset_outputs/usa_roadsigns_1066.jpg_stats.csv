@@ -1,5 +1,6 @@
 id, class, count
-1,No_pedestrian_crossing,1
-2,Reverse_curve,1
-3,Offset_roads,1
-4,Truck_crossing,1
+1,Pedestrian_crossing,1
+2,No_straight_through,1
+3,Skewed_railroad_crossing,1
+4,Pass_on_either_side,1
+5,Low_ground_clearance_railroad_crossing,1

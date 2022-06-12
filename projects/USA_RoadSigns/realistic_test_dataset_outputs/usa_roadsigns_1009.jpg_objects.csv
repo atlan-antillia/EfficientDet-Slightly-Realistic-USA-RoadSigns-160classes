@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1009.jpg,Left_turn_yield_on_green,0.74,440,280,567,474
-usa_roadsigns_1009.jpg,Skewed_railroad_crossing,0.62,860,519,1021,683
-usa_roadsigns_1009.jpg,No_pedestrians,0.57,228,157,391,240
-usa_roadsigns_1009.jpg,Night_speed_limit_45,0.5,20,39,201,222
-usa_roadsigns_1009.jpg,Railroad_intersection_warning,0.47,647,398,845,595
+usa_roadsigns_1009.jpg,Skewed_railroad_crossing,0.89,861,522,1020,681
+usa_roadsigns_1009.jpg,Reserved_parking_wheelchair,0.87,439,280,566,472
+usa_roadsigns_1009.jpg,Lane_ends,0.79,647,399,845,596
+usa_roadsigns_1009.jpg,270_degree_loop,0.68,16,39,200,224

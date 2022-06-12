@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1096.jpg,Turning_vehicles_yield_to_pedestrians,0.8,229,162,358,319
-usa_roadsigns_1096.jpg,Low_ground_clearance_railroad_crossing,0.79,437,279,631,479
-usa_roadsigns_1096.jpg,Metric_low_clearance,0.71,857,519,1022,683
-usa_roadsigns_1096.jpg,Skewed_railroad_crossing,0.51,14,39,209,233
+usa_roadsigns_1096.jpg,Be_prepared_to_stop,0.89,15,41,209,232
+usa_roadsigns_1096.jpg,Straight_ahead_only,0.77,230,161,358,318
+usa_roadsigns_1096.jpg,Path_narrows,0.55,650,400,844,592
+usa_roadsigns_1096.jpg,Low_ground_clearance_railroad_crossing,0.54,439,279,631,473
+usa_roadsigns_1096.jpg,Truck_route_sign,0.48,859,519,1022,683

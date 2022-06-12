@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1030.jpg,Side_road_at_a_perpendicular_angle,0.91,650,398,843,595
-usa_roadsigns_1030.jpg,Dead_end,0.73,14,38,179,200
-usa_roadsigns_1030.jpg,Side_road_at_an_acute_angle,0.65,858,519,1050,715
-usa_roadsigns_1030.jpg,Left_turn_yield_on_green,0.6,231,160,359,354
-usa_roadsigns_1030.jpg,All_way,0.56,441,281,631,343
+usa_roadsigns_1030.jpg,Sharp_turn,0.74,649,396,844,595
+usa_roadsigns_1030.jpg,Offset_roads,0.72,858,518,1051,715
+usa_roadsigns_1030.jpg,Speed_limit_80km,0.45,228,163,359,353
+usa_roadsigns_1030.jpg,Offset_roads,0.4,14,39,178,200

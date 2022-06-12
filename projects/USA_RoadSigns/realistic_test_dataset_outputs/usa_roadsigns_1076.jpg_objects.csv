@@ -1,4 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1076.jpg,Steep_grade,0.88,228,158,422,353
-usa_roadsigns_1076.jpg,Steep_grade_percentage,0.74,860,518,1019,681
-usa_roadsigns_1076.jpg,Offset_roads,0.45,649,399,810,562
+usa_roadsigns_1076.jpg,Steep_grade,0.9,230,156,424,351
+usa_roadsigns_1076.jpg,Steep_grade_percentage,0.85,859,519,1019,680
+usa_roadsigns_1076.jpg,Except_right_turn,0.44,17,38,147,229
+usa_roadsigns_1076.jpg,Pass_on_either_side,0.44,649,400,811,560

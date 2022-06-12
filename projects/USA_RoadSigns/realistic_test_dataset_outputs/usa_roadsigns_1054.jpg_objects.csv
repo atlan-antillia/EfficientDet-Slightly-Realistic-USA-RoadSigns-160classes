@@ -1,4 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1054.jpg,No_standing_any_time,0.76,229,159,335,319
-usa_roadsigns_1054.jpg,Bicycles_and_pedestrians,0.69,858,518,1055,714
-usa_roadsigns_1054.jpg,Bicycles,0.55,14,36,210,232
+usa_roadsigns_1054.jpg,Cross_roads,0.91,229,159,335,319
+usa_roadsigns_1054.jpg,Detour,0.83,437,280,601,410
+usa_roadsigns_1054.jpg,Lane_ends,0.7,648,397,813,561
+usa_roadsigns_1054.jpg,Two_way_traffic,0.69,15,39,213,233
+usa_roadsigns_1054.jpg,Bicycles_and_pedestrians,0.43,860,519,1055,715

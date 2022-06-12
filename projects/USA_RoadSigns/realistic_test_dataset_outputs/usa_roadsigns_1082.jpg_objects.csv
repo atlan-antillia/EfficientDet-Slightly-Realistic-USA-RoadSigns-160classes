@@ -1,3 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1082.jpg,School,0.94,861,520,1052,584
-usa_roadsigns_1082.jpg,No_straight_through,0.61,15,39,208,232
+usa_roadsigns_1082.jpg,School,0.93,861,520,1054,586
+usa_roadsigns_1082.jpg,Reserved_parking_wheelchair,0.76,440,278,567,470
+usa_roadsigns_1082.jpg,Railroad_intersection_warning,0.65,17,40,211,231
+usa_roadsigns_1082.jpg,Two_way_traffic,0.65,651,397,841,594

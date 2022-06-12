@@ -1,3 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1039.jpg,Truck crossing_2,0.61,860,517,1018,680
-usa_roadsigns_1039.jpg,Tractor_farm_vehicle_crossing,0.59,439,279,634,476
+usa_roadsigns_1039.jpg,Tractor_farm_vehicle_crossing,0.96,440,280,634,476
+usa_roadsigns_1039.jpg,Lane_ends,0.66,650,399,807,558
+usa_roadsigns_1039.jpg,Added_lane_from_entering_roadway,0.53,14,38,181,201

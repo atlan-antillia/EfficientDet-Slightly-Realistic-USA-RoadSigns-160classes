@@ -1,4 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1069.jpg,Horse_drawn_vehicle_ahead,0.75,855,518,1054,717
-usa_roadsigns_1069.jpg,Road_closed_ahead,0.59,17,41,121,152
-usa_roadsigns_1069.jpg,T_roads,0.48,437,278,600,440
+usa_roadsigns_1069.jpg,Steep_grade,0.81,857,518,1054,716
+usa_roadsigns_1069.jpg,Right_lane,0.65,647,400,812,526
+usa_roadsigns_1069.jpg,Fallen_rocks,0.6,17,40,121,149
+usa_roadsigns_1069.jpg,Lane_ends,0.52,437,280,600,440
