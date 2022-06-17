@@ -1,5 +1,3 @@
 id, class, count
-1,Cross_roads,1
-2,Pedestrian_crossing,1
-3,No_u_turn,1
-4,Keep_right,1
+1,Pedestrian_crossing,1
+2,No_bicycles,1

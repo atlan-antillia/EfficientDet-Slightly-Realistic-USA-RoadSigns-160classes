@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1093.jpg,No_parking,0.97,650,398,844,596
-usa_roadsigns_1093.jpg,Turn_only_lanes,0.81,228,159,424,281
-usa_roadsigns_1093.jpg,Fog_area,0.79,15,37,183,204
-usa_roadsigns_1093.jpg,All_way,0.66,443,281,633,345
-usa_roadsigns_1093.jpg,Truck_crossing,0.51,859,515,1055,717
+usa_roadsigns_1093.jpg,Turn_only_lanes,0.9,229,161,421,281
+usa_roadsigns_1093.jpg,Truck_crossing,0.89,857,513,1055,716
+usa_roadsigns_1093.jpg,All_way,0.73,439,279,631,345
+usa_roadsigns_1093.jpg,Gusty_winds_area,0.63,14,37,184,204
+usa_roadsigns_1093.jpg,No_rollerblading,0.48,650,400,843,598

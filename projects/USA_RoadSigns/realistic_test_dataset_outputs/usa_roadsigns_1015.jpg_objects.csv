@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1015.jpg,Deer_crossing,0.73,230,159,394,319
-usa_roadsigns_1015.jpg,Emergency_signal,0.68,14,42,214,197
-usa_roadsigns_1015.jpg,Workers_on_road,0.68,857,518,1052,715
-usa_roadsigns_1015.jpg,Detour_right,0.59,440,281,635,474
-usa_roadsigns_1015.jpg,Right_lane,0.54,651,401,842,525
+usa_roadsigns_1015.jpg,Bump,0.65,441,281,639,474
+usa_roadsigns_1015.jpg,Right_lane,0.59,650,402,842,525
+usa_roadsigns_1015.jpg,Horse_drawn_vehicle_ahead,0.57,858,518,1051,715
+usa_roadsigns_1015.jpg,Circular_intersection_warning,0.51,15,39,212,194

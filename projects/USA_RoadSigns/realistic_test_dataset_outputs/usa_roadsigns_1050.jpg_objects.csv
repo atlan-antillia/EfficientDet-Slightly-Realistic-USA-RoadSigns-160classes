@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1050.jpg,No_parking_from_830am_to_530pm_2,0.95,858,519,968,680
-usa_roadsigns_1050.jpg,Emergency_signal,0.8,650,400,840,494
-usa_roadsigns_1050.jpg,Lane_ends,0.62,228,159,392,320
-usa_roadsigns_1050.jpg,Go_on_slow,0.56,14,40,183,204
-usa_roadsigns_1050.jpg,Hill_bicycle,0.4,439,277,601,440
+usa_roadsigns_1050.jpg,Lane_ends,0.78,229,160,392,321
+usa_roadsigns_1050.jpg,No_large_trucks,0.76,15,37,181,201
+usa_roadsigns_1050.jpg,Except_right_turn,0.72,651,400,840,494
+usa_roadsigns_1050.jpg,No_standing_any_time,0.68,858,520,968,679

@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1096.jpg,Be_prepared_to_stop,0.89,15,41,209,232
-usa_roadsigns_1096.jpg,Straight_ahead_only,0.77,230,161,358,318
-usa_roadsigns_1096.jpg,Path_narrows,0.55,650,400,844,592
-usa_roadsigns_1096.jpg,Low_ground_clearance_railroad_crossing,0.54,439,279,631,473
-usa_roadsigns_1096.jpg,Truck_route_sign,0.48,859,519,1022,683
+usa_roadsigns_1096.jpg,Low_ground_clearance_railroad_crossing,0.73,439,280,632,473
+usa_roadsigns_1096.jpg,Keep_right,0.62,230,161,359,318
+usa_roadsigns_1096.jpg,Bump,0.5,15,40,209,230
+usa_roadsigns_1096.jpg,Bump,0.42,859,518,1022,682

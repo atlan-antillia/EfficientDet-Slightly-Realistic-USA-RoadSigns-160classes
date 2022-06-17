@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1099.jpg,No_horseback_riding,0.91,16,40,211,232
-usa_roadsigns_1099.jpg,Left_turn_yield_on_green,0.88,228,162,386,353
-usa_roadsigns_1099.jpg,Workers_on_road,0.86,859,517,1053,714
-usa_roadsigns_1099.jpg,Two_way_traffic,0.85,649,397,843,595
-usa_roadsigns_1099.jpg,Loading_zone,0.54,436,279,597,476
+usa_roadsigns_1099.jpg,Workers_on_road,0.91,863,518,1051,716
+usa_roadsigns_1099.jpg,No_pedestrian_crossing,0.89,16,40,210,233
+usa_roadsigns_1099.jpg,No_stopping_on_pavement,0.88,435,279,597,474
+usa_roadsigns_1099.jpg,Left_turn_yield_on_green,0.87,228,161,386,354
+usa_roadsigns_1099.jpg,Winding_road,0.62,650,398,844,596

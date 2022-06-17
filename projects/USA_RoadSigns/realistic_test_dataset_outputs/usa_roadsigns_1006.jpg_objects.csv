@@ -1,4 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1006.jpg,Work_zone_for_speed_limit,0.89,228,162,424,305
-usa_roadsigns_1006.jpg,Single_lane_shift_left,0.57,859,518,1022,680
-usa_roadsigns_1006.jpg,Two_way_traffic,0.53,16,38,181,202
+usa_roadsigns_1006.jpg,Hill_bicycle,0.89,439,279,636,477
+usa_roadsigns_1006.jpg,No_stopping_on_pavement,0.82,650,398,780,593
+usa_roadsigns_1006.jpg,270_degree_loop,0.77,12,35,183,202
+usa_roadsigns_1006.jpg,Work_zone_for_speed_limit,0.71,229,162,422,306
+usa_roadsigns_1006.jpg,Single_lane_shift_left,0.46,860,519,1022,679

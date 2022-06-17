@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1078.jpg,Pass_road,0.94,437,280,544,441
-usa_roadsigns_1078.jpg,Left_turn_yield_on_green,0.91,859,521,1011,711
-usa_roadsigns_1078.jpg,Railroad_intersection_warning,0.79,649,396,842,592
-usa_roadsigns_1078.jpg,Keep_right,0.73,227,159,360,323
-usa_roadsigns_1078.jpg,Truck_crossing,0.57,14,39,181,203
+usa_roadsigns_1078.jpg,No_outlet,0.73,13,39,180,202
+usa_roadsigns_1078.jpg,Pass_road,0.72,439,280,546,441
+usa_roadsigns_1078.jpg,Stay_in_lane,0.55,860,521,1013,713
+usa_roadsigns_1078.jpg,Keep_right,0.42,228,160,361,322
+usa_roadsigns_1078.jpg,Bump,0.41,648,392,840,587

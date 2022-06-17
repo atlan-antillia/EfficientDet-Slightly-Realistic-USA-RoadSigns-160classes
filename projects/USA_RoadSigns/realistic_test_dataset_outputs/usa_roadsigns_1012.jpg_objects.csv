@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1012.jpg,Turn_only_lanes,0.71,228,160,424,281
-usa_roadsigns_1012.jpg,No_hitch_hiking,0.68,15,40,213,234
-usa_roadsigns_1012.jpg,Straight_ahead_only,0.55,860,521,1015,713
-usa_roadsigns_1012.jpg,No_parking_on_pavement,0.52,648,397,779,560
+usa_roadsigns_1012.jpg,Turn_only_lanes,0.77,229,160,422,279
+usa_roadsigns_1012.jpg,No_stopping_on_pavement,0.75,648,398,780,561
+usa_roadsigns_1012.jpg,No_train_horn_warning,0.74,439,278,636,473
+usa_roadsigns_1012.jpg,No_left_or_u_turn,0.71,16,39,212,235
+usa_roadsigns_1012.jpg,Speed_limit_50,0.56,860,520,1017,713

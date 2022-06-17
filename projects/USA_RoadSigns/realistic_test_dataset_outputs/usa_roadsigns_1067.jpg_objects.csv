@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1067.jpg,Railroad_crossing_ahead,0.95,437,277,633,476
-usa_roadsigns_1067.jpg,No_pedestrian_crossing,0.93,650,401,843,594
-usa_roadsigns_1067.jpg,Lane_ends,0.83,859,518,1021,682
-usa_roadsigns_1067.jpg,Right_turn_or_straight,0.63,228,162,363,320
-usa_roadsigns_1067.jpg,No_large_trucks,0.58,15,40,211,231
+usa_roadsigns_1067.jpg,No_large_trucks,0.76,16,40,212,232
+usa_roadsigns_1067.jpg,Tractor_farm_vehicle_crossing_2,0.56,859,517,1023,684
+usa_roadsigns_1067.jpg,No_left_or_u_turn,0.49,649,400,843,594
+usa_roadsigns_1067.jpg,Railroad_crossing_ahead,0.43,435,275,635,476

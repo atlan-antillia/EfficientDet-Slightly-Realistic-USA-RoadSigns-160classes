@@ -1,6 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1066.jpg,Pedestrian_crossing,0.79,14,42,212,233
-usa_roadsigns_1066.jpg,No_straight_through,0.69,442,281,633,471
-usa_roadsigns_1066.jpg,Skewed_railroad_crossing,0.64,230,159,392,321
-usa_roadsigns_1066.jpg,Pass_on_either_side,0.56,649,400,812,561
-usa_roadsigns_1066.jpg,Low_ground_clearance_railroad_crossing,0.48,860,518,1020,679
+usa_roadsigns_1066.jpg,No_straight_through,0.84,442,282,631,471
+usa_roadsigns_1066.jpg,Double_side_roads,0.69,15,40,211,232
+usa_roadsigns_1066.jpg,No_outlet,0.64,859,518,1020,680

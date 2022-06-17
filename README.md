@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/06/12)
+EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/06/18)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in US based on 
@@ -17,7 +17,7 @@ Modified to write the COCO metrics(f, map and mar) of inference for <b>realistic
 prediction_f_map_mar.csv</a> file (2022/06/05).<br>
 </li>
 <li>
-Modified to use tensorflow 2.7.1 on Windows11 (2022/06/12)<br>
+Modified to use tensorflow 2.8.0 on Windows11 (2022/06/18)<br>
 </li>
 <li>
 Modified to use the latest <a href="https://github.com/google/automl/tree/master/efficientdet">google/automl/efficientdet</a>.(2022/06/12)<br>
@@ -25,7 +25,7 @@ Modified to use the latest <a href="https://github.com/google/automl/tree/master
 <h2>
 1. Installing tensorflow on Windows11
 </h2>
-We use Python 3.8.10 to run tensoflow 2.7.1 on Windows11.<br>
+We use Python 3.8.10 to run tensoflow 2.8.0 on Windows11.<br>
 <h3>1.1 Install Microsoft Visual Studio Community</h3>
 Please install <a href="https://visualstudio.microsoft.com/ja/vs/community/">Microsoft Visual Studio Community</a>, 
 which can be used to compile source code of 
@@ -103,7 +103,7 @@ The downloaded train and valid dataset must be placed in ./projects/USA_RoadSign
 
 <h3>2.4 Workarounds for Windows</h3>
 As you know or may not know, the efficientdet scripts of training a model and creating a saved_model do not 
-run well on Windows environment in case of tensorflow 2.7.1(probably after the version 2.5.0) as shown below:. 
+run well on Windows environment in case of tensorflow 2.8.0(probably after the version 2.5.0) as shown below:. 
 <pre>
 INFO:tensorflow:Saving checkpoints for 0 into ./models\model.ckpt.
 I0609 06:22:50.961521  3404 basic_session_run_hooks.py:634] Saving checkpoints for 0 into ./models\model.ckpt.
@@ -154,11 +154,11 @@ python ../../TFRecordInspector.py ^
 This will generate annotated images with bboxes and labels from the tfrecord, and cout the number of annotated objects in it.<br>
 <br>
 <b>TFRecordInspecotr: annotated images in train.tfrecord</b><br>
-<img src="./asset/TFRecordInspector_train_annotated_images_V2.png">
+<img src="./asset/tfrecord_inspector_annotated_images.png">
 <br>
 <br>
 <b>TFRecordInspecotr: objects_count train.tfrecord</b><br>
-<img src="./asset/TFRecordInspector_train_objects_count_V2.png">
+<img src="./asset/tfrecord_inspector_objects_count.png">
 <br>
 This bar graph shows that the number of the objects contained in train.tfrecord.
 <br>
@@ -433,18 +433,22 @@ python ../../ModelTrainer.py ^
 </pre>
 <br>
 <br>
+<b><a href="./projects/USA_RoadSigns/eval/coco_metrics.csv">COCO metrics at epoch 94</a></b><br>
+<img src="./asset/coco_metrics_console_at_epoch94_tf2.8.0.png" width="1024" height="auto">
+<br>
+
 <br>
 <b><a href="./projects/USA_RoadSigns/eval/coco_metrics.csv">COCO meticss f and map</a></b><br>
-<img src="./asset/coco_metrics_at_epoch130.png" width="1024" height="auto">
+<img src="./asset/coco_metrics_at_epoch94_tf2.8.0.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/USA_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
-<img src="./asset/train_losses_at_epoch130.png" width="1024" height="auto">
+<img src="./asset/train_losses_at_epoch94_tf2.8.0.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/USA_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
-<img src="./asset/coco_ap_per_class_at_epoch130.png" width="1024" height="auto">
+<img src="./asset/coco_ap_per_class_at_epoch94_tf2.8.0.png" width="1024" height="auto">
 <br>
 
 <h3>
@@ -591,5 +595,5 @@ The 3_inference.bat computes also the COCO metrics(f, map, mar) to the <b>realis
 <a href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
 
 <br>
-<img src="./asset/cocometric_ap_for_test_dataset_V2_130.png" width="740" height="auto"><br>
+<img src="./asset/coco_metrics_console_test_dataset_at_epoch94_tf2.8.0.png" width="740" height="auto"><br>
 

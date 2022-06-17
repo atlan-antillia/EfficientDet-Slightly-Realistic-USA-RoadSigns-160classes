@@ -1,4 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1059.jpg,Wait_on_stop,0.89,439,281,594,475
-usa_roadsigns_1059.jpg,Right_turn_or_straight,0.68,15,39,180,232
-usa_roadsigns_1059.jpg,Truck_crossing,0.65,860,518,1022,681
+usa_roadsigns_1059.jpg,No_rollerblading,0.82,231,159,420,353
+usa_roadsigns_1059.jpg,Left_turn_or_straight,0.76,16,38,181,232
+usa_roadsigns_1059.jpg,Wait_on_stop,0.72,439,280,595,474
+usa_roadsigns_1059.jpg,Double_side_roads,0.57,648,396,809,559
+usa_roadsigns_1059.jpg,Truck_crossing,0.47,859,518,1021,680

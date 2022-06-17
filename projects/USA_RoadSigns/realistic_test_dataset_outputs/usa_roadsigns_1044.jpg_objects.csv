@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1044.jpg,T_roads,0.98,438,279,632,473
-usa_roadsigns_1044.jpg,Stay_in_lane,0.86,650,400,805,593
-usa_roadsigns_1044.jpg,Sharp_turn,0.85,857,519,1021,682
-usa_roadsigns_1044.jpg,Ramp_narrows,0.4,16,40,183,200
+usa_roadsigns_1044.jpg,T_roads,0.84,438,277,631,471
+usa_roadsigns_1044.jpg,Be_prepared_to_stop,0.72,229,160,393,301
+usa_roadsigns_1044.jpg,Circular_intersection_warning,0.71,15,38,182,202
+usa_roadsigns_1044.jpg,Turning_vehicles_yield_to_pedestrians,0.71,858,517,1023,682
+usa_roadsigns_1044.jpg,Stay_in_lane,0.64,650,400,806,593

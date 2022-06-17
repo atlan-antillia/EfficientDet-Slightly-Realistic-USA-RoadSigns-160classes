@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1030.jpg,Sharp_turn,0.74,649,396,844,595
-usa_roadsigns_1030.jpg,Offset_roads,0.72,858,518,1051,715
-usa_roadsigns_1030.jpg,Speed_limit_80km,0.45,228,163,359,353
-usa_roadsigns_1030.jpg,Offset_roads,0.4,14,39,178,200
+usa_roadsigns_1030.jpg,Reserved_parking_wheelchair,0.84,230,160,358,353
+usa_roadsigns_1030.jpg,Do_not_enter,0.65,651,397,845,594
+usa_roadsigns_1030.jpg,Pedestrian_crossing,0.6,14,37,179,201
+usa_roadsigns_1030.jpg,All_way,0.57,439,280,631,344
+usa_roadsigns_1030.jpg,Skewed_railroad_crossing,0.56,860,520,1051,717

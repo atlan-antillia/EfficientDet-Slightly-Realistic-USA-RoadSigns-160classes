@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1094.jpg,Cross_roads,0.93,647,398,760,559
-usa_roadsigns_1094.jpg,Pass_road,0.93,16,38,126,201
-usa_roadsigns_1094.jpg,Metric_low_clearance,0.48,441,279,572,442
-usa_roadsigns_1094.jpg,No_pedestrian_crossing,0.44,858,521,1022,681
+usa_roadsigns_1094.jpg,Pass_road,0.84,16,38,124,202
+usa_roadsigns_1094.jpg,No_standing_any_time,0.81,649,400,759,560
+usa_roadsigns_1094.jpg,Road_closed,0.79,228,160,422,282
+usa_roadsigns_1094.jpg,Speed_limit_50,0.54,439,280,571,442
+usa_roadsigns_1094.jpg,Bump,0.52,857,520,1023,683

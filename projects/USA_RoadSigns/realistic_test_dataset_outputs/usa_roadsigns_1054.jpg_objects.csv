@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1054.jpg,Cross_roads,0.91,229,159,335,319
-usa_roadsigns_1054.jpg,Detour,0.83,437,280,601,410
-usa_roadsigns_1054.jpg,Lane_ends,0.7,648,397,813,561
-usa_roadsigns_1054.jpg,Two_way_traffic,0.69,15,39,213,233
-usa_roadsigns_1054.jpg,Bicycles_and_pedestrians,0.43,860,519,1055,715
+usa_roadsigns_1054.jpg,Bicycles_and_pedestrians,0.66,859,518,1054,717
+usa_roadsigns_1054.jpg,No_parking_from_830am_to_530pm_2,0.61,229,161,335,319
+usa_roadsigns_1054.jpg,School,0.45,439,281,602,411
+usa_roadsigns_1054.jpg,Truck_rollover_warning,0.4,14,37,211,232

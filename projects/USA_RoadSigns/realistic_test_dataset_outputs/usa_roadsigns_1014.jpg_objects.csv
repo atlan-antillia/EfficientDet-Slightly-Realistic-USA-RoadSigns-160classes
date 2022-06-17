@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1014.jpg,Gusty_winds_area,0.81,15,39,182,200
-usa_roadsigns_1014.jpg,Except_right_turn,0.78,229,161,422,303
-usa_roadsigns_1014.jpg,Pass_on_either_side,0.61,858,516,1022,681
-usa_roadsigns_1014.jpg,No_u_turn,0.6,442,281,572,438
+usa_roadsigns_1014.jpg,No_large_trucks,0.81,648,399,846,593
+usa_roadsigns_1014.jpg,Straight_ahead_only,0.76,441,282,575,438
+usa_roadsigns_1014.jpg,Bump,0.64,857,517,1023,685
+usa_roadsigns_1014.jpg,Except_right_turn,0.56,229,162,422,300
+usa_roadsigns_1014.jpg,Bump,0.4,15,37,180,199

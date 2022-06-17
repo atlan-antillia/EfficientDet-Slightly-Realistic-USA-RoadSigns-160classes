@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1025.jpg,Flagger_present,0.92,15,34,179,201
-usa_roadsigns_1025.jpg,Two_way_traffic,0.68,648,398,812,560
-usa_roadsigns_1025.jpg,No_parking,0.65,860,518,1022,682
-usa_roadsigns_1025.jpg,Left_lane,0.64,230,160,393,224
-usa_roadsigns_1025.jpg,Two_way_traffic,0.6,438,279,632,473
+usa_roadsigns_1025.jpg,Right_lane,0.82,231,159,391,225
+usa_roadsigns_1025.jpg,Flagger_present,0.79,18,37,180,198
+usa_roadsigns_1025.jpg,Truck crossing_2,0.65,439,279,632,472
+usa_roadsigns_1025.jpg,Double_side_roads,0.42,650,399,810,559

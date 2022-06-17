@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1009.jpg,Skewed_railroad_crossing,0.89,861,522,1020,681
-usa_roadsigns_1009.jpg,Reserved_parking_wheelchair,0.87,439,280,566,472
-usa_roadsigns_1009.jpg,Lane_ends,0.79,647,399,845,596
-usa_roadsigns_1009.jpg,270_degree_loop,0.68,16,39,200,224
+usa_roadsigns_1009.jpg,Reserved_parking_wheelchair,0.87,442,279,566,472
+usa_roadsigns_1009.jpg,Skewed_railroad_crossing,0.7,862,519,1021,680
+usa_roadsigns_1009.jpg,Double_side_roads,0.67,648,398,845,594
+usa_roadsigns_1009.jpg,School,0.53,231,158,389,239
+usa_roadsigns_1009.jpg,Night_speed_limit_45,0.41,20,38,204,224

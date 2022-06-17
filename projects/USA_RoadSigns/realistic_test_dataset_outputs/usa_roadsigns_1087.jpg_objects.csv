@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1087.jpg,Offset_roads,0.75,16,40,164,228
-usa_roadsigns_1087.jpg,Truck_crossing,0.64,650,397,809,559
-usa_roadsigns_1087.jpg,End_detour,0.63,228,159,422,302
-usa_roadsigns_1087.jpg,Steep_grade,0.6,438,279,603,440
-usa_roadsigns_1087.jpg,No_parking_on_pavement,0.56,856,520,988,679
+usa_roadsigns_1087.jpg,No_rollerblading,0.73,17,40,165,227
+usa_roadsigns_1087.jpg,No_stopping_on_pavement,0.54,857,522,989,681
+usa_roadsigns_1087.jpg,Left_lane,0.47,230,159,421,305
+usa_roadsigns_1087.jpg,Steep_grade,0.4,437,279,601,440

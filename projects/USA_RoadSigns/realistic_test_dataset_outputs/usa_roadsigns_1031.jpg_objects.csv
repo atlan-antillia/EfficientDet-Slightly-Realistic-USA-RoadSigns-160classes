@@ -1,5 +1,3 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1031.jpg,Single_lane_shift_left,0.88,230,159,392,318
-usa_roadsigns_1031.jpg,No_rollerblading,0.55,649,400,812,563
-usa_roadsigns_1031.jpg,No_bicycles,0.53,440,280,601,442
-usa_roadsigns_1031.jpg,Reverse_curve,0.52,856,516,1023,684
+usa_roadsigns_1031.jpg,Single_lane_shift_left,0.72,230,160,392,319
+usa_roadsigns_1031.jpg,No_rollerblading,0.54,649,399,813,562

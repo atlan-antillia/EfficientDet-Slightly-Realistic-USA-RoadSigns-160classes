@@ -1,5 +1,4 @@
 id, class, count
-1,Single_lane_shift_left,1
-2,Do_not_enter,1
-3,Speed_limit_80km,1
-4,Stop_here_for_peds,1
+1,Workers_on_road,1
+2,Speed_limit_80km,1
+3,No_entre,1

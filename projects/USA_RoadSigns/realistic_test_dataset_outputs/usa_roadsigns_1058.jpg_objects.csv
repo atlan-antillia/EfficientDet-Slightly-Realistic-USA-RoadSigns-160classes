@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1058.jpg,No_left_turn_across_tracks,0.96,647,394,778,562
-usa_roadsigns_1058.jpg,Workers_on_road,0.94,14,36,210,232
-usa_roadsigns_1058.jpg,Turning_vehicles_yield_to_pedestrians,0.88,228,157,392,323
-usa_roadsigns_1058.jpg,Right_lane,0.44,860,520,1020,640
+usa_roadsigns_1058.jpg,Flagger_present,0.89,14,37,210,234
+usa_roadsigns_1058.jpg,No_left_turn_across_tracks,0.6,646,394,779,560
+usa_roadsigns_1058.jpg,Winding_road,0.59,227,159,393,322
+usa_roadsigns_1058.jpg,Railroad_crossing,0.51,438,278,599,441

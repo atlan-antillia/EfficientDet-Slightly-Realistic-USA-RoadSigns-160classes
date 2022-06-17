@@ -1,4 +1,3 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1088.jpg,Lane_ends,0.89,857,518,1054,716
-usa_roadsigns_1088.jpg,Detour_right,0.61,231,162,337,322
-usa_roadsigns_1088.jpg,End_detour,0.58,436,281,631,422
+usa_roadsigns_1088.jpg,Work_zone_for_speed_limit,0.8,436,279,632,422
+usa_roadsigns_1088.jpg,No_left_or_u_turn,0.61,15,40,211,234

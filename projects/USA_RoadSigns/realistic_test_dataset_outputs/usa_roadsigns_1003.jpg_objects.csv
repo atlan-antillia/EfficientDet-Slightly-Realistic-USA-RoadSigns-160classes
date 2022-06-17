@@ -1,4 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1003.jpg,Do_not_enter,0.97,15,39,214,236
-usa_roadsigns_1003.jpg,Lane_ends,0.79,651,397,842,593
-usa_roadsigns_1003.jpg,Ramp_narrows,0.45,441,281,564,412
+usa_roadsigns_1003.jpg,Do_not_enter,0.93,15,37,212,234
+usa_roadsigns_1003.jpg,Ramp_narrows,0.55,440,281,563,412
+usa_roadsigns_1003.jpg,Winding_road,0.55,650,397,841,593
+usa_roadsigns_1003.jpg,School,0.52,860,518,1051,585
+usa_roadsigns_1003.jpg,Truck_crossing,0.5,230,159,390,319

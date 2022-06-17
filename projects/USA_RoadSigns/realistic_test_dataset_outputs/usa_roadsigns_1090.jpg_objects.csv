@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1090.jpg,Ramp_narrows,0.87,860,520,961,629
-usa_roadsigns_1090.jpg,Offset_roads,0.84,13,38,215,237
-usa_roadsigns_1090.jpg,Left_turn_yield_on_green,0.72,440,281,632,524
-usa_roadsigns_1090.jpg,Keep_right_2,0.4,229,162,390,321
+usa_roadsigns_1090.jpg,Railroad_crossing,0.59,442,281,632,521
+usa_roadsigns_1090.jpg,Pedestrian_crossing,0.59,13,38,214,237
+usa_roadsigns_1090.jpg,Ramp_narrows,0.54,859,521,961,631
+usa_roadsigns_1090.jpg,No_rollerblading,0.48,230,162,392,320
+usa_roadsigns_1090.jpg,Keep_right_2,0.44,649,400,780,562

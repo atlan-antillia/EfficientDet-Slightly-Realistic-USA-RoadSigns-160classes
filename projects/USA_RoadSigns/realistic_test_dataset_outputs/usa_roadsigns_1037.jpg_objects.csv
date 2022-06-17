@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1037.jpg,Railroad_crossing_ahead,0.83,436,276,603,445
-usa_roadsigns_1037.jpg,Truck_route_sign,0.62,649,399,812,562
-usa_roadsigns_1037.jpg,Pass_on_either_side,0.55,859,517,1053,715
-usa_roadsigns_1037.jpg,Keep_left_2,0.47,16,39,150,201
+usa_roadsigns_1037.jpg,Skewed_railroad_crossing,0.7,648,399,811,563
+usa_roadsigns_1037.jpg,Left_turn_only,0.63,18,38,150,201
+usa_roadsigns_1037.jpg,Flagger_present,0.61,860,517,1053,714
+usa_roadsigns_1037.jpg,No_hitch_hiking,0.53,229,160,394,324

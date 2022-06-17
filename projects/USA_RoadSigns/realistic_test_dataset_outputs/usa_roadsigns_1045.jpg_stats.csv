@@ -1,6 +1,3 @@
 id, class, count
 1,Stop_here_for_peds,1
-2,Pass_road,1
-3,Do_not_pass_stopped_trains,1
-4,Be_prepared_to_stop,1
-5,Two_way_traffic,1
+2,Be_prepared_to_stop,1

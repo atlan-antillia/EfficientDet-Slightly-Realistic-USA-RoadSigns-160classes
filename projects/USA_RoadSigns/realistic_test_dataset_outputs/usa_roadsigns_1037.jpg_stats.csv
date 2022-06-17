@@ -1,5 +1,5 @@
 id, class, count
-1,Railroad_crossing_ahead,1
-2,Truck_route_sign,1
-3,Pass_on_either_side,1
-4,Keep_left_2,1
+1,Skewed_railroad_crossing,1
+2,Left_turn_only,1
+3,Flagger_present,1
+4,No_hitch_hiking,1

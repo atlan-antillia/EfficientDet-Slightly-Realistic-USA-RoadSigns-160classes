@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1019.jpg,Detour_right,0.81,438,281,631,436
-usa_roadsigns_1019.jpg,No_horseback_riding,0.8,14,40,182,202
-usa_roadsigns_1019.jpg,All_way,0.76,653,401,841,465
-usa_roadsigns_1019.jpg,School,0.62,860,520,1020,587
+usa_roadsigns_1019.jpg,Right_lane,0.89,861,518,1021,587
+usa_roadsigns_1019.jpg,Be_prepared_to_stop,0.69,441,278,632,434
+usa_roadsigns_1019.jpg,All_way,0.63,649,400,840,464
+usa_roadsigns_1019.jpg,No_stopping_on_pavement,0.52,229,160,359,349
+usa_roadsigns_1019.jpg,No_left_or_u_turn,0.42,14,38,180,202

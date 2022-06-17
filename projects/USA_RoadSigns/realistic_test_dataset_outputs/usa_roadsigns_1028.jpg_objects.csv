@@ -1,6 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1028.jpg,Straight_ahead_only,0.92,441,280,572,439
-usa_roadsigns_1028.jpg,Chevron_alignment,0.87,16,40,166,234
-usa_roadsigns_1028.jpg,Left_turn_yield_on_green,0.81,861,520,1051,726
-usa_roadsigns_1028.jpg,Truck_rollover_warning,0.63,647,397,811,563
-usa_roadsigns_1028.jpg,Hairpin_curve,0.46,229,160,391,321
+usa_roadsigns_1028.jpg,Chevron_alignment,0.94,14,38,165,233
+usa_roadsigns_1028.jpg,Sharp_turn,0.76,646,397,814,563
+usa_roadsigns_1028.jpg,Straight_ahead_only,0.62,438,282,574,439

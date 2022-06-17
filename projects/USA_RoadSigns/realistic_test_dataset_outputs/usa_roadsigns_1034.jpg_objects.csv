@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1034.jpg,Right_lane,0.95,650,400,810,464
-usa_roadsigns_1034.jpg,Hill_bicycle,0.95,859,520,962,630
-usa_roadsigns_1034.jpg,No_standing_any_time,0.78,17,40,148,232
-usa_roadsigns_1034.jpg,Lane_ends,0.74,227,158,394,322
-usa_roadsigns_1034.jpg,Lane_ends,0.69,437,279,600,440
+usa_roadsigns_1034.jpg,No_parking_from_830am_to_530pm_2,0.84,19,40,149,231
+usa_roadsigns_1034.jpg,School,0.68,650,399,809,464
+usa_roadsigns_1034.jpg,Double_side_roads,0.46,227,158,395,323
+usa_roadsigns_1034.jpg,No_bicycles,0.44,859,521,963,632
+usa_roadsigns_1034.jpg,Winding_road,0.43,438,278,600,439

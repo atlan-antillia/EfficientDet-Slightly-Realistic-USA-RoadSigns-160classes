@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1021.jpg,Do_not_enter,0.97,15,38,215,233
-usa_roadsigns_1021.jpg,Wrong_way,0.89,436,281,631,407
-usa_roadsigns_1021.jpg,No_entre,0.83,648,401,812,560
-usa_roadsigns_1021.jpg,Cross_roads,0.78,229,158,336,319
-usa_roadsigns_1021.jpg,No_right_turn,0.64,859,518,996,685
+usa_roadsigns_1021.jpg,Do_not_enter,0.95,14,36,214,235
+usa_roadsigns_1021.jpg,Wrong_way,0.82,439,279,630,411
+usa_roadsigns_1021.jpg,No_standing_any_time,0.72,230,160,335,318
+usa_roadsigns_1021.jpg,Right_turn_or_straight,0.69,858,520,997,683
+usa_roadsigns_1021.jpg,No_entre,0.62,647,398,813,561

@@ -1,5 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1085.jpg,Wrong_way,0.93,858,522,1054,649
-usa_roadsigns_1085.jpg,Emergency_signal,0.78,19,39,181,202
-usa_roadsigns_1085.jpg,Winding_road,0.74,648,396,842,593
-usa_roadsigns_1085.jpg,Minimum_speed_limit_40,0.61,440,280,547,439
+usa_roadsigns_1085.jpg,Wrong_way,0.72,859,519,1052,652
+usa_roadsigns_1085.jpg,Double_side_roads,0.71,646,396,840,591
+usa_roadsigns_1085.jpg,Weight_limit_10t,0.49,440,281,547,440

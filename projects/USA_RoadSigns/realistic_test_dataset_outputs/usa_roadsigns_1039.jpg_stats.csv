@@ -1,4 +1,5 @@
 id, class, count
-1,Tractor_farm_vehicle_crossing,1
-2,Lane_ends,1
-3,Added_lane_from_entering_roadway,1
+1,Pedestrian_crossing,1
+2,No_outlet,1
+3,Flagger_present,1
+4,Road_closed_ahead,1

@@ -1,4 +1,2 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1084.jpg,No_bicycles,0.84,441,280,632,471
-usa_roadsigns_1084.jpg,Lane_ends,0.8,858,516,1021,680
-usa_roadsigns_1084.jpg,Lane_ends,0.69,648,396,812,562
+usa_roadsigns_1084.jpg,No_rollerblading,0.73,439,280,630,470

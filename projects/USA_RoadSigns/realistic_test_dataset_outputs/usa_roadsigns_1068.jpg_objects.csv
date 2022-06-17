@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1068.jpg,Stop_here_for_pedestrians,0.91,648,399,768,560
-usa_roadsigns_1068.jpg,Lane_ends,0.88,857,517,1052,716
-usa_roadsigns_1068.jpg,Truck_route_sign,0.58,437,279,600,381
-usa_roadsigns_1068.jpg,Truck_crossing,0.5,15,35,183,203
+usa_roadsigns_1068.jpg,Yield_here_to_pedestrians,0.89,649,401,770,557
+usa_roadsigns_1068.jpg,No_outlet,0.82,14,34,184,203
+usa_roadsigns_1068.jpg,Two_way_traffic,0.82,858,515,1052,715
+usa_roadsigns_1068.jpg,Except_right_turn,0.65,438,279,600,381
+usa_roadsigns_1068.jpg,One_direction,0.4,230,159,420,351

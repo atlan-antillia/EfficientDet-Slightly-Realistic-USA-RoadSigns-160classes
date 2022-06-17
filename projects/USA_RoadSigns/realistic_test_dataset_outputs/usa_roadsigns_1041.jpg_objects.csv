@@ -1,4 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1041.jpg,Work_zone_for_speed_limit,0.93,861,519,1055,666
-usa_roadsigns_1041.jpg,No_pedestrian_crossing,0.61,15,41,215,235
-usa_roadsigns_1041.jpg,Pass_on_either_side,0.53,231,158,424,353
+usa_roadsigns_1041.jpg,No_rollerblading,0.79,16,41,215,236
+usa_roadsigns_1041.jpg,Work_zone_for_speed_limit,0.71,861,519,1053,666
+usa_roadsigns_1041.jpg,Winding_road,0.6,436,280,601,441
+usa_roadsigns_1041.jpg,Deer_crossing,0.45,230,157,424,353
+usa_roadsigns_1041.jpg,All_way,0.4,650,400,808,452

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1081.jpg,Two_direction,0.96,231,160,390,240
-usa_roadsigns_1081.jpg,School_speed_limit_ahead,0.89,15,39,211,234
-usa_roadsigns_1081.jpg,Left_turn_only,0.82,860,520,1055,715
-usa_roadsigns_1081.jpg,Two_way_traffic,0.5,437,278,601,440
-usa_roadsigns_1081.jpg,Pass_on_either_side,0.43,647,400,811,561
+usa_roadsigns_1081.jpg,No_straight_through,0.92,860,520,1054,716
+usa_roadsigns_1081.jpg,School_speed_limit_ahead,0.86,15,39,210,234
+usa_roadsigns_1081.jpg,Two_direction,0.8,229,158,388,241
+usa_roadsigns_1081.jpg,Double_side_roads,0.47,437,278,600,441
+usa_roadsigns_1081.jpg,Winding_road,0.44,646,398,812,561

@@ -1,4 +1,6 @@
 id, class, count
-1,Sharp_turn,1
-2,Offset_roads,2
-3,Speed_limit_80km,1
+1,Reserved_parking_wheelchair,1
+2,Do_not_enter,1
+3,Pedestrian_crossing,1
+4,All_way,1
+5,Skewed_railroad_crossing,1

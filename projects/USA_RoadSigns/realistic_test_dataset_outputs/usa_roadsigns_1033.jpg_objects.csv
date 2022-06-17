@@ -1,6 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1033.jpg,Loading_zone,0.97,228,158,391,282
-usa_roadsigns_1033.jpg,Two_way_traffic,0.86,858,517,1053,715
-usa_roadsigns_1033.jpg,Truck_route_sign,0.73,648,399,759,560
-usa_roadsigns_1033.jpg,Turn_only_lanes,0.59,440,280,631,374
-usa_roadsigns_1033.jpg,Left_turn_yield_on_green,0.46,17,39,146,200
+usa_roadsigns_1033.jpg,Bus_lane,0.65,443,281,631,375
+usa_roadsigns_1033.jpg,Loading_zone,0.65,228,160,390,281
+usa_roadsigns_1033.jpg,Tractor_farm_vehicle_crossing_2,0.63,650,399,760,560
