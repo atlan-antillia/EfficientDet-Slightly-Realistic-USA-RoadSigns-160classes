@@ -149,7 +149,7 @@ python ../../ModelTrainer.py ^
   --val_file_pattern=./valid/*.tfrecord ^
   --model_name=efficientdet-d0 ^
   --hparams="input_rand_hflip=False,image_size=512x512,num_classes=160,label_map=./label_map.yaml" ^
-  --model_dir=.\models ^
+  --model_dir=./models ^
   --label_map_pbtxt=./label_map.pbtxt ^
   --eval_dir=./eval ^
   --ckpt=../../efficientdet-d0  ^
@@ -184,7 +184,7 @@ python ../../ModelTrainer.py ^
 </td></tr>
 <tr>
 <td>
---model_dir</td><td>.\models</td>
+--model_dir</td><td>./models</td>
 </tr>
 <tr><td>
 --label_map_pbtxt</td><td>./label_map.pbtxt
@@ -426,9 +426,9 @@ rem 2_create_saved_model.bat  modified 2022/06/18
 python ../../SavedModelCreator.py ^
   --runmode=saved_model ^
   --model_name=efficientdet-d0 ^
-  --ckpt_path=.\models  ^
+  --ckpt_path=./models  ^
   --hparams="image_size=512x512,num_classes=160" ^
-  --saved_model_dir=.\saved_model
+  --saved_model_dir=./saved_model
 </pre>
 
 
@@ -442,7 +442,7 @@ python ../../SavedModelCreator.py ^
 </tr>
 
 <tr>
-<td>--ckpt_path</td><td>.\models</td>
+<td>--ckpt_path</td><td>./models</td>
 </tr>
 
 <tr>
@@ -450,7 +450,7 @@ python ../../SavedModelCreator.py ^
 </tr>
 
 <tr>
-<td>--saved_model_dir</td><td>.\saved_model</td>
+<td>--saved_model_dir</td><td>./saved_model</td>
 </tr>
 </table>
 
