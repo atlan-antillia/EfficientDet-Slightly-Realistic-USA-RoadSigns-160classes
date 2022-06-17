@@ -55,7 +55,6 @@ session = InteractiveSession(config=config)
 
 FLAGS = flags.FLAGS
 
-
 #saved_model
 FLAGS.runmode = "saved_model"
 
