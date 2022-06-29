@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1027.jpg,Two_way_traffic,0.92,650,397,842,593
-usa_roadsigns_1027.jpg,Turning_vehicles_yield_to_pedestrians,0.61,858,518,1022,681
-usa_roadsigns_1027.jpg,Right_lane,0.58,232,161,392,227
-usa_roadsigns_1027.jpg,No_u_turn,0.53,439,279,602,441
-usa_roadsigns_1027.jpg,Pedestrian_crossing,0.52,14,37,184,203
+usa_roadsigns_1027.jpg,Added_lane,0.99,20,39,181,201
+usa_roadsigns_1027.jpg,Left_lane,0.87,231,162,390,225
+usa_roadsigns_1027.jpg,Pass_on_either_side,0.49,651,399,840,593
+usa_roadsigns_1027.jpg,No_bicycles,0.42,441,280,603,442

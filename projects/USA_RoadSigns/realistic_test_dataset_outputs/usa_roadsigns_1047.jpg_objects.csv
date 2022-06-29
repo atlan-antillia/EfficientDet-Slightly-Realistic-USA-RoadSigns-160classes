@@ -1,4 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1047.jpg,Speed_limit_50,0.79,858,520,1064,730
-usa_roadsigns_1047.jpg,Added_lane_from_entering_roadway,0.64,231,159,408,340
-usa_roadsigns_1047.jpg,Tractor_farm_vehicle_crossing,0.4,647,398,814,560
+usa_roadsigns_1047.jpg,Speed_limit_50,0.99,861,517,1063,727
+usa_roadsigns_1047.jpg,Snowmobile,0.98,439,278,599,439
+usa_roadsigns_1047.jpg,Metric_low_clearance,0.88,649,400,812,562
+usa_roadsigns_1047.jpg,Horizontal_alignment_intersection,0.87,20,36,179,200

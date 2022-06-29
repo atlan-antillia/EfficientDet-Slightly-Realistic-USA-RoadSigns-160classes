@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1071.jpg,Side_road_at_an_acute_angle,0.9,439,279,630,470
-usa_roadsigns_1071.jpg,No_standing_any_time,0.84,858,519,969,681
-usa_roadsigns_1071.jpg,No_rollerblading,0.81,16,38,175,237
-usa_roadsigns_1071.jpg,Skewed_railroad_crossing,0.61,648,400,810,562
+usa_roadsigns_1071.jpg,Side_road_at_an_acute_angle,0.99,440,278,632,470
+usa_roadsigns_1071.jpg,No_parking_bus_stop,0.8,858,520,967,679
+usa_roadsigns_1071.jpg,Hazardous_material_route,0.45,650,399,812,561
+usa_roadsigns_1071.jpg,Wait_on_stop,0.43,19,36,176,244

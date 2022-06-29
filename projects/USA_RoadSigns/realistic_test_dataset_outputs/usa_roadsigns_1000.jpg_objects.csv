@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1000.jpg,Do_not_drive_on_tracks,0.88,15,38,212,234
-usa_roadsigns_1000.jpg,Weight_limit_10t,0.66,859,521,965,679
-usa_roadsigns_1000.jpg,T_roads,0.64,439,280,601,440
-usa_roadsigns_1000.jpg,Double_side_roads,0.47,228,160,392,320
-usa_roadsigns_1000.jpg,No_outlet,0.46,649,399,843,595
+usa_roadsigns_1000.jpg,Bicycles_left_pedestrians_right,0.99,861,521,964,678
+usa_roadsigns_1000.jpg,Curve,0.6,230,157,393,321
+usa_roadsigns_1000.jpg,T_roads,0.44,439,279,600,438
+usa_roadsigns_1000.jpg,Do_not_drive_on_tracks,0.41,19,37,215,232

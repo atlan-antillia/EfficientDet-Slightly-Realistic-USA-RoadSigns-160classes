@@ -1,4 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1013.jpg,Fog_area,0.93,15,38,211,232
-usa_roadsigns_1013.jpg,Truck_rollover_warning,0.86,649,399,843,593
-usa_roadsigns_1013.jpg,No_stopping_on_pavement,0.73,440,281,572,443
+usa_roadsigns_1013.jpg,Low_ground_clearance_railroad_crossing,0.99,21,36,210,229
+usa_roadsigns_1013.jpg,Steep_grade,0.94,230,158,392,321
+usa_roadsigns_1013.jpg,No_parking_on_pavement,0.85,437,279,573,443
+usa_roadsigns_1013.jpg,Truck_rollover_warning,0.75,650,399,841,593
+usa_roadsigns_1013.jpg,No_pedestrian_crossing,0.43,860,517,1050,714

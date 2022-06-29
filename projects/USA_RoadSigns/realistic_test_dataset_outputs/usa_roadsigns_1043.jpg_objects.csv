@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1043.jpg,Lane_ends,0.71,439,277,601,440
-usa_roadsigns_1043.jpg,Truck_rollover_warning,0.68,649,398,843,594
-usa_roadsigns_1043.jpg,Left_turn_only,0.6,229,160,360,322
-usa_roadsigns_1043.jpg,Stop_here_for_pedestrians,0.59,20,39,166,232
-usa_roadsigns_1043.jpg,Pass_road,0.56,858,519,967,681
+usa_roadsigns_1043.jpg,Circular_intersection_warning,0.99,652,398,841,593
+usa_roadsigns_1043.jpg,Stop_here_for_pedestrians,0.98,18,41,166,232
+usa_roadsigns_1043.jpg,Lane_ends,0.98,442,277,600,441
+usa_roadsigns_1043.jpg,Keep_left_2,0.97,228,159,359,322
+usa_roadsigns_1043.jpg,Pass_road,0.95,858,517,966,681

@@ -1,3 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1035.jpg,Truck_crossing,0.69,438,278,633,473
-usa_roadsigns_1035.jpg,Skewed_railroad_crossing,0.45,860,518,1021,683
+usa_roadsigns_1035.jpg,Steep_grade_percentage,0.98,230,157,391,322
+usa_roadsigns_1035.jpg,Horizontal_alignment_intersection,0.91,860,517,1021,683
+usa_roadsigns_1035.jpg,No_standing_any_time,0.67,649,401,777,590
+usa_roadsigns_1035.jpg,Bus_lane,0.48,19,40,210,182
+usa_roadsigns_1035.jpg,Dead_end,0.45,438,279,633,470

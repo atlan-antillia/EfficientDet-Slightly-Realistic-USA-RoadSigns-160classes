@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1024.jpg,Railroad_crossing,0.91,14,37,216,238
-usa_roadsigns_1024.jpg,No_u_turn,0.77,860,519,1022,683
-usa_roadsigns_1024.jpg,Minimum_speed_limit_40,0.7,231,160,419,399
-usa_roadsigns_1024.jpg,Bump,0.41,439,278,631,471
+usa_roadsigns_1024.jpg,No_u_turn,0.97,860,519,1022,683
+usa_roadsigns_1024.jpg,Stop_here_for_peds,0.88,653,401,809,560
+usa_roadsigns_1024.jpg,Railroad_crossing,0.8,20,36,213,231
+usa_roadsigns_1024.jpg,Stop_here_when_flashing,0.61,437,277,632,472
+usa_roadsigns_1024.jpg,Truck_speed_limit_40,0.57,230,159,420,399

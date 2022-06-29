@@ -1,4 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1048.jpg,Bump,0.85,229,157,422,355
-usa_roadsigns_1048.jpg,No_hitch_hiking,0.76,860,520,1052,716
-usa_roadsigns_1048.jpg,Cross_roads,0.42,15,38,211,233
+usa_roadsigns_1048.jpg,Bump,0.99,230,157,420,352
+usa_roadsigns_1048.jpg,Offset_roads,0.97,18,40,212,232
+usa_roadsigns_1048.jpg,Pass_road,0.88,438,278,564,470
+usa_roadsigns_1048.jpg,No_hitch_hiking,0.59,860,518,1053,713
+usa_roadsigns_1048.jpg,Curve,0.58,651,397,810,561

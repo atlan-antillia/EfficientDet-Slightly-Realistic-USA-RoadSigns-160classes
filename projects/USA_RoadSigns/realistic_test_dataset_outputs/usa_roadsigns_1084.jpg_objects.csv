@@ -1,2 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1084.jpg,No_rollerblading,0.73,439,280,630,470
+usa_roadsigns_1084.jpg,Stop_here_for_pedestrians,0.98,19,40,141,199
+usa_roadsigns_1084.jpg,No_turns,0.97,229,157,392,324
+usa_roadsigns_1084.jpg,No_bicycles,0.96,440,280,632,471
+usa_roadsigns_1084.jpg,Side_road_at_a_perpendicular_angle,0.86,861,516,1021,681

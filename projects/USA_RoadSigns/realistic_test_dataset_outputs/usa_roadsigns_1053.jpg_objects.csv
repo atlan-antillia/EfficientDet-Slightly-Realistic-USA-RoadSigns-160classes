@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1053.jpg,Railroad_crossing,0.9,229,155,422,355
-usa_roadsigns_1053.jpg,Workers_on_road,0.89,650,397,844,596
-usa_roadsigns_1053.jpg,Speed_limit_80km,0.58,439,281,597,517
-usa_roadsigns_1053.jpg,No_large_trucks,0.51,20,39,181,201
-usa_roadsigns_1053.jpg,Night_speed_limit_45,0.41,859,518,1056,718
+usa_roadsigns_1053.jpg,Single_lane_shift_left,0.99,651,397,845,598
+usa_roadsigns_1053.jpg,No_rollerblading,0.98,20,39,179,200
+usa_roadsigns_1053.jpg,Added_lane,0.96,860,519,1055,719
+usa_roadsigns_1053.jpg,Railroad_crossing,0.8,230,151,416,349
+usa_roadsigns_1053.jpg,Speed_limit_80km,0.58,438,282,598,517

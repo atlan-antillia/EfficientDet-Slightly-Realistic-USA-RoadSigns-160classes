@@ -1,6 +1,4 @@
 id, class, count
-1,No_rollerblading,1
-2,Work_zone_for_speed_limit,1
-3,Winding_road,1
-4,Deer_crossing,1
-5,All_way,1
+1,Stop_here_for_peds,1
+2,All_way,1
+3,Curve,1

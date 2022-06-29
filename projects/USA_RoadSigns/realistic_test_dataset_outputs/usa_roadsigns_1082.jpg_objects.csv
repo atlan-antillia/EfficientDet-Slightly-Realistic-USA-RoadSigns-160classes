@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1082.jpg,Truck_crossing,0.79,649,397,841,593
-usa_roadsigns_1082.jpg,School,0.71,861,520,1055,587
-usa_roadsigns_1082.jpg,Bicycle_wrong_way,0.54,437,280,567,471
-usa_roadsigns_1082.jpg,Double_side_roads,0.45,228,158,391,320
+usa_roadsigns_1082.jpg,Bicycle_wrong_way,0.99,441,279,568,470
+usa_roadsigns_1082.jpg,Side_road_at_an_acute_angle,0.98,20,41,210,230
+usa_roadsigns_1082.jpg,School,0.96,860,520,1054,586
+usa_roadsigns_1082.jpg,Cross_roads,0.7,228,159,389,320

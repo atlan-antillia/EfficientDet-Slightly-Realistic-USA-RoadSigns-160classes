@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1083.jpg,Double_side_roads,0.7,14,37,180,201
-usa_roadsigns_1083.jpg,Truck_crossing,0.67,858,517,1020,680
-usa_roadsigns_1083.jpg,Stay_in_lane,0.53,649,399,782,561
-usa_roadsigns_1083.jpg,Narrow_bridge,0.44,229,159,394,322
+usa_roadsigns_1083.jpg,Bicycles_left_pedestrians_right,0.99,442,280,571,471
+usa_roadsigns_1083.jpg,Left_turn_yield_on_green,0.99,649,400,781,561
+usa_roadsigns_1083.jpg,Cross_roads,0.69,22,41,179,200
+usa_roadsigns_1083.jpg,Dead_end,0.56,859,518,1018,681
+usa_roadsigns_1083.jpg,Dead_end,0.43,229,161,392,321

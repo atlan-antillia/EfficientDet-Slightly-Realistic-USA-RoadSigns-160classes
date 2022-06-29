@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1064.jpg,No_turns,0.86,439,280,571,440
-usa_roadsigns_1064.jpg,Minimum_speed_limit_60km,0.84,19,40,179,277
-usa_roadsigns_1064.jpg,Work_zone_for_speed_limit,0.76,859,520,1054,666
-usa_roadsigns_1064.jpg,Keep_right,0.7,650,400,807,591
+usa_roadsigns_1064.jpg,Keep_right,0.96,652,399,808,593
+usa_roadsigns_1064.jpg,Hill_bicycle,0.96,230,157,389,320
+usa_roadsigns_1064.jpg,Minimum_speed_limit_60km,0.78,20,40,176,277
+usa_roadsigns_1064.jpg,No_pedestrians,0.53,438,278,571,438

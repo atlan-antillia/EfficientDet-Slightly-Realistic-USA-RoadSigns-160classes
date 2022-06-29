@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1022.jpg,Gusty_winds_area,0.74,13,37,213,237
-usa_roadsigns_1022.jpg,Right_lane,0.7,232,158,420,238
-usa_roadsigns_1022.jpg,Truck_crossing,0.69,650,396,846,596
-usa_roadsigns_1022.jpg,No_parking_any_time,0.53,439,280,634,433
-usa_roadsigns_1022.jpg,No_u_turn,0.51,859,518,1053,715
+usa_roadsigns_1022.jpg,No_u_turn,0.99,859,519,1053,716
+usa_roadsigns_1022.jpg,No_unauthorized_vehicles,0.94,438,281,634,434
+usa_roadsigns_1022.jpg,Left_lane,0.86,232,160,419,237
+usa_roadsigns_1022.jpg,Truck_crossing,0.82,17,39,212,234
+usa_roadsigns_1022.jpg,Gusty_winds_area,0.62,650,398,844,595

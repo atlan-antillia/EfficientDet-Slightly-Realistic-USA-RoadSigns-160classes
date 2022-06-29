@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1098.jpg,Stay_in_lane,0.91,863,521,1016,716
-usa_roadsigns_1098.jpg,No_turns,0.74,649,398,811,560
-usa_roadsigns_1098.jpg,Flagger_present,0.72,231,157,425,355
-usa_roadsigns_1098.jpg,Truck_crossing,0.7,438,280,603,443
+usa_roadsigns_1098.jpg,Stay_in_lane,0.98,862,518,1015,716
+usa_roadsigns_1098.jpg,No_turns,0.96,650,398,808,559
+usa_roadsigns_1098.jpg,Dead_end,0.52,439,280,602,442
+usa_roadsigns_1098.jpg,Runaway_vehicles_only,0.51,19,39,180,200

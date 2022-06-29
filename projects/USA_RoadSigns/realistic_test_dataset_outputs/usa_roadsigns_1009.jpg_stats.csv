@@ -1,6 +1,6 @@
 id, class, count
-1,Reserved_parking_wheelchair,1
+1,Merge,1
 2,Skewed_railroad_crossing,1
-3,Double_side_roads,1
-4,School,1
+3,No_pedestrians,1
+4,Parking_with_time_restrictions,1
 5,Night_speed_limit_45,1

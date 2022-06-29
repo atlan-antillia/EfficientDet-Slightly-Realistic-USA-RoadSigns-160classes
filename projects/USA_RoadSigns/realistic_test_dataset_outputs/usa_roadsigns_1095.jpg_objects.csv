@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1095.jpg,Stop,0.95,858,518,1055,718
-usa_roadsigns_1095.jpg,Loading_zone,0.83,652,400,810,518
-usa_roadsigns_1095.jpg,Single_lane_shift_left,0.79,231,156,427,356
-usa_roadsigns_1095.jpg,National_network_route,0.55,440,279,631,472
+usa_roadsigns_1095.jpg,Stop,0.99,860,520,1055,717
+usa_roadsigns_1095.jpg,No_parking,0.99,440,279,632,471
+usa_roadsigns_1095.jpg,Steep_grade_percentage,0.99,18,38,214,235
+usa_roadsigns_1095.jpg,Be_prepared_to_stop,0.98,230,158,426,356
+usa_roadsigns_1095.jpg,Loading_zone,0.89,651,399,811,519

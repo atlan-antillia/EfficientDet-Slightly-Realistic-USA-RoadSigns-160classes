@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1034.jpg,No_parking_from_830am_to_530pm_2,0.84,19,40,149,231
-usa_roadsigns_1034.jpg,School,0.68,650,399,809,464
-usa_roadsigns_1034.jpg,Double_side_roads,0.46,227,158,395,323
-usa_roadsigns_1034.jpg,No_bicycles,0.44,859,521,963,632
-usa_roadsigns_1034.jpg,Winding_road,0.43,438,278,600,439
+usa_roadsigns_1034.jpg,Offset_roads,0.98,440,277,598,440
+usa_roadsigns_1034.jpg,Offset_roads,0.93,229,158,393,321
+usa_roadsigns_1034.jpg,Left_lane,0.61,651,399,809,464
+usa_roadsigns_1034.jpg,Truck_crossing,0.45,861,522,962,630

@@ -1,3 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1088.jpg,Work_zone_for_speed_limit,0.8,436,279,632,422
-usa_roadsigns_1088.jpg,No_left_or_u_turn,0.61,15,40,211,234
+usa_roadsigns_1088.jpg,Bicycle_wrong_way,0.99,231,160,338,319
+usa_roadsigns_1088.jpg,Offset_roads,0.99,859,519,1053,717
+usa_roadsigns_1088.jpg,Steep_grade_percentage,0.97,651,397,811,563

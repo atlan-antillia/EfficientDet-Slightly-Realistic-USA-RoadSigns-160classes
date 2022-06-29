@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1092.jpg,Reserved_parking_wheelchair,0.93,650,399,759,560
-usa_roadsigns_1092.jpg,Truck_crossing,0.69,859,519,1022,683
-usa_roadsigns_1092.jpg,School_speed_limit_ahead,0.63,229,159,422,354
-usa_roadsigns_1092.jpg,Hairpin_curve,0.59,12,38,182,203
-usa_roadsigns_1092.jpg,Weight_limit_10t,0.41,438,280,549,440
+usa_roadsigns_1092.jpg,School_speed_limit_ahead,0.98,232,158,418,354
+usa_roadsigns_1092.jpg,Sharp_turn,0.92,18,40,181,203
+usa_roadsigns_1092.jpg,Reserved_parking_wheelchair,0.86,650,401,760,561
+usa_roadsigns_1092.jpg,Truck_crossing,0.68,861,520,1022,681
+usa_roadsigns_1092.jpg,No_parking,0.63,439,282,548,439

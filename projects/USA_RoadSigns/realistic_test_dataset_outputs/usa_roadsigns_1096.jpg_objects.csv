@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1096.jpg,Low_ground_clearance_railroad_crossing,0.73,439,280,632,473
-usa_roadsigns_1096.jpg,Keep_right,0.62,230,161,359,318
-usa_roadsigns_1096.jpg,Bump,0.5,15,40,209,230
-usa_roadsigns_1096.jpg,Bump,0.42,859,518,1022,682
+usa_roadsigns_1096.jpg,Low_ground_clearance_railroad_crossing,0.99,438,279,633,477
+usa_roadsigns_1096.jpg,Skewed_railroad_crossing,0.99,18,39,208,230
+usa_roadsigns_1096.jpg,No_train_horn_warning,0.98,652,401,843,593
+usa_roadsigns_1096.jpg,Metric_low_clearance,0.94,861,519,1022,682
+usa_roadsigns_1096.jpg,Keep_left,0.66,228,160,358,320

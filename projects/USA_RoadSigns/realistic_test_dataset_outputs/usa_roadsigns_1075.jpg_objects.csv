@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1075.jpg,No_entre,0.74,230,154,420,355
-usa_roadsigns_1075.jpg,Sharp_turn,0.73,439,278,634,476
-usa_roadsigns_1075.jpg,No_standing_any_time,0.57,15,39,146,228
-usa_roadsigns_1075.jpg,Sharp_turn,0.55,648,396,842,593
-usa_roadsigns_1075.jpg,Right_turn_only,0.45,859,519,1019,708
+usa_roadsigns_1075.jpg,270_degree_loop,0.99,652,397,840,592
+usa_roadsigns_1075.jpg,Straight_ahead_only,0.73,863,518,1018,710
+usa_roadsigns_1075.jpg,No_parking_from_830am_to_530pm,0.72,15,39,147,229
+usa_roadsigns_1075.jpg,Sharp_turn,0.53,440,280,635,474

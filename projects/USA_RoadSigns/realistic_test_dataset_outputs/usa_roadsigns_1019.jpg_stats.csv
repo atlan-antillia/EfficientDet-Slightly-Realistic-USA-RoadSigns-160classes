@@ -1,6 +1,6 @@
 id, class, count
-1,Right_lane,1
-2,Be_prepared_to_stop,1
-3,All_way,1
-4,No_stopping_on_pavement,1
-5,No_left_or_u_turn,1
+1,All_way,1
+2,No_parking_from_830am_to_530pm,1
+3,School,1
+4,Detour_right,1
+5,No_pedestrian_crossing,1

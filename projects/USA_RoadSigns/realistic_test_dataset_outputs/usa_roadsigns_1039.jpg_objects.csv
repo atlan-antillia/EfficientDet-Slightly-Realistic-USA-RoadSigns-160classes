@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1039.jpg,Pedestrian_crossing,0.77,14,37,179,201
-usa_roadsigns_1039.jpg,No_outlet,0.56,860,519,1019,680
-usa_roadsigns_1039.jpg,Flagger_present,0.52,231,158,423,356
-usa_roadsigns_1039.jpg,Road_closed_ahead,0.5,649,399,808,558
+usa_roadsigns_1039.jpg,270_degree_loop,0.96,650,397,810,557
+usa_roadsigns_1039.jpg,Bike_lane_slippery_when_wet,0.94,860,518,1019,680
+usa_roadsigns_1039.jpg,Pedestrian_crossing,0.89,20,37,178,200
+usa_roadsigns_1039.jpg,School_advance,0.66,229,157,423,355
+usa_roadsigns_1039.jpg,Tractor_farm_vehicle_crossing,0.56,439,278,634,475

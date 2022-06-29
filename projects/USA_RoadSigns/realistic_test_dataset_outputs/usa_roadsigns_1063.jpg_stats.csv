@@ -1,2 +1,4 @@
 id, class, count
-1,Narrow_bridge,1
+1,Cross_roads,1
+2,Side_road_at_a_perpendicular_angle,2
+3,Bicycles_left_pedestrians_right,1

@@ -1,5 +1,6 @@
 id, class, count
-1,Railroad_crossing,1
-2,No_u_turn,1
-3,Minimum_speed_limit_40,1
-4,Bump,1
+1,No_u_turn,1
+2,Stop_here_for_peds,1
+3,Railroad_crossing,1
+4,Stop_here_when_flashing,1
+5,Truck_speed_limit_40,1

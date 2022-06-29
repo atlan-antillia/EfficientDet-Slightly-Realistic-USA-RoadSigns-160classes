@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1030.jpg,Reserved_parking_wheelchair,0.84,230,160,358,353
-usa_roadsigns_1030.jpg,Do_not_enter,0.65,651,397,845,594
-usa_roadsigns_1030.jpg,Pedestrian_crossing,0.6,14,37,179,201
-usa_roadsigns_1030.jpg,All_way,0.57,439,280,631,344
-usa_roadsigns_1030.jpg,Skewed_railroad_crossing,0.56,860,520,1051,717
+usa_roadsigns_1030.jpg,Bicycles,0.99,650,398,845,594
+usa_roadsigns_1030.jpg,Side_road_at_an_acute_angle,0.98,861,520,1052,716
+usa_roadsigns_1030.jpg,Merge,0.98,21,39,179,197
+usa_roadsigns_1030.jpg,All_way,0.96,441,281,631,343
+usa_roadsigns_1030.jpg,Parking_with_time_restrictions,0.89,231,161,360,352

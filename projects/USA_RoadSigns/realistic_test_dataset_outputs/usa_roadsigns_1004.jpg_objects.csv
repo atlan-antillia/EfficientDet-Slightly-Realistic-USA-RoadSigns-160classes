@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1004.jpg,Speed_limit_80km,0.79,440,282,598,517
-usa_roadsigns_1004.jpg,Added_lane_from_entering_roadway,0.55,649,398,863,615
-usa_roadsigns_1004.jpg,Parking_with_time_restrictions,0.5,859,519,986,712
-usa_roadsigns_1004.jpg,Bump,0.49,12,38,182,203
-usa_roadsigns_1004.jpg,National_network_prohibited,0.47,227,161,393,321
+usa_roadsigns_1004.jpg,Parking_with_time_restrictions,0.99,860,519,987,712
+usa_roadsigns_1004.jpg,Stop_here_for_peds,0.92,230,157,390,322
+usa_roadsigns_1004.jpg,Speed_limit_80km,0.78,439,280,599,516
+usa_roadsigns_1004.jpg,Night_speed_limit_45,0.68,649,398,858,615
+usa_roadsigns_1004.jpg,Railroad_intersection_warning,0.61,18,40,179,202

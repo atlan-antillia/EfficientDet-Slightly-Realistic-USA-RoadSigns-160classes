@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1086.jpg,Railroad_crossing,0.75,12,34,178,201
-usa_roadsigns_1086.jpg,Lane_ends,0.66,230,160,392,321
-usa_roadsigns_1086.jpg,No_outlet,0.63,859,518,1054,715
-usa_roadsigns_1086.jpg,No_pedestrians,0.62,441,280,603,361
-usa_roadsigns_1086.jpg,No_entre,0.54,647,395,841,593
+usa_roadsigns_1086.jpg,Bike_lane_slippery_when_wet,0.99,859,518,1055,715
+usa_roadsigns_1086.jpg,Lane_ends,0.96,231,159,391,321
+usa_roadsigns_1086.jpg,No_pedestrians,0.93,441,278,603,360
+usa_roadsigns_1086.jpg,Railroad_crossing,0.75,13,35,180,196
+usa_roadsigns_1086.jpg,Turning_vehicles_yield_to_pedestrians,0.53,647,394,844,595

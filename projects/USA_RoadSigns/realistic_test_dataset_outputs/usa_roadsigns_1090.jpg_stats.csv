@@ -1,6 +1,5 @@
 id, class, count
-1,Railroad_crossing,1
-2,Pedestrian_crossing,1
-3,Ramp_narrows,1
-4,No_rollerblading,1
-5,Keep_right_2,1
+1,Merge,1
+2,Minimum_speed_limit_40,1
+3,Keep_right_2,1
+4,Stop_here_for_peds,1

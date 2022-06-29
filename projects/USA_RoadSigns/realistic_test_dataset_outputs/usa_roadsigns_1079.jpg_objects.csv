@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1079.jpg,Single_lane_shift_left,0.83,859,515,1020,681
-usa_roadsigns_1079.jpg,Double_side_roads,0.76,14,36,211,233
-usa_roadsigns_1079.jpg,School,0.76,440,279,630,361
-usa_roadsigns_1079.jpg,Road_closed_ahead,0.41,648,397,813,560
+usa_roadsigns_1079.jpg,Single_lane_shift_left,0.97,860,519,1018,681
+usa_roadsigns_1079.jpg,270_degree_loop,0.89,650,397,812,560
+usa_roadsigns_1079.jpg,Left_lane,0.82,441,280,631,359
+usa_roadsigns_1079.jpg,Double_side_roads,0.56,18,38,211,229
+usa_roadsigns_1079.jpg,Stop,0.4,230,160,391,319

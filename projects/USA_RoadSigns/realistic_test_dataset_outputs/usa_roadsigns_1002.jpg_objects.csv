@@ -1,3 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1002.jpg,Pedestrian_crossing,0.85,441,279,633,472
-usa_roadsigns_1002.jpg,No_bicycles,0.62,649,399,842,595
+usa_roadsigns_1002.jpg,Pedestrian_crossing,0.98,441,278,630,470
+usa_roadsigns_1002.jpg,No_bicycles,0.91,651,399,843,594
+usa_roadsigns_1002.jpg,Cross_roads,0.75,19,40,213,231
+usa_roadsigns_1002.jpg,Railroad_intersection_warning,0.6,230,159,418,350
+usa_roadsigns_1002.jpg,No_parking_from_830am_to_530pm,0.51,860,519,991,712

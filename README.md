@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/06/18)
+EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/06/29)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in US based on 
@@ -22,6 +22,10 @@ Modified to use tensorflow 2.8.0 on Windows11 (2022/06/18)<br>
 <li>
 Modified to use the latest <a href="https://github.com/google/automl/tree/master/efficientdet">google/automl/efficientdet</a>.(2022/06/12)<br>
 </li>
+<li>
+Modified to use mixed_size tfrecord dataset.(2022/06/29)<br>
+</li>
+<br>
 <h2>
 1. Installing tensorflow on Windows11
 </h2>
@@ -87,8 +91,8 @@ Please run the following command to install python packages for this project.<br
 
 <br>
 <h3>2.3 Download TFRecord dataset</h3>
- You can download TRecord_USA_RoadSigns 160classes_V2 dataset from 
-<a href="https://drive.google.com/drive/folders/1ht0J3WnqNWXqfHT4QzzZ5xPheYpnhRWW?usp=sharing">USA_RoadSigns_160classes_V2</a>
+ You can download TRecord_USA_RoadSigns 160classes_V2.1 (2022/06/29) dataset from 
+<a href="https://drive.google.com/file/d/1qAD_wgzNIOP6Ds6Czq1sPY-jHarBggXe/view?usp=sharing">USA_RoadSigns_160classes_V2.1</a>
 <br>
 The downloaded train and valid dataset must be placed in ./projects/USA_RoadSigns folder.
 <pre>
@@ -97,6 +101,17 @@ The downloaded train and valid dataset must be placed in ./projects/USA_RoadSign
         ├─train
         └─valid
 </pre>
+The train and valid folders contain the following tfrecord files:<br>
+<pre>
+    └─USA_RoadSigns
+        ├─train
+        │  └─mixed_size_train.tfrecord
+        │  └─train.tfrecord
+        └─valid
+           └─mixed_size_valid.tfrecord
+           └─valid.tfrecord
+</pre>
+
 <br>
 
 <h3>2.4 Workarounds for Windows</h3>
@@ -430,22 +445,22 @@ python ../../ModelTrainer.py ^
 </pre>
 <br>
 <br>
-<b><a href="./projects/USA_RoadSigns/eval/coco_metrics.csv">COCO metrics at epoch 94</a></b><br>
-<img src="./asset/coco_metrics_console_at_epoch94_tf2.8.0.png" width="1024" height="auto">
+<b><a href="./projects/USA_RoadSigns/eval/coco_metrics.csv">COCO metrics at epoch 130</a></b><br>
+<img src="./asset/coco_metrics_console_at_epoch130_tf2.8.0_0629.png" width="1024" height="auto">
 <br>
 
 <br>
 <b><a href="./projects/USA_RoadSigns/eval/coco_metrics.csv">COCO meticss f and map</a></b><br>
-<img src="./asset/coco_metrics_at_epoch94_tf2.8.0.png" width="1024" height="auto">
+<img src="./asset/coco_metrics_at_epoch130_tf2.8.0_0629.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/USA_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
-<img src="./asset/train_losses_at_epoch94_tf2.8.0.png" width="1024" height="auto">
+<img src="./asset/train_losses_at_epoch130_tf2.8.0_0629.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/USA_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
-<img src="./asset/coco_ap_per_class_at_epoch94_tf2.8.0.png" width="1024" height="auto">
+<img src="./asset/coco_ap_per_class_at_epoch130_tf2.8.0_0629.png" width="1024" height="auto">
 <br>
 
 <h3>
@@ -588,9 +603,8 @@ python ../../SavedModelInferencer.py ^
 
 <h3>9. COCO metrics of inference result</h3>
 The 3_inference.bat computes also the COCO metrics(f, map, mar) to the <b>realistic_test_dataset</b> as shown below:<br>
-
 <a href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
 
 <br>
-<img src="./asset/coco_metrics_console_test_dataset_at_epoch94_tf2.8.0.png" width="740" height="auto"><br>
+<img src="./asset/coco_metrics_console_test_dataset_at_epoch130_tf2.8.0_0629.png" width="740" height="auto"><br>
 

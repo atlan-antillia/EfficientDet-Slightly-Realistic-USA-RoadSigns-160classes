@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1020.jpg,School,0.77,650,400,811,465
-usa_roadsigns_1020.jpg,Road_closed,0.62,228,162,420,304
-usa_roadsigns_1020.jpg,No_train_horn_warning,0.57,859,518,1023,684
-usa_roadsigns_1020.jpg,No_left_or_u_turn,0.57,12,36,181,203
-usa_roadsigns_1020.jpg,Snowmobile,0.42,439,279,602,441
+usa_roadsigns_1020.jpg,Snowmobile,0.98,439,278,601,442
+usa_roadsigns_1020.jpg,Horse_drawn_vehicle_ahead,0.96,860,519,1022,681
+usa_roadsigns_1020.jpg,Railroad_crossing_ahead,0.91,19,37,181,200
+usa_roadsigns_1020.jpg,School,0.53,651,402,811,466
