@@ -111,7 +111,8 @@ The train and valid folders contain the following tfrecord files:<br>
            └─mixed_size_valid.tfrecord
            └─valid.tfrecord
 </pre>
-
+We have newly added the tfrecord files, <b>mixed_size_train.tfrecord</b> and <b>mixed_size_valid.tfrecord</b>,
+to improve inference accuracy to the realistic_test_dataset.<br>
 <br>
 
 <h3>2.4 Workarounds for Windows</h3>
