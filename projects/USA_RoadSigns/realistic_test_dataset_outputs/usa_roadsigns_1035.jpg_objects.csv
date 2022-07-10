@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1035.jpg,Steep_grade_percentage,0.98,230,157,391,322
-usa_roadsigns_1035.jpg,Horizontal_alignment_intersection,0.91,860,517,1021,683
-usa_roadsigns_1035.jpg,No_standing_any_time,0.67,649,401,777,590
-usa_roadsigns_1035.jpg,Bus_lane,0.48,19,40,210,182
-usa_roadsigns_1035.jpg,Dead_end,0.45,438,279,633,470
+usa_roadsigns_1035.jpg,Bump,0.97,501,228,691,421
+usa_roadsigns_1035.jpg,Yield_here_to_peds,0.89,990,452,1179,644
+usa_roadsigns_1035.jpg,Railroad_crossing_ahead,0.73,8,8,202,203
+usa_roadsigns_1035.jpg,Keep_right,0.56,260,120,410,314
+usa_roadsigns_1035.jpg,National_network_route,0.5,747,340,842,436

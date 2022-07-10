@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1020.jpg,Snowmobile,0.98,439,278,601,442
-usa_roadsigns_1020.jpg,Horse_drawn_vehicle_ahead,0.96,860,519,1022,681
-usa_roadsigns_1020.jpg,Railroad_crossing_ahead,0.91,19,37,181,200
-usa_roadsigns_1020.jpg,School,0.53,651,402,811,466
+usa_roadsigns_1020.jpg,Deer_crossing,0.98,10,10,200,200
+usa_roadsigns_1020.jpg,Workers_on_road,0.8,502,229,690,421
+usa_roadsigns_1020.jpg,Single_lane_shift_left,0.76,991,449,1179,642
+usa_roadsigns_1020.jpg,Winding_road,0.73,252,123,445,312
+usa_roadsigns_1020.jpg,Reverse_curve,0.43,743,339,840,436

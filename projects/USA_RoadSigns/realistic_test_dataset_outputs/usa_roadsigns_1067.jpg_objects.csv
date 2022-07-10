@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1067.jpg,Stop,0.88,651,399,845,594
-usa_roadsigns_1067.jpg,Railroad_crossing_ahead,0.86,435,274,634,474
-usa_roadsigns_1067.jpg,Cross_roads,0.82,862,520,1021,684
-usa_roadsigns_1067.jpg,Right_turn_or_straight,0.7,225,159,364,319
-usa_roadsigns_1067.jpg,No_large_trucks,0.58,19,40,210,228
+usa_roadsigns_1067.jpg,Keep_left_2,0.74,498,231,657,422
+usa_roadsigns_1067.jpg,Straight_ahead_only,0.7,9,9,167,197
+usa_roadsigns_1067.jpg,Night_speed_limit_70km,0.63,256,119,449,362
+usa_roadsigns_1067.jpg,Do_not_pass_stopped_trains,0.54,747,343,900,535

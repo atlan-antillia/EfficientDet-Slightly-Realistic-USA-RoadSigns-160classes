@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1001.jpg,No_pedestrians,0.99,650,400,841,497
-usa_roadsigns_1001.jpg,No_parking_on_pavement,0.97,229,158,389,357
-usa_roadsigns_1001.jpg,Tractor_farm_vehicle_crossing_2,0.96,19,37,213,234
-usa_roadsigns_1001.jpg,Railroad_intersection_warning,0.76,860,519,1055,716
-usa_roadsigns_1001.jpg,Truck_crossing,0.6,440,278,603,441
+usa_roadsigns_1001.jpg,Yield,0.83,745,337,841,423
+usa_roadsigns_1001.jpg,Turning_vehicles_yield_to_pedestrians,0.61,497,225,597,325
+usa_roadsigns_1001.jpg,Hairpin_curve,0.46,990,447,1087,545
+usa_roadsigns_1001.jpg,Golf_cart_crossing,0.46,256,121,445,312

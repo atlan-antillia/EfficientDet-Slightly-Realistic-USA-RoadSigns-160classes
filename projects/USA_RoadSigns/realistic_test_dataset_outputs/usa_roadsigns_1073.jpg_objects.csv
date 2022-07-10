@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1073.jpg,Parking_with_time_restrictions,0.99,19,38,146,229
-usa_roadsigns_1073.jpg,Speed_limit_80km,0.98,650,401,784,601
-usa_roadsigns_1073.jpg,Keep_left_2,0.95,861,518,1014,714
-usa_roadsigns_1073.jpg,Steep_grade,0.9,230,158,391,322
-usa_roadsigns_1073.jpg,Do_not_pass_stopped_trains,0.43,440,280,594,471
+usa_roadsigns_1073.jpg,Hairpin_curve,0.82,11,9,198,201
+usa_roadsigns_1073.jpg,Truck crossing_2,0.61,254,118,353,217
+usa_roadsigns_1073.jpg,Tractor_farm_vehicle_crossing,0.58,501,231,595,327
+usa_roadsigns_1073.jpg,Narrow_bridge,0.44,746,340,840,434

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1068.jpg,Road_closed,0.89,438,278,601,381
+usa_roadsigns_1068.jpg,Yield_here_to_pedestrians,0.82,647,399,767,559
+usa_roadsigns_1068.jpg,Offset_roads,0.53,861,519,1051,714
+usa_roadsigns_1068.jpg,Parking_with_time_restrictions,0.47,230,160,418,351
+usa_roadsigns_1068.jpg,Hidden_driveway,0.43,19,34,180,200

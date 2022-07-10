@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1041.jpg,Stop_here_for_peds,0.92,21,38,213,235
+usa_roadsigns_1041.jpg,All_way,0.92,649,399,809,453
+usa_roadsigns_1041.jpg,Work_zone_for_speed_limit,0.81,863,521,1052,665
+usa_roadsigns_1041.jpg,Tractor_farm_vehicle_crossing,0.78,440,280,601,440
+usa_roadsigns_1041.jpg,Deer_crossing,0.62,231,159,423,353

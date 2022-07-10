@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1093.jpg,All_way,0.95,440,280,632,345
-usa_roadsigns_1093.jpg,Turn_only_lanes,0.84,229,160,423,280
-usa_roadsigns_1093.jpg,Dead_end,0.57,20,40,181,201
-usa_roadsigns_1093.jpg,270_degree_loop,0.57,651,399,844,594
-usa_roadsigns_1093.jpg,Ramp_narrows,0.48,859,516,1057,716
+usa_roadsigns_1093.jpg,Skewed_railroad_crossing,0.83,255,120,352,216
+usa_roadsigns_1093.jpg,Reverse_turn,0.61,989,448,1180,642
+usa_roadsigns_1093.jpg,Railroad_crossing,0.54,499,230,594,326
+usa_roadsigns_1093.jpg,Truck_route_sign,0.44,744,340,842,413

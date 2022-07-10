@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1025.jpg,Merging_traffic,0.94,650,401,810,559
+usa_roadsigns_1025.jpg,Flagger_present,0.84,19,36,180,198
+usa_roadsigns_1025.jpg,Pass_on_either_side,0.66,440,281,631,472
+usa_roadsigns_1025.jpg,Road_slippery_when_wet,0.65,860,521,1018,681
+usa_roadsigns_1025.jpg,Center_lane,0.47,233,158,390,225

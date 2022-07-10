@@ -1,6 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1028.jpg,Straight_ahead_only,0.99,439,279,572,439
-usa_roadsigns_1028.jpg,Chevron_alignment,0.97,16,38,165,232
-usa_roadsigns_1028.jpg,Minimum_speed_limit_40,0.97,862,517,1051,725
-usa_roadsigns_1028.jpg,270_degree_loop,0.93,231,158,392,321
-usa_roadsigns_1028.jpg,Sharp_turn,0.6,649,397,812,563
+usa_roadsigns_1028.jpg,Work_zone_for_speed_limit,0.69,991,451,1182,596
+usa_roadsigns_1028.jpg,Work_zone_for_speed_limit,0.53,745,342,940,483
+usa_roadsigns_1028.jpg,National_network_route,0.44,7,9,103,105

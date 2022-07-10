@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1037.jpg,Railroad_crossing_ahead,0.86,442,280,601,442
+usa_roadsigns_1037.jpg,Keep_left_2,0.83,17,37,152,201
+usa_roadsigns_1037.jpg,Pedestrian_crossing,0.71,861,518,1051,712
+usa_roadsigns_1037.jpg,Hazardous_material_route,0.44,648,400,809,561

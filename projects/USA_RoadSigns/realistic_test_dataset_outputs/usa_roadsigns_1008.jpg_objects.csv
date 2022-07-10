@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1008.jpg,No_standing_any_time,0.95,229,161,334,319
-usa_roadsigns_1008.jpg,Keep_right_2,0.93,861,521,989,680
-usa_roadsigns_1008.jpg,No_parking_on_pavement,0.86,437,277,570,442
-usa_roadsigns_1008.jpg,Minimum_speed_limit_40,0.85,649,396,814,603
-usa_roadsigns_1008.jpg,Right_turn_only,0.84,21,39,181,231
+usa_roadsigns_1008.jpg,Chevron_alignment,0.86,7,10,156,204
+usa_roadsigns_1008.jpg,Reserved_parking_wheelchair,0.74,992,450,1120,644
+usa_roadsigns_1008.jpg,Turn_only_lanes,0.68,741,339,840,397
+usa_roadsigns_1008.jpg,Narrow_bridge,0.56,253,119,352,216
+usa_roadsigns_1008.jpg,Wait_on_stop,0.52,499,227,577,325

@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1085.jpg,Bicycles_left_pedestrians_right,0.99,440,280,546,439
-usa_roadsigns_1085.jpg,Merging_traffic,0.99,651,397,841,592
-usa_roadsigns_1085.jpg,Hill_bicycle,0.97,230,158,388,319
-usa_roadsigns_1085.jpg,Runaway_vehicles_only,0.62,18,40,181,200
+usa_roadsigns_1085.jpg,All_way,0.94,987,452,1182,513
+usa_roadsigns_1085.jpg,Truck_route_sign,0.69,10,7,201,157
+usa_roadsigns_1085.jpg,Truck_crossing,0.67,256,122,449,315
+usa_roadsigns_1085.jpg,Bicycle_wrong_way,0.58,500,229,565,327

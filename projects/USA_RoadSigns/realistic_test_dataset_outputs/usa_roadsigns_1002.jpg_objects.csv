@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1002.jpg,Pedestrian_crossing,0.98,441,278,630,470
-usa_roadsigns_1002.jpg,No_bicycles,0.91,651,399,843,594
-usa_roadsigns_1002.jpg,Cross_roads,0.75,19,40,213,231
-usa_roadsigns_1002.jpg,Railroad_intersection_warning,0.6,230,159,418,350
-usa_roadsigns_1002.jpg,No_parking_from_830am_to_530pm,0.51,860,519,991,712
+usa_roadsigns_1002.jpg,Bump,0.94,9,8,103,104
+usa_roadsigns_1002.jpg,Snowmobile,0.89,499,230,598,329
+usa_roadsigns_1002.jpg,Bus_lane,0.78,257,118,445,199
+usa_roadsigns_1002.jpg,Keep_right_2,0.52,991,450,1148,646

@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1017.jpg,Sharp_turn,0.97,18,39,179,199
-usa_roadsigns_1017.jpg,Be_prepared_to_stop,0.96,229,159,424,355
-usa_roadsigns_1017.jpg,School_speed_limit_ahead,0.95,647,399,811,561
-usa_roadsigns_1017.jpg,Reserved_parking_wheelchair,0.75,861,520,987,714
-usa_roadsigns_1017.jpg,No_left_turn,0.56,442,280,631,470
+usa_roadsigns_1017.jpg,Deer_crossing,0.9,745,339,934,535
+usa_roadsigns_1017.jpg,Curve,0.88,10,10,108,105
+usa_roadsigns_1017.jpg,Stop_here_for_pedestrians,0.72,253,121,326,214
+usa_roadsigns_1017.jpg,No_rollerblading,0.42,988,449,1180,645

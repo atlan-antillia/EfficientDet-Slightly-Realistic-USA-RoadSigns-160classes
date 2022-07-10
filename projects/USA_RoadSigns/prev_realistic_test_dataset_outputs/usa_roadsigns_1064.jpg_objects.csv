@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1064.jpg,Hill_bicycle,0.78,231,160,388,320
+usa_roadsigns_1064.jpg,Minimum_speed_limit_60km,0.75,18,38,177,277
+usa_roadsigns_1064.jpg,Work_zone_for_speed_limit,0.74,861,520,1052,664
+usa_roadsigns_1064.jpg,Go_on_slow,0.62,439,280,572,440
+usa_roadsigns_1064.jpg,Keep_right,0.55,651,400,805,595

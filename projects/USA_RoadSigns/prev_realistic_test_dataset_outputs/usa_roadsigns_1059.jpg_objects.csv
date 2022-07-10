@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1059.jpg,Added_lane,0.93,649,400,810,558
+usa_roadsigns_1059.jpg,Wait_on_stop,0.81,440,279,595,472
+usa_roadsigns_1059.jpg,Left_turn_or_straight,0.79,16,36,181,235
+usa_roadsigns_1059.jpg,Truck_crossing,0.57,859,521,1020,680

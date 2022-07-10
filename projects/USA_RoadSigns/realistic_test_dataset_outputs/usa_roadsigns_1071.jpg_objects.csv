@@ -1,5 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1071.jpg,Side_road_at_an_acute_angle,0.99,440,278,632,470
-usa_roadsigns_1071.jpg,No_parking_bus_stop,0.8,858,520,967,679
-usa_roadsigns_1071.jpg,Hazardous_material_route,0.45,650,399,812,561
-usa_roadsigns_1071.jpg,Wait_on_stop,0.43,19,36,176,244
+usa_roadsigns_1071.jpg,Steep_grade_percentage,0.86,500,231,692,423
+usa_roadsigns_1071.jpg,Double_side_roads,0.65,253,120,351,218
+usa_roadsigns_1071.jpg,Work_zone_for_speed_limit,0.61,992,449,1087,522

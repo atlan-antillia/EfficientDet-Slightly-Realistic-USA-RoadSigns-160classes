@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1032.jpg,Circular_intersection_warning,0.93,438,280,600,439
+usa_roadsigns_1032.jpg,Bicycle_wrong_way,0.91,21,33,153,233
+usa_roadsigns_1032.jpg,Truck_rollover_warning,0.88,858,517,1018,678
+usa_roadsigns_1032.jpg,Lane_ends,0.74,232,159,387,320
+usa_roadsigns_1032.jpg,Go_on_slow,0.61,648,400,803,592

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1062.jpg,Lane_ends,0.98,859,517,1056,717
-usa_roadsigns_1062.jpg,Stop,0.96,19,40,179,200
-usa_roadsigns_1062.jpg,Stop_here_for_peds,0.94,230,159,389,321
-usa_roadsigns_1062.jpg,Left_turn_or_straight,0.9,441,278,599,472
-usa_roadsigns_1062.jpg,Cross_roads,0.44,651,399,810,559
+usa_roadsigns_1062.jpg,Steep_grade_percentage,0.89,990,448,1180,641
+usa_roadsigns_1062.jpg,Straight_ahead_only,0.87,255,118,417,309
+usa_roadsigns_1062.jpg,Single_lane_shift_left,0.76,500,232,596,326
+usa_roadsigns_1062.jpg,No_rollerblading,0.66,10,7,207,204
+usa_roadsigns_1062.jpg,Straight_ahead_only,0.41,743,341,822,439

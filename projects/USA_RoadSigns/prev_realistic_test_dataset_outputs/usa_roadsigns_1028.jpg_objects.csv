@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1028.jpg,Chevron_alignment,0.92,17,36,165,230
+usa_roadsigns_1028.jpg,270_degree_loop,0.82,230,161,391,320
+usa_roadsigns_1028.jpg,Straight_ahead_only,0.79,440,279,573,438
+usa_roadsigns_1028.jpg,Hairpin_curve,0.71,651,400,812,562
+usa_roadsigns_1028.jpg,Minimum_speed_limit_40,0.55,860,516,1050,723

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1006.jpg,Hill_bicycle,0.99,441,279,635,474
-usa_roadsigns_1006.jpg,Be_prepared_to_stop,0.74,858,518,1022,683
-usa_roadsigns_1006.jpg,270_degree_loop,0.62,17,37,179,201
-usa_roadsigns_1006.jpg,No_standing_any_time,0.43,650,399,780,591
-usa_roadsigns_1006.jpg,Night_speed_limit_45,0.41,232,160,422,307
+usa_roadsigns_1006.jpg,Left_turn_or_straight,0.71,988,449,1153,643
+usa_roadsigns_1006.jpg,Speed_limit_80km,0.7,499,229,579,347
+usa_roadsigns_1006.jpg,Lane_ends,0.69,257,119,446,314
+usa_roadsigns_1006.jpg,Except_right_turn,0.52,745,341,934,483
+usa_roadsigns_1006.jpg,Fog_area,0.43,10,8,107,106

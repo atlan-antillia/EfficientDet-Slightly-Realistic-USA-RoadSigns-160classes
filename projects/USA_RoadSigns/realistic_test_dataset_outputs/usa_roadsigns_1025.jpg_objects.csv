@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1025.jpg,Pass_on_either_side,0.99,440,278,632,473
-usa_roadsigns_1025.jpg,Merging_traffic,0.98,651,396,810,559
-usa_roadsigns_1025.jpg,Left_lane,0.91,231,160,391,225
-usa_roadsigns_1025.jpg,Road_slippery_when_wet,0.48,857,520,1018,682
+usa_roadsigns_1025.jpg,Curve,0.83,499,224,692,421
+usa_roadsigns_1025.jpg,Reverse_curve,0.7,987,449,1183,646
+usa_roadsigns_1025.jpg,Two_direction,0.63,252,118,350,169
+usa_roadsigns_1025.jpg,Pass_on_either_side,0.47,9,7,104,105
+usa_roadsigns_1025.jpg,Horse_drawn_vehicle_ahead,0.41,746,339,841,436

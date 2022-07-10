@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1090.jpg,Yield_here_to_peds,0.91,230,158,391,318
+usa_roadsigns_1090.jpg,Merge,0.83,17,37,212,234
+usa_roadsigns_1090.jpg,Minimum_speed_limit_40,0.67,439,278,627,523
+usa_roadsigns_1090.jpg,Speed_limit_80km,0.47,651,399,781,562

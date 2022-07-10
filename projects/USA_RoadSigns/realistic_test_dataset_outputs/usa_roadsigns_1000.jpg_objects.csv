@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1000.jpg,Bicycles_left_pedestrians_right,0.99,861,521,964,678
-usa_roadsigns_1000.jpg,Curve,0.6,230,157,393,321
-usa_roadsigns_1000.jpg,T_roads,0.44,439,279,600,438
-usa_roadsigns_1000.jpg,Do_not_drive_on_tracks,0.41,19,37,215,232
+usa_roadsigns_1000.jpg,One_direction,0.96,990,448,1183,546
+usa_roadsigns_1000.jpg,No_parking_from_830am_to_530pm,0.71,10,8,137,199
+usa_roadsigns_1000.jpg,Winding_road,0.69,255,123,448,314
+usa_roadsigns_1000.jpg,Horse_drawn_vehicle_ahead,0.56,746,338,840,435

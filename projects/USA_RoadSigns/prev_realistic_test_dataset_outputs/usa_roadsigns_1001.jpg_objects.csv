@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1001.jpg,No_pedestrians,0.92,649,401,842,497
+usa_roadsigns_1001.jpg,Railroad_intersection_warning,0.69,858,521,1053,714
+usa_roadsigns_1001.jpg,Tractor_farm_vehicle_crossing_2,0.66,17,38,215,234
+usa_roadsigns_1001.jpg,Road_narrows,0.51,440,280,601,441
+usa_roadsigns_1001.jpg,No_parking_on_pavement,0.45,228,157,385,356

@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1053.jpg,Single_lane_shift_left,0.99,651,397,845,598
-usa_roadsigns_1053.jpg,No_rollerblading,0.98,20,39,179,200
-usa_roadsigns_1053.jpg,Added_lane,0.96,860,519,1055,719
-usa_roadsigns_1053.jpg,Railroad_crossing,0.8,230,151,416,349
-usa_roadsigns_1053.jpg,Speed_limit_80km,0.58,438,282,598,517
+usa_roadsigns_1053.jpg,Bicycles_and_pedestrians,0.83,990,450,1086,546
+usa_roadsigns_1053.jpg,Yield,0.82,255,120,443,290
+usa_roadsigns_1053.jpg,Pedestrian_crossing,0.57,8,7,106,105
+usa_roadsigns_1053.jpg,Sharp_turn,0.55,745,338,841,437

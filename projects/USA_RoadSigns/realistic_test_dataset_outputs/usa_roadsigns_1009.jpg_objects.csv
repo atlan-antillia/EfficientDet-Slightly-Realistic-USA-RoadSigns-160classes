@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1009.jpg,Merge,0.96,649,398,846,593
-usa_roadsigns_1009.jpg,Skewed_railroad_crossing,0.96,861,518,1021,682
-usa_roadsigns_1009.jpg,No_pedestrians,0.95,233,159,389,238
-usa_roadsigns_1009.jpg,Parking_with_time_restrictions,0.86,438,280,566,472
-usa_roadsigns_1009.jpg,Night_speed_limit_45,0.8,19,37,200,220
+usa_roadsigns_1009.jpg,Turn_only_lanes,0.97,744,339,936,457
+usa_roadsigns_1009.jpg,Yield_here_to_peds,0.93,498,229,596,325
+usa_roadsigns_1009.jpg,Truck crossing_2,0.6,6,7,105,107
+usa_roadsigns_1009.jpg,T_roads,0.46,254,122,449,316

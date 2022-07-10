@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1099.jpg,No_pedestrian_crossing,0.99,19,38,209,231
-usa_roadsigns_1099.jpg,Left_turn_yield_on_green,0.97,229,160,387,354
-usa_roadsigns_1099.jpg,Single_lane_shift_left,0.95,864,519,1053,715
-usa_roadsigns_1099.jpg,No_stopping_on_pavement,0.73,434,278,597,476
-usa_roadsigns_1099.jpg,Reverse_curve,0.54,648,398,842,594
+usa_roadsigns_1099.jpg,Stop_here_when_flashing,0.89,991,448,1066,545
+usa_roadsigns_1099.jpg,Minimum_speed_limit_40,0.84,10,6,205,252
+usa_roadsigns_1099.jpg,Truck_crossing,0.51,499,230,693,421
+usa_roadsigns_1099.jpg,No_entre,0.45,741,339,937,533

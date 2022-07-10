@@ -1,5 +1,3 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1052.jpg,Stop_here_for_peds,0.89,230,160,390,321
-usa_roadsigns_1052.jpg,No_right_turn,0.54,441,281,597,439
-usa_roadsigns_1052.jpg,No_right_turn,0.44,859,519,1021,682
-usa_roadsigns_1052.jpg,Truck crossing_2,0.41,650,396,814,564
+usa_roadsigns_1052.jpg,Speed_limit_80km,0.88,747,340,906,579
+usa_roadsigns_1052.jpg,Truck_rollover_warning,0.51,498,231,595,326

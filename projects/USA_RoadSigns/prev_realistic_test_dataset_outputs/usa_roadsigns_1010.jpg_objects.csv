@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1010.jpg,One_direction,0.97,230,160,420,257
+usa_roadsigns_1010.jpg,Weight_limit_10t,0.72,647,398,807,595
+usa_roadsigns_1010.jpg,Turning_vehicles_yield_to_pedestrians,0.64,860,517,1050,715
+usa_roadsigns_1010.jpg,Minimum_speed_limit_60km,0.59,437,281,571,479
+usa_roadsigns_1010.jpg,Horse_drawn_vehicle_ahead,0.56,19,34,178,199

@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1051.jpg,Truck_route_sign,0.77,442,281,630,422
+usa_roadsigns_1051.jpg,Center_lane,0.57,20,37,177,104
+usa_roadsigns_1051.jpg,No_left_turn_across_tracks,0.42,230,159,381,350
+usa_roadsigns_1051.jpg,No_large_trucks,0.42,862,522,1017,684

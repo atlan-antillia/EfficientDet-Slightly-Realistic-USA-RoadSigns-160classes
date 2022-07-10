@@ -1,6 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1016.jpg,Bump,0.99,16,38,210,232
-usa_roadsigns_1016.jpg,270_degree_loop,0.98,232,157,422,350
-usa_roadsigns_1016.jpg,Side_road_at_a_perpendicular_angle,0.72,651,398,810,559
-usa_roadsigns_1016.jpg,School_bus_stop_ahead,0.7,438,278,601,443
-usa_roadsigns_1016.jpg,Path_narrows,0.64,860,520,1018,680
+usa_roadsigns_1016.jpg,Side_road_at_an_acute_angle,0.86,744,340,840,435
+usa_roadsigns_1016.jpg,Keep_left,0.62,257,120,333,215
+usa_roadsigns_1016.jpg,Narrow_bridge,0.43,988,449,1084,546

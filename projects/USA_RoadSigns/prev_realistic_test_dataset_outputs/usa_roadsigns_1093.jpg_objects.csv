@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1093.jpg,Turn_only_lanes,0.97,228,160,420,281
+usa_roadsigns_1093.jpg,All_way,0.93,440,280,632,346
+usa_roadsigns_1093.jpg,Road_narrows,0.68,861,517,1054,716
+usa_roadsigns_1093.jpg,Dip,0.4,23,38,180,201

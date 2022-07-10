@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1056.jpg,Bump,0.96,229,159,421,350
+usa_roadsigns_1056.jpg,T_roads,0.81,858,521,1019,679
+usa_roadsigns_1056.jpg,Truck_crossing,0.59,648,400,809,560
+usa_roadsigns_1056.jpg,Weight_limit_10t,0.48,438,279,572,443
+usa_roadsigns_1056.jpg,No_parking_from_830am_to_530pm,0.48,14,34,152,199

@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1051.jpg,Center_lane,0.8,20,41,178,104
-usa_roadsigns_1051.jpg,Sharp_turn,0.55,652,398,840,591
-usa_roadsigns_1051.jpg,No_left_turn_across_tracks,0.51,231,157,379,350
-usa_roadsigns_1051.jpg,Truck_route_sign,0.5,443,282,630,424
-usa_roadsigns_1051.jpg,Snowmobile,0.48,861,519,1019,682
+usa_roadsigns_1051.jpg,Wrong_way,0.97,744,342,934,468
+usa_roadsigns_1051.jpg,Side_road_at_an_acute_angle,0.89,258,121,444,310
+usa_roadsigns_1051.jpg,No_pedestrians,0.87,12,9,199,106
+usa_roadsigns_1051.jpg,Merge,0.64,500,231,595,327

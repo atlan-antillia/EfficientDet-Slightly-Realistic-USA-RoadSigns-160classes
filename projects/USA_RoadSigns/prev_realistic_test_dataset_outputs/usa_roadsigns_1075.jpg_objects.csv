@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1075.jpg,270_degree_loop,0.93,649,397,839,592
+usa_roadsigns_1075.jpg,Reverse_turn,0.65,437,279,635,473
+usa_roadsigns_1075.jpg,No_parking_from_830am_to_530pm,0.65,16,37,147,227
+usa_roadsigns_1075.jpg,Straight_ahead_only,0.62,858,519,1017,707
+usa_roadsigns_1075.jpg,No_entre,0.47,227,159,418,351

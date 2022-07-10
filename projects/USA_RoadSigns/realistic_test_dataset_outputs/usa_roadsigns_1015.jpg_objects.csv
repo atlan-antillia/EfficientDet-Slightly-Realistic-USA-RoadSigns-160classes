@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1015.jpg,Stop_here_for_peds,0.99,440,279,635,474
-usa_roadsigns_1015.jpg,No_unauthorized_vehicles,0.87,19,41,213,195
-usa_roadsigns_1015.jpg,Side_road_at_a_perpendicular_angle,0.7,860,518,1051,714
-usa_roadsigns_1015.jpg,Emergency_signal,0.66,650,400,841,526
-usa_roadsigns_1015.jpg,Curve,0.52,229,159,392,321
+usa_roadsigns_1015.jpg,Added_lane_from_entering_roadway,0.98,500,227,693,425
+usa_roadsigns_1015.jpg,Flagger_present,0.77,11,11,106,106
+usa_roadsigns_1015.jpg,Two_way_traffic,0.74,257,119,449,314
+usa_roadsigns_1015.jpg,No_parking_from_830am_to_530pm,0.46,989,448,1055,548

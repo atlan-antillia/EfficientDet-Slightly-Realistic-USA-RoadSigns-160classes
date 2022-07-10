@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1040.jpg,Tractor_farm_vehicle_crossing_2,0.98,862,518,1054,716
-usa_roadsigns_1040.jpg,Merge,0.97,19,36,209,231
-usa_roadsigns_1040.jpg,Reserved_parking_wheelchair,0.83,649,401,758,559
-usa_roadsigns_1040.jpg,Speed_limit_80km,0.81,231,159,366,361
-usa_roadsigns_1040.jpg,Steep_grade_percentage,0.51,439,279,600,439
+usa_roadsigns_1040.jpg,Truck_speed_limit_40,0.86,988,449,1098,558
+usa_roadsigns_1040.jpg,Keep_left,0.76,5,5,89,107
+usa_roadsigns_1040.jpg,T_roads,0.65,259,121,443,310
+usa_roadsigns_1040.jpg,Right_turn_or_straight,0.51,748,340,824,436

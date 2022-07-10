@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1023.jpg,Be_prepared_to_stop,0.89,19,39,180,199
+usa_roadsigns_1023.jpg,Speed_limit_50,0.84,649,399,821,602
+usa_roadsigns_1023.jpg,Weight_limit_10t,0.79,439,279,592,471
+usa_roadsigns_1023.jpg,Two_direction,0.78,862,518,1020,601
+usa_roadsigns_1023.jpg,Left_turn_or_straight,0.68,228,159,389,351

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1046.jpg,Side_road_at_a_perpendicular_angle,0.9,437,279,602,441
-usa_roadsigns_1046.jpg,Railroad_crossing,0.76,861,516,1051,713
-usa_roadsigns_1046.jpg,No_pedestrian_crossing,0.71,231,159,392,323
-usa_roadsigns_1046.jpg,No_left_turn,0.67,651,398,846,593
-usa_roadsigns_1046.jpg,No_parking_on_pavement,0.46,20,39,199,220
+usa_roadsigns_1046.jpg,Reverse_curve,0.71,986,450,1182,647
+usa_roadsigns_1046.jpg,No_horseback_riding,0.71,498,232,693,425
+usa_roadsigns_1046.jpg,Left_turn_yield_on_green,0.69,747,343,902,532
+usa_roadsigns_1046.jpg,Golf_cart_crossing,0.45,255,119,350,216
+usa_roadsigns_1046.jpg,Offset_roads,0.42,9,9,107,104

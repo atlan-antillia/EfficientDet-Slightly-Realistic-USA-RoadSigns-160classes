@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1050.jpg,No_parking_bus_stop,0.77,859,518,968,680
+usa_roadsigns_1050.jpg,No_pedestrians,0.76,651,399,839,496
+usa_roadsigns_1050.jpg,Hill_bicycle,0.66,440,279,600,440
+usa_roadsigns_1050.jpg,Lane_ends,0.64,232,161,391,320

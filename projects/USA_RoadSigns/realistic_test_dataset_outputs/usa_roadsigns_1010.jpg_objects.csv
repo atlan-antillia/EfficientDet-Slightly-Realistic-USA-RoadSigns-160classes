@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1010.jpg,One_direction,0.99,228,158,421,255
-usa_roadsigns_1010.jpg,Horse_drawn_vehicle_ahead,0.96,21,38,181,199
-usa_roadsigns_1010.jpg,Speed_limit_80km,0.88,437,279,572,479
-usa_roadsigns_1010.jpg,Stop_here_when_flashing,0.7,860,517,1053,713
+usa_roadsigns_1010.jpg,Bump,0.96,502,232,694,423
+usa_roadsigns_1010.jpg,Wrong_way,0.81,7,9,108,76
+usa_roadsigns_1010.jpg,Right_turn_or_straight,0.65,745,340,907,534
+usa_roadsigns_1010.jpg,Keep_right,0.64,256,119,410,316

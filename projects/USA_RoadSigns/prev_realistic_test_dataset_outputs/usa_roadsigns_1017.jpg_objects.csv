@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1017.jpg,Be_prepared_to_stop,0.92,233,162,424,351
+usa_roadsigns_1017.jpg,Reserved_parking_wheelchair,0.82,861,519,988,715
+usa_roadsigns_1017.jpg,School_speed_limit_ahead,0.69,651,401,812,558
+usa_roadsigns_1017.jpg,Double_side_roads,0.47,18,38,178,198
+usa_roadsigns_1017.jpg,No_bicycles,0.41,441,282,627,471

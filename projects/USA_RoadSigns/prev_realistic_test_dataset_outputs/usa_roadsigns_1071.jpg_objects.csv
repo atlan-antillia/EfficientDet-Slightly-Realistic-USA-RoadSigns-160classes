@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1071.jpg,Side_road_at_an_acute_angle,0.92,441,280,631,472
+usa_roadsigns_1071.jpg,No_parking_bus_stop,0.77,857,518,967,681
+usa_roadsigns_1071.jpg,Tractor_farm_vehicle_crossing,0.65,229,161,392,321
+usa_roadsigns_1071.jpg,Night_speed_limit_70km,0.53,21,36,176,241
+usa_roadsigns_1071.jpg,Hazardous_material_route,0.48,651,401,810,561

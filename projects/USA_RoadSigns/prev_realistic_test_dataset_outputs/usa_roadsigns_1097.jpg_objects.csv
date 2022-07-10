@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1097.jpg,Skewed_railroad_crossing,0.89,651,398,842,591
+usa_roadsigns_1097.jpg,Truck_route_sign,0.87,231,161,390,278
+usa_roadsigns_1097.jpg,Reserved_parking_wheelchair,0.81,442,280,567,472
+usa_roadsigns_1097.jpg,No_parking_from_830am_to_530pm_2,0.78,18,38,126,199
+usa_roadsigns_1097.jpg,Keep_left_2,0.74,858,518,1015,713

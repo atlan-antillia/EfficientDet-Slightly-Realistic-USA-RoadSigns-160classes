@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1054.jpg,Bicycles_and_pedestrians,0.98,860,518,1055,716
-usa_roadsigns_1054.jpg,Offset_roads,0.8,648,395,813,563
-usa_roadsigns_1054.jpg,Truck_rollover_warning,0.77,19,40,205,230
-usa_roadsigns_1054.jpg,Detour,0.7,439,281,601,410
+usa_roadsigns_1054.jpg,Go_on_slow,0.85,10,11,165,203
+usa_roadsigns_1054.jpg,Side_road_at_a_perpendicular_angle,0.58,251,121,352,217
+usa_roadsigns_1054.jpg,Yield_here_to_peds,0.48,742,339,839,437
+usa_roadsigns_1054.jpg,Truck_crossing,0.44,987,448,1085,546

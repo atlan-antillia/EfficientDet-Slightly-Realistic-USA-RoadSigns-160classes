@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1049.jpg,Bicycles_left_pedestrians_right,0.94,231,161,360,350
+usa_roadsigns_1049.jpg,Workers_on_road,0.85,439,279,631,478
+usa_roadsigns_1049.jpg,Speed_limit_80km,0.74,857,520,994,718
+usa_roadsigns_1049.jpg,Do_not_enter,0.6,19,36,183,203
+usa_roadsigns_1049.jpg,National_network_route,0.42,650,399,807,591

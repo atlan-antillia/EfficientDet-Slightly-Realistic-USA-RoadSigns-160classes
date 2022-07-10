@@ -1,6 +1,3 @@
 id, class, count
-1,270_degree_loop,1
-2,Bike_lane_slippery_when_wet,1
-3,Pedestrian_crossing,1
-4,School_advance,1
-5,Tractor_farm_vehicle_crossing,1
+1,Stop_here_for_pedestrians,1
+2,Bus_lane,1

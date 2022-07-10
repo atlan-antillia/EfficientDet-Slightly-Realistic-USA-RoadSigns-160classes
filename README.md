@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/06/29)
+EfficientDet-Slightly-Realistic-USA-RoadSigns-160classes (Updated: 2022/07/11)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in US based on 
@@ -8,8 +8,8 @@ This is a slightly realistic project to train and detect RoadSigns in US based o
 Please also refer to our experimental project <a href="https://github.com/atlan-antillia/EfficientDet-Realistic-USA-RoadSigns">EfficientDet-Realistic-USA-RoadSigns</a>.
 <br>
 <li>
-Modified to use the TFRecord_USA_RoadSigns_160classes_V2 in
-<a href="https://drive.google.com/drive/folders/1ht0J3WnqNWXqfHT4QzzZ5xPheYpnhRWW?usp=sharing">USA_RoadSigns_160classes_V2</a>
+Modified to use the TFRecord_USA_RoadSigns_160classes_V7.1 in
+<a href="https://drive.google.com/drive/folders/1Uq0kw1-Y72Lrwu07ddNuQ3LgOa0J6Whh?usp=sharing">USA_RoadSigns_160classes_V7.1</a> (2022/07/11)
 <br>
 </li>
 <li>
@@ -91,8 +91,8 @@ Please run the following command to install python packages for this project.<br
 
 <br>
 <h3>2.3 Download TFRecord dataset</h3>
- You can download TRecord_USA_RoadSigns 160classes_V2.1 (2022/06/29) dataset from 
-<a href="https://drive.google.com/file/d/1qAD_wgzNIOP6Ds6Czq1sPY-jHarBggXe/view?usp=sharing">USA_RoadSigns_160classes_V2.1</a>
+ You can download TRecord_USA_RoadSigns 160classes_V7.1 (2022/07/11) dataset from 
+<a href="https://drive.google.com/drive/folders/1Uq0kw1-Y72Lrwu07ddNuQ3LgOa0J6Whh?usp=sharing">USA_RoadSigns_160classes_V7.1</a>
 <br>
 The downloaded train and valid dataset must be placed in ./projects/USA_RoadSigns folder.
 <pre>
@@ -210,7 +210,7 @@ python ../../ModelTrainer.py ^
   --eval_batch_size=1 ^
   --eval_samples=1000  ^
   --num_examples_per_epoch=2000 ^
-  --num_epochs=160 
+  --num_epochs=100 
 </pre>
 
 <table style="border: 1px solid #000;">
@@ -276,12 +276,12 @@ python ../../ModelTrainer.py ^
 </tr>
 <tr>
 <td>
---num_epochs</td><td>160</td>
+--num_epochs</td><td>100</td>
 </tr>
 </table>
 <br>
 <br>
-<b>label_map.yaml: Updated in V2</b>
+<b>label_map.yaml:</b>
 <pre>
 1: '270_degree_loop'
 2: 'Added_lane'
@@ -446,22 +446,22 @@ python ../../ModelTrainer.py ^
 </pre>
 <br>
 <br>
-<b><a href="./projects/USA_RoadSigns/eval/coco_metrics.csv">COCO metrics at epoch 130</a></b><br>
-<img src="./asset/coco_metrics_console_at_epoch130_tf2.8.0_0629.png" width="1024" height="auto">
+<b><a href="./projects/USA_RoadSigns/eval/coco_metrics.csv">COCO metrics at epoch 100</a></b><br>
+<img src="./asset/coco_metrics_console_at_epoch100_tf2.8.0_0711.png" width="1024" height="auto">
 <br>
 
 <br>
 <b><a href="./projects/USA_RoadSigns/eval/coco_metrics.csv">COCO meticss f and map</a></b><br>
-<img src="./asset/coco_metrics_at_epoch130_tf2.8.0_0629.png" width="1024" height="auto">
+<img src="./asset/coco_metrics_at_epoch100_tf2.8.0_0711.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/USA_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
-<img src="./asset/train_losses_at_epoch130_tf2.8.0_0629.png" width="1024" height="auto">
+<img src="./asset/train_losses_at_epoch100_tf2.8.0_0711.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/USA_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
-<img src="./asset/coco_ap_per_class_at_epoch130_tf2.8.0_0629.png" width="1024" height="auto">
+<img src="./asset/coco_ap_per_class_at_epoch100_tf2.8.0_0711.png" width="1024" height="auto">
 <br>
 
 <h3>
@@ -510,6 +510,7 @@ python ../../SavedModelCreator.py ^
 <h3>
 7. Inference USA_road_signs by using the saved_model
 </h3>
+<h3>7.1 Inference scripts</h3>
  Please run the following bat file to infer the roadsigns in images of test_dataset:
 <pre>
 3_inference.bat
@@ -568,7 +569,7 @@ python ../../SavedModelInferencer.py ^
 
 <br>
 <h3>
-8. Some Inference results of USA RoadSigns
+7.2. Some Inference results of USA RoadSigns
 </h3>
 
 <img src="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1001.jpg" width="1280" height="auto"><br>
@@ -602,10 +603,115 @@ python ../../SavedModelInferencer.py ^
 <a  href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/usa_roadsigns_1099.jpg_objects.csv">roadsigns1010.jpg_objects.csv</a><br>
 <br>
 
-<h3>9. COCO metrics of inference result</h3>
+<h3>7.3. COCO metrics of inference result</h3>
 The 3_inference.bat computes also the COCO metrics(f, map, mar) to the <b>realistic_test_dataset</b> as shown below:<br>
 <a href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
 
 <br>
-<img src="./asset/coco_metrics_console_test_dataset_at_epoch130_tf2.8.0_0629.png" width="740" height="auto"><br>
+<img src="./asset/coco_metrics_console_test_dataset_at_epoch100_tf2.8.0_0711.png" width="740" height="auto"><br>
+
+<h3>
+8. Inference Previous USA_road_signs by using the saved_model
+</h3>
+<h3>8.1 Inference scripts</h3>
+ Please run the following bat file to infer the roadsigns in images of test_dataset:
+<pre>
+4_inference_for_prev_test.bat
+</pre>
+, which is the folllowing:
+<pre>
+rem 3_inference.bat
+python ../../SavedModelInferencer.py ^
+  --runmode=saved_model_infer ^
+  --model_name=efficientdet-d0 ^
+  --saved_model_dir=./saved_model ^
+  --min_score_thresh=0.4 ^
+  --hparams="num_classes=160,label_map=./label_map.yaml" ^
+  --input_image=./prev_realistic_test_dataset/*.jpg ^
+  --classes_file=./classes.txt ^
+  --ground_truth_json=./prev_realistic_test_dataset/annotation.json ^
+  --output_image_dir=./prev_realistic_test_dataset_outputs
+</pre>
+
+<table style="border: 1px solid #000;">
+<tr>
+<td>--runmode</td><td>saved_model_infer </td>
+</tr>
+<tr>
+<td>--model_name</td><td>efficientdet-d0 </td>
+</tr>
+
+<tr>
+<td>--saved_model_dir</td><td>./saved_model </td>
+</tr>
+
+<tr>
+<td>--min_score_thresh</td><td>0.4 </td>
+</tr>
+
+<tr>
+<td>--hparams</td><td>"num_classes=160,label_map=./label_map.yaml"</td>
+</tr>
+
+<tr>
+<td>--input_image</td><td>./prev_realistic_test_dataset/*.jpg</td>
+</tr>
+
+<tr>
+<td>--classes_file</td><td>./classes.txt</td>
+</tr>
+
+<tr>
+<td>--ground_truth_json</td><td>./prev_realistic_test_dataset/annotation.json</td>
+</tr>
+
+<tr>
+<td>--output_image_dir</td><td>./prev_realistic_test_dataset_outputs</td>
+</tr>
+</table>
+
+<br>
+<h3>
+8.2. Some Inference results of USA RoadSigns
+</h3>
+
+<img src="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1001.jpg" width="1280" height="auto"><br>
+<a href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1001.jpg_objects.csv">roadsigns1001.jpg_objects.csv</a><br>
+<br>
+<img src="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1012.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1012.jpg_objects.csv">roadsigns1002.jpg_objects.csv</a><br>
+<br>
+<img src="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1023.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1023.jpg_objects.csv">roadsigns1003.jpg_objects.csv</a><br>
+<br>
+<img src="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1034.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1034.jpg_objects.csv">roadsigns1004.jpg_objects.csv</a><br>
+<br>
+<img src="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1045.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1045.jpg_objects.csv">roadsigns1005.jpg_objects.csv</a><br>
+<br>
+<img src="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1056.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1056.jpg_objects.csv">roadsigns1006.jpg_objects.csv</a><br>
+<br>
+<img src="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1067.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1067.jpg_objects.csv">roadsigns1007.jpg_objects.csv</a><br>
+<br>
+<img src="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1078.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1078.jpg_objects.csv">roadsigns1008.jpg_objects.csv</a><br>
+<br>
+<img src="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1089.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1089.jpg_objects.csv">roadsigns1009.jpg_objects.csv</a><br>
+<br>
+<img src="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1099.jpg" width="1280" height="auto"><br>
+<a  href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/usa_roadsigns_1099.jpg_objects.csv">roadsigns1010.jpg_objects.csv</a><br>
+<br>
+
+<h3>8.3. COCO metrics of inference result</h3>
+The 3_inference.bat computes also the COCO metrics(f, map, mar) to the <b>prev_realistic_test_dataset</b> as shown below:<br>
+<a href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
+
+<br>
+<img src="./asset/coco_metrics_console_prev_test_dataset_at_epoch100_tf2.8.0_0711.png" width="740" height="auto"><br>
+
+
 

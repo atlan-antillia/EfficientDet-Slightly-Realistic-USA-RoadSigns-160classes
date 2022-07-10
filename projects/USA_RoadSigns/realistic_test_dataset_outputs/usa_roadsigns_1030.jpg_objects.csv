@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1030.jpg,Bicycles,0.99,650,398,845,594
-usa_roadsigns_1030.jpg,Side_road_at_an_acute_angle,0.98,861,520,1052,716
-usa_roadsigns_1030.jpg,Merge,0.98,21,39,179,197
-usa_roadsigns_1030.jpg,All_way,0.96,441,281,631,343
-usa_roadsigns_1030.jpg,Parking_with_time_restrictions,0.89,231,161,360,352
+usa_roadsigns_1030.jpg,Bump,0.97,254,118,450,312
+usa_roadsigns_1030.jpg,One_way,0.81,13,10,199,73
+usa_roadsigns_1030.jpg,No_parking_from_830am_to_530pm,0.65,498,229,663,422
+usa_roadsigns_1030.jpg,Low_clearance,0.56,989,448,1087,545

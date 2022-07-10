@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1091.jpg,Bump,0.97,650,400,843,591
+usa_roadsigns_1091.jpg,Side_road_at_a_perpendicular_angle,0.74,439,280,601,440
+usa_roadsigns_1091.jpg,Horse_drawn_vehicle_ahead,0.63,21,38,177,198
+usa_roadsigns_1091.jpg,No_straight_through,0.58,860,522,1019,680
+usa_roadsigns_1091.jpg,No_left_turn_across_tracks,0.53,228,156,384,350

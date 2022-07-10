@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1048.jpg,Bump,0.99,230,157,420,352
-usa_roadsigns_1048.jpg,Offset_roads,0.97,18,40,212,232
-usa_roadsigns_1048.jpg,Pass_road,0.88,438,278,564,470
-usa_roadsigns_1048.jpg,No_hitch_hiking,0.59,860,518,1053,713
-usa_roadsigns_1048.jpg,Curve,0.58,651,397,810,561
+usa_roadsigns_1048.jpg,Circular_intersection_warning,0.98,11,9,198,201
+usa_roadsigns_1048.jpg,Straight_ahead_only,0.77,990,448,1084,545
+usa_roadsigns_1048.jpg,Single_lane_shift_left,0.73,743,341,844,437
+usa_roadsigns_1048.jpg,No_standing_any_time,0.5,254,119,320,214

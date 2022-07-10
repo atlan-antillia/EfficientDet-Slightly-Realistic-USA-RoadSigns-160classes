@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1083.jpg,Bicycles_left_pedestrians_right,0.99,442,280,571,471
-usa_roadsigns_1083.jpg,Left_turn_yield_on_green,0.99,649,400,781,561
-usa_roadsigns_1083.jpg,Cross_roads,0.69,22,41,179,200
-usa_roadsigns_1083.jpg,Dead_end,0.56,859,518,1018,681
-usa_roadsigns_1083.jpg,Dead_end,0.43,229,161,392,321
+usa_roadsigns_1083.jpg,No_pedestrians,0.87,11,9,202,108
+usa_roadsigns_1083.jpg,Pass_road,0.56,990,453,1053,544
+usa_roadsigns_1083.jpg,Double_side_roads,0.45,745,337,940,534
+usa_roadsigns_1083.jpg,Reserved_parking_wheelchair,0.44,498,227,563,323
+usa_roadsigns_1083.jpg,Pass_on_either_side,0.43,253,118,355,217

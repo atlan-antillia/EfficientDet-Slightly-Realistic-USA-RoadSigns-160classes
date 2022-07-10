@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1022.jpg,Right_lane,0.52,234,158,419,238
+usa_roadsigns_1022.jpg,Narrow_bridge,0.46,19,37,212,234
+usa_roadsigns_1022.jpg,Yield_here_to_peds,0.42,438,280,633,436

@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1044.jpg,Circular_intersection_warning,0.97,20,37,179,199
-usa_roadsigns_1044.jpg,Stay_in_lane,0.97,650,398,806,593
-usa_roadsigns_1044.jpg,Sharp_turn,0.96,859,519,1021,683
-usa_roadsigns_1044.jpg,Cross_roads,0.76,439,278,631,470
+usa_roadsigns_1044.jpg,Yield_here_to_peds,0.92,256,121,351,215
+usa_roadsigns_1044.jpg,Straight_ahead_only,0.82,9,9,87,104
+usa_roadsigns_1044.jpg,Minimum_speed_limit_40,0.76,501,229,691,467
+usa_roadsigns_1044.jpg,Speed_limit_80km,0.62,742,340,903,577
+usa_roadsigns_1044.jpg,Skewed_railroad_crossing,0.45,991,451,1085,546

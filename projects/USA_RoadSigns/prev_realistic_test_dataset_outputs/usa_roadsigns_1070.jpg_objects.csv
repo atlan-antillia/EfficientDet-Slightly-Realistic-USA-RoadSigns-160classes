@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1070.jpg,School,0.82,228,159,390,214
+usa_roadsigns_1070.jpg,All_way,0.8,860,517,1019,572
+usa_roadsigns_1070.jpg,Offset_roads,0.72,651,400,844,596
+usa_roadsigns_1070.jpg,Truck_crossing,0.7,440,280,602,438
+usa_roadsigns_1070.jpg,Center_lane,0.52,18,39,212,119

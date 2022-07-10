@@ -1,5 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1094.jpg,No_pedestrian_crossing,0.99,858,520,1022,682
-usa_roadsigns_1094.jpg,Pass_road,0.98,18,37,125,199
-usa_roadsigns_1094.jpg,Do_not_pass_stopped_trains,0.82,441,279,571,442
-usa_roadsigns_1094.jpg,No_parking_on_pavement,0.49,648,401,759,558
+usa_roadsigns_1094.jpg,Be_prepared_to_stop,0.88,11,9,106,105
+usa_roadsigns_1094.jpg,Workers_on_road,0.82,745,339,940,535
+usa_roadsigns_1094.jpg,Pass_on_either_side,0.54,498,229,692,422

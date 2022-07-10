@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1061.jpg,One_direction,0.94,440,279,631,377
+usa_roadsigns_1061.jpg,Side_road_at_an_acute_angle,0.91,652,403,842,592
+usa_roadsigns_1061.jpg,Detour,0.65,859,517,1055,678
+usa_roadsigns_1061.jpg,No_pedestrian_crossing,0.54,19,38,179,198

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1006.jpg,Be_prepared_to_stop,0.9,861,521,1020,680
+usa_roadsigns_1006.jpg,Hairpin_curve,0.77,20,39,179,201
+usa_roadsigns_1006.jpg,Work_zone_for_speed_limit,0.67,230,161,421,305
+usa_roadsigns_1006.jpg,Hill_bicycle,0.53,439,280,632,475
+usa_roadsigns_1006.jpg,No_parking_in_fire_lane,0.53,649,394,780,591

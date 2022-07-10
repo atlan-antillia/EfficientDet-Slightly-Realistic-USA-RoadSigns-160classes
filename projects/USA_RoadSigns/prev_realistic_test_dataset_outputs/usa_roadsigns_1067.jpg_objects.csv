@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1067.jpg,Railroad_crossing_ahead,0.77,437,279,629,472
+usa_roadsigns_1067.jpg,Right_turn_or_straight,0.61,228,160,365,319
+usa_roadsigns_1067.jpg,Cross_roads,0.52,862,520,1019,681

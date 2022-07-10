@@ -1,6 +1,5 @@
 id, class, count
-1,Straight_ahead_only,1
-2,Bump,1
-3,Keep_left_2,1
-4,Tractor_farm_vehicle_crossing,1
-5,Cross_roads,1
+1,Dead_end,1
+2,No_turns,1
+3,Loading_zone,1
+4,Do_not_pass_stopped_trains,1

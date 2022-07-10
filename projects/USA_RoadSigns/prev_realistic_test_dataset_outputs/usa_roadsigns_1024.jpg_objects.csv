@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1024.jpg,Yield_here_to_peds,0.9,652,399,811,558
+usa_roadsigns_1024.jpg,School_advance,0.74,439,277,632,470
+usa_roadsigns_1024.jpg,Minimum_speed_limit_40,0.69,232,158,419,400
+usa_roadsigns_1024.jpg,Railroad_crossing,0.69,18,36,210,237

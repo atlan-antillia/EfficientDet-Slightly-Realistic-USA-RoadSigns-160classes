@@ -1,5 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1057.jpg,Railroad_intersection_warning,0.84,18,40,209,231
-usa_roadsigns_1057.jpg,Railroad_crossing,0.73,440,274,632,469
-usa_roadsigns_1057.jpg,Reverse_curve,0.6,860,518,1053,717
-usa_roadsigns_1057.jpg,Snowmobile,0.51,233,159,416,349
+usa_roadsigns_1057.jpg,Chevron_alignment,0.81,497,227,647,422
+usa_roadsigns_1057.jpg,Two_way_traffic,0.56,745,341,839,436
+usa_roadsigns_1057.jpg,Narrow_bridge,0.48,255,119,351,217

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1018.jpg,Bike_lane_slippery_when_wet,0.87,229,160,390,324
+usa_roadsigns_1018.jpg,Truck_speed_limit_40,0.85,650,398,861,615
+usa_roadsigns_1018.jpg,School,0.82,437,278,631,345
+usa_roadsigns_1018.jpg,Railroad_crossing_ahead,0.76,20,39,181,200
+usa_roadsigns_1018.jpg,No_parking_bus_stop,0.7,859,518,968,680

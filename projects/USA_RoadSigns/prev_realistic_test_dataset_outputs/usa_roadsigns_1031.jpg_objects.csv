@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1031.jpg,Single_lane_shift_left,0.86,230,160,388,318
+usa_roadsigns_1031.jpg,Wait_on_stop,0.73,19,38,147,200
+usa_roadsigns_1031.jpg,Reverse_curve,0.72,859,518,1021,682
+usa_roadsigns_1031.jpg,No_rollerblading,0.55,648,398,813,561

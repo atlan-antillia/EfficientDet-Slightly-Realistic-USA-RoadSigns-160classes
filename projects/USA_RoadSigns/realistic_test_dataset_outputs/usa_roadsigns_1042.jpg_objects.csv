@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1042.jpg,Added_lane,0.98,441,279,601,440
-usa_roadsigns_1042.jpg,Dead_end,0.68,19,40,213,234
-usa_roadsigns_1042.jpg,Truck_speed_limit_40,0.62,649,396,865,616
-usa_roadsigns_1042.jpg,Low_clearance,0.45,232,160,390,318
+usa_roadsigns_1042.jpg,Side_road_at_a_perpendicular_angle,0.9,745,341,937,533
+usa_roadsigns_1042.jpg,Truck_rollover_warning,0.46,10,9,107,104
+usa_roadsigns_1042.jpg,Tractor_farm_vehicle_crossing,0.44,499,229,595,326
+usa_roadsigns_1042.jpg,Truck_crossing,0.4,989,450,1085,547

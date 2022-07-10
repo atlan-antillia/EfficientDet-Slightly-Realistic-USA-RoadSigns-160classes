@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1035.jpg,Steep_grade_percentage,0.89,231,159,390,321
+usa_roadsigns_1035.jpg,Except_right_turn,0.7,20,36,210,184
+usa_roadsigns_1035.jpg,No_parking_bus_stop,0.65,650,400,777,590

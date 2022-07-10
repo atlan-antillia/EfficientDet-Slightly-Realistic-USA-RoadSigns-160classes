@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1030.jpg,All_way,0.95,440,281,633,344
+usa_roadsigns_1030.jpg,Bicycles,0.9,649,400,842,592
+usa_roadsigns_1030.jpg,Y_roads,0.86,860,520,1050,716
+usa_roadsigns_1030.jpg,Reserved_parking_wheelchair,0.84,234,164,360,353
+usa_roadsigns_1030.jpg,Merge,0.72,21,39,178,198

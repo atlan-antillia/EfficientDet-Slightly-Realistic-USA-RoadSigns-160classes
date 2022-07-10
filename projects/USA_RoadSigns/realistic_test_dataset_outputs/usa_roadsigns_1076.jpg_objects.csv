@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1076.jpg,Added_lane_from_entering_roadway,0.99,648,398,811,560
-usa_roadsigns_1076.jpg,Steep_grade,0.98,230,157,423,351
-usa_roadsigns_1076.jpg,Steep_grade_percentage,0.98,861,518,1020,683
-usa_roadsigns_1076.jpg,No_standing_any_time,0.96,18,38,147,230
-usa_roadsigns_1076.jpg,Curve,0.75,439,280,599,441
+usa_roadsigns_1076.jpg,Bicycles_left_pedestrians_right,0.93,745,341,875,529
+usa_roadsigns_1076.jpg,Center_lane,0.6,500,229,690,307
+usa_roadsigns_1076.jpg,Center_lane,0.55,989,450,1181,530
+usa_roadsigns_1076.jpg,No_parking_any_time,0.46,252,120,316,216
+usa_roadsigns_1076.jpg,No_rollerblading,0.4,8,10,106,105

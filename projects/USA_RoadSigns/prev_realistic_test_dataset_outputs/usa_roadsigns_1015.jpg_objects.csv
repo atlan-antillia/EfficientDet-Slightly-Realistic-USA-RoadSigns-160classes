@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1015.jpg,Deer_crossing,0.95,231,162,392,320
+usa_roadsigns_1015.jpg,Yield_here_to_peds,0.91,440,281,636,475
+usa_roadsigns_1015.jpg,Side_road_at_a_perpendicular_angle,0.71,860,516,1052,713
+usa_roadsigns_1015.jpg,No_unauthorized_vehicles,0.5,20,40,212,194

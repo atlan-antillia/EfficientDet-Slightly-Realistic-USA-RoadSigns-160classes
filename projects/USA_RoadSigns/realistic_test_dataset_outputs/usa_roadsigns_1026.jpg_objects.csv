@@ -1,6 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1026.jpg,Sharp_turn,0.99,439,278,634,472
-usa_roadsigns_1026.jpg,Added_lane_from_entering_roadway,0.98,18,37,177,199
-usa_roadsigns_1026.jpg,Bike_lane,0.76,230,158,389,280
-usa_roadsigns_1026.jpg,No_bicycles,0.72,860,518,1054,715
-usa_roadsigns_1026.jpg,No_parking_from_830am_to_530pm,0.6,650,401,777,589
+usa_roadsigns_1026.jpg,Stop_here_for_pedestrians,0.83,987,452,1060,544
+usa_roadsigns_1026.jpg,Night_speed_limit_70km,0.68,11,8,201,252
+usa_roadsigns_1026.jpg,Truck_crossing,0.65,255,121,453,315

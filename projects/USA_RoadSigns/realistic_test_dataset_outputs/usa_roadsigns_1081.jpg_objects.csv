@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1081.jpg,No_straight_through,0.99,860,519,1055,716
-usa_roadsigns_1081.jpg,School_speed_limit_ahead,0.99,21,39,211,233
-usa_roadsigns_1081.jpg,Pedestrian_crossing,0.86,439,278,600,442
-usa_roadsigns_1081.jpg,School_speed_limit_ahead,0.44,232,159,388,241
+usa_roadsigns_1081.jpg,Wait_on_stop,0.83,251,119,403,310
+usa_roadsigns_1081.jpg,Wait_on_stop,0.77,991,451,1066,547
+usa_roadsigns_1081.jpg,National_network_route,0.54,7,10,107,107
+usa_roadsigns_1081.jpg,Stay_in_lane,0.52,745,339,822,437
+usa_roadsigns_1081.jpg,Road_slippery_when_wet,0.47,496,229,693,426

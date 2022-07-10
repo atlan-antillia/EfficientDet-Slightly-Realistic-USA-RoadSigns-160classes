@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1090.jpg,Merge,0.98,18,38,212,234
-usa_roadsigns_1090.jpg,Minimum_speed_limit_40,0.93,439,280,631,521
-usa_roadsigns_1090.jpg,Keep_right_2,0.93,646,401,781,563
-usa_roadsigns_1090.jpg,Stop_here_for_peds,0.84,231,161,390,321
+usa_roadsigns_1090.jpg,Be_prepared_to_stop,0.84,6,9,105,106
+usa_roadsigns_1090.jpg,Steep_grade,0.76,744,341,937,533
+usa_roadsigns_1090.jpg,Detour,0.76,256,118,446,277
+usa_roadsigns_1090.jpg,Night_speed_limit_45,0.72,505,228,713,445

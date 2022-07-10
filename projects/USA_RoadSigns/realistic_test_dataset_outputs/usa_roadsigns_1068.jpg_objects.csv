@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1068.jpg,Lane_ends,0.98,858,518,1053,714
-usa_roadsigns_1068.jpg,Stop_here_for_pedestrians,0.95,649,399,768,558
-usa_roadsigns_1068.jpg,Runaway_vehicles_only,0.58,230,156,418,352
-usa_roadsigns_1068.jpg,No_pedestrians,0.54,437,276,602,381
-usa_roadsigns_1068.jpg,Path_narrows,0.45,19,39,181,202
+usa_roadsigns_1068.jpg,Yield_here_to_peds,0.91,502,231,690,422
+usa_roadsigns_1068.jpg,Stop_here_for_peds,0.9,747,342,938,534
+usa_roadsigns_1068.jpg,Skewed_railroad_crossing,0.79,255,119,446,313
+usa_roadsigns_1068.jpg,No_rollerblading,0.62,10,6,203,202
+usa_roadsigns_1068.jpg,Emergency_signal,0.44,989,449,1180,577

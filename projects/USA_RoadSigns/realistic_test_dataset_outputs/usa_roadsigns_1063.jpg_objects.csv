@@ -1,5 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1063.jpg,Cross_roads,0.99,653,399,840,591
-usa_roadsigns_1063.jpg,Side_road_at_a_perpendicular_angle,0.99,439,280,635,474
-usa_roadsigns_1063.jpg,Bicycles_left_pedestrians_right,0.98,18,39,149,233
-usa_roadsigns_1063.jpg,Side_road_at_a_perpendicular_angle,0.98,862,518,1052,713
+usa_roadsigns_1063.jpg,Added_lane,0.93,987,445,1181,645
+usa_roadsigns_1063.jpg,Night_speed_limit_45,0.74,254,119,359,226
+usa_roadsigns_1063.jpg,Truck crossing_2,0.62,742,339,935,533

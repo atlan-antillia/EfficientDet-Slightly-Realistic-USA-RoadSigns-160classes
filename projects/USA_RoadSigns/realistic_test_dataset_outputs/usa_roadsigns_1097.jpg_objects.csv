@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1097.jpg,Skewed_railroad_crossing,0.99,651,397,841,593
-usa_roadsigns_1097.jpg,Parking_with_time_restrictions,0.87,438,281,567,472
-usa_roadsigns_1097.jpg,Keep_left_2,0.83,861,519,1016,713
-usa_roadsigns_1097.jpg,No_parking_in_fire_lane,0.57,19,41,127,197
+usa_roadsigns_1097.jpg,Turn_only_lanes,0.97,989,448,1179,570
+usa_roadsigns_1097.jpg,Single_lane_shift_left,0.69,747,342,843,437
+usa_roadsigns_1097.jpg,Work_zone_for_speed_limit,0.55,500,231,596,301
+usa_roadsigns_1097.jpg,No_straight_through,0.48,9,9,201,202
+usa_roadsigns_1097.jpg,Keep_right,0.41,253,120,332,216

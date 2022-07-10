@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1076.jpg,Added_lane_from_entering_roadway,0.97,651,401,811,560
+usa_roadsigns_1076.jpg,Steep_grade_percentage,0.92,862,519,1019,679
+usa_roadsigns_1076.jpg,Steep_grade,0.81,229,159,420,350
+usa_roadsigns_1076.jpg,No_parking_any_time,0.56,19,36,147,228

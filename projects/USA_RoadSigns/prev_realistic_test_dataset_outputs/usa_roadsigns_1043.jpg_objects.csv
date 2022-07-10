@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1043.jpg,Circular_intersection_warning,0.96,651,399,839,592
+usa_roadsigns_1043.jpg,Keep_left_2,0.85,228,158,359,322
+usa_roadsigns_1043.jpg,Pass_road,0.84,859,517,966,679
+usa_roadsigns_1043.jpg,Stop_here_for_pedestrians,0.78,19,41,168,235
+usa_roadsigns_1043.jpg,Lane_ends,0.47,440,277,600,440

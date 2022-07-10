@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1060.jpg,Wait_on_stop,0.91,859,519,988,680
+usa_roadsigns_1060.jpg,Steep_grade_percentage,0.88,231,159,389,320
+usa_roadsigns_1060.jpg,Railroad_crossing,0.65,13,33,177,198
+usa_roadsigns_1060.jpg,T_roads,0.41,650,400,812,561

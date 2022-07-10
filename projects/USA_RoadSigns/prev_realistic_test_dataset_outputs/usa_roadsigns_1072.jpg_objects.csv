@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1072.jpg,Bicycles_and_pedestrians,0.94,231,162,388,320
+usa_roadsigns_1072.jpg,Y_roads,0.89,860,522,1018,678
+usa_roadsigns_1072.jpg,Stop_here_for_peds,0.88,441,279,601,439
+usa_roadsigns_1072.jpg,No_parking_from_830am_to_530pm_2,0.71,20,39,149,228

@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1007.jpg,Dead_end,0.86,650,399,843,596
+usa_roadsigns_1007.jpg,Railroad_crossing_ahead,0.84,440,278,598,440
+usa_roadsigns_1007.jpg,Go_on_slow,0.74,858,521,1017,716
+usa_roadsigns_1007.jpg,Hairpin_curve,0.73,20,38,213,233

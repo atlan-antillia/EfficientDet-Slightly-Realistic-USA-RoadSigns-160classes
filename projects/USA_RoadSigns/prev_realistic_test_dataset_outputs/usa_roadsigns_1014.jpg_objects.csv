@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1014.jpg,Added_lane_from_entering_roadway,0.99,859,518,1021,682
+usa_roadsigns_1014.jpg,Straight_ahead_only,0.78,440,281,574,439
+usa_roadsigns_1014.jpg,Metric_low_clearance,0.63,22,36,180,200
+usa_roadsigns_1014.jpg,Except_right_turn,0.59,231,161,419,301

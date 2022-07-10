@@ -1,6 +1,4 @@
 id, class, count
-1,Low_ground_clearance_railroad_crossing,1
-2,Skewed_railroad_crossing,1
-3,No_train_horn_warning,1
-4,Metric_low_clearance,1
-5,Keep_left,1
+1,Reserved_parking_wheelchair,1
+2,All_way,1
+3,Merging_traffic,1

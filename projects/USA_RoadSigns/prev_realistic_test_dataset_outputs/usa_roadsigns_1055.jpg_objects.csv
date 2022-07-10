@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1055.jpg,Tractor_farm_vehicle_crossing_2,0.78,860,520,1017,679
+usa_roadsigns_1055.jpg,Yield,0.76,654,399,812,542
+usa_roadsigns_1055.jpg,No_parking_bus_stop,0.6,229,159,359,352
+usa_roadsigns_1055.jpg,National_network_route,0.59,16,38,211,236

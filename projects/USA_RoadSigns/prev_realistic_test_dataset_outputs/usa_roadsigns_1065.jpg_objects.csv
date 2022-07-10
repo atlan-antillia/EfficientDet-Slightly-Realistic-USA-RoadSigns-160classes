@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1065.jpg,No_parking_from_830am_to_530pm,0.75,648,400,777,586
+usa_roadsigns_1065.jpg,Offset_roads,0.72,438,280,602,442
+usa_roadsigns_1065.jpg,No_parking_from_830am_to_530pm_2,0.67,20,38,126,198
+usa_roadsigns_1065.jpg,Path_narrows,0.56,233,160,421,353
+usa_roadsigns_1065.jpg,No_pedestrian_crossing,0.5,859,519,1055,714

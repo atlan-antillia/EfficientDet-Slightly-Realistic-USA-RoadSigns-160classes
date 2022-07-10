@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1077.jpg,Stop,0.99,858,519,1020,679
-usa_roadsigns_1077.jpg,Tractor_farm_vehicle_crossing_2,0.96,649,397,841,593
-usa_roadsigns_1077.jpg,Right_turn_or_straight,0.75,436,279,575,440
-usa_roadsigns_1077.jpg,School_bus_turn_ahead,0.58,22,39,210,231
+usa_roadsigns_1077.jpg,All_way,0.97,12,9,197,71
+usa_roadsigns_1077.jpg,No_parking_loading_zone,0.68,744,341,876,532
+usa_roadsigns_1077.jpg,Railroad_crossing,0.55,496,229,592,326
+usa_roadsigns_1077.jpg,Side_road_at_an_acute_angle,0.52,253,120,349,216
+usa_roadsigns_1077.jpg,Truck_crossing,0.51,992,451,1086,547

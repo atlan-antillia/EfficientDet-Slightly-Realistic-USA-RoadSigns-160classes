@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1089.jpg,Bump,0.98,20,41,183,197
+usa_roadsigns_1089.jpg,Tractor_farm_vehicle_crossing,0.77,439,279,632,473
+usa_roadsigns_1089.jpg,Keep_left_2,0.75,229,160,383,353
+usa_roadsigns_1089.jpg,Straight_ahead_only,0.62,649,399,786,560
+usa_roadsigns_1089.jpg,Dip,0.6,858,522,1022,682

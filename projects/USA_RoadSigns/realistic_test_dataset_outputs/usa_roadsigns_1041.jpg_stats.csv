@@ -1,4 +1,4 @@
 id, class, count
-1,Stop_here_for_peds,1
-2,All_way,1
-3,Curve,1
+1,Bike_lane,1
+2,School_speed_limit_ahead,1
+3,No_parking_from_830am_to_530pm,1

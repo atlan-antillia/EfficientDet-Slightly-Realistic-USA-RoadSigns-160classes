@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1092.jpg,School_speed_limit_ahead,0.82,233,161,420,352
+usa_roadsigns_1092.jpg,Reserved_parking_wheelchair,0.77,648,401,758,560
+usa_roadsigns_1092.jpg,No_parking_from_830am_to_530pm,0.75,439,281,549,439
+usa_roadsigns_1092.jpg,Truck_crossing,0.67,859,520,1020,681
+usa_roadsigns_1092.jpg,Double_side_roads,0.52,18,38,179,201

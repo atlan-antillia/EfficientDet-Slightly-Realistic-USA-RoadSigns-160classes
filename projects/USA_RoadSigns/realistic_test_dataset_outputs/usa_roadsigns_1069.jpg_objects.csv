@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1069.jpg,Horse_drawn_vehicle_ahead,0.99,855,519,1054,717
-usa_roadsigns_1069.jpg,No_unauthorized_vehicles,0.96,648,400,812,529
-usa_roadsigns_1069.jpg,Pedestrian_crossing,0.88,229,158,393,323
-usa_roadsigns_1069.jpg,Ramp_narrows,0.58,19,44,119,150
+usa_roadsigns_1069.jpg,Bump,0.93,10,7,108,105
+usa_roadsigns_1069.jpg,Work_zone_for_speed_limit,0.52,743,341,839,412
+usa_roadsigns_1069.jpg,No_pedestrian_crossing,0.5,991,447,1182,646
+usa_roadsigns_1069.jpg,Runaway_vehicles_only,0.42,259,122,447,313

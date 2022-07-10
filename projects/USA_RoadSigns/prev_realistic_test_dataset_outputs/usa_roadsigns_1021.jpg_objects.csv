@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1021.jpg,Wrong_way,0.97,435,278,628,411
+usa_roadsigns_1021.jpg,No_parking_from_830am_to_530pm,0.64,857,519,995,686
+usa_roadsigns_1021.jpg,No_parking_any_time,0.63,232,159,334,318
+usa_roadsigns_1021.jpg,No_entre,0.53,648,397,812,562
+usa_roadsigns_1021.jpg,Do_not_enter,0.42,18,36,215,233

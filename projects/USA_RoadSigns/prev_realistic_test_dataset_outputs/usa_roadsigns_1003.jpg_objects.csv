@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1003.jpg,All_way,0.94,857,519,1053,585
+usa_roadsigns_1003.jpg,270_degree_loop,0.93,651,400,840,592
+usa_roadsigns_1003.jpg,Do_not_enter,0.49,19,36,215,233

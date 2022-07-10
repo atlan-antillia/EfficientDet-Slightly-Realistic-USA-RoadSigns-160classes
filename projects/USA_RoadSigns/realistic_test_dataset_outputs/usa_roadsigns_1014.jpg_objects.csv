@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1014.jpg,Straight_ahead_only,0.99,440,281,572,440
-usa_roadsigns_1014.jpg,Added_lane_from_entering_roadway,0.97,859,517,1022,683
-usa_roadsigns_1014.jpg,No_right_turn,0.94,649,398,845,593
-usa_roadsigns_1014.jpg,Metric_low_clearance,0.93,18,38,178,200
-usa_roadsigns_1014.jpg,Except_right_turn,0.4,229,165,420,303
+usa_roadsigns_1014.jpg,Road_closed,0.71,743,339,936,457
+usa_roadsigns_1014.jpg,Bicycles_and_pedestrians,0.69,990,450,1085,546
+usa_roadsigns_1014.jpg,Stay_in_lane,0.57,255,120,330,217
+usa_roadsigns_1014.jpg,Sharp_turn,0.55,11,8,202,201

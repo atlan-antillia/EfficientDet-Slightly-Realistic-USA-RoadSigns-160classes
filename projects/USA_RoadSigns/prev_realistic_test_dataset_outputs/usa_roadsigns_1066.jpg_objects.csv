@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1066.jpg,Added_lane_from_entering_roadway,0.97,651,400,813,560
+usa_roadsigns_1066.jpg,Bike_lane_slippery_when_wet,0.87,861,516,1018,680
+usa_roadsigns_1066.jpg,Side_road_at_an_acute_angle,0.86,18,40,211,230
+usa_roadsigns_1066.jpg,Skewed_railroad_crossing,0.81,228,160,390,319

@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1047.jpg,Snowmobile,0.96,440,279,598,439
+usa_roadsigns_1047.jpg,Speed_limit_50,0.82,858,517,1064,728
+usa_roadsigns_1047.jpg,Horizontal_alignment_intersection,0.79,19,33,179,200
+usa_roadsigns_1047.jpg,Night_speed_limit_45,0.43,233,160,407,339

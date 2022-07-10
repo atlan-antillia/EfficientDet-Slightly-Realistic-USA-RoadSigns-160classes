@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1031.jpg,Single_lane_shift_left,0.97,229,158,390,320
-usa_roadsigns_1031.jpg,No_rollerblading,0.97,649,397,812,561
-usa_roadsigns_1031.jpg,Do_not_pass_stopped_trains,0.67,18,38,145,201
-usa_roadsigns_1031.jpg,No_straight_through,0.41,440,278,602,442
+usa_roadsigns_1031.jpg,Bike_lane,0.94,10,11,201,155
+usa_roadsigns_1031.jpg,Speed_limit_80km,0.87,498,230,662,468
+usa_roadsigns_1031.jpg,Chevron_alignment,0.83,741,339,891,534
+usa_roadsigns_1031.jpg,No_bicycles,0.47,256,122,446,313

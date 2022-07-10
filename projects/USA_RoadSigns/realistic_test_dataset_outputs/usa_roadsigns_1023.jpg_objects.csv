@@ -1,4 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1023.jpg,Speed_limit_50,0.99,652,398,821,602
-usa_roadsigns_1023.jpg,Left_turn_or_straight,0.98,228,158,388,351
-usa_roadsigns_1023.jpg,Be_prepared_to_stop,0.94,19,37,180,202
+usa_roadsigns_1023.jpg,Snowmobile,0.93,255,119,446,313
+usa_roadsigns_1023.jpg,Merging_traffic,0.68,739,336,935,532
+usa_roadsigns_1023.jpg,No_horseback_riding,0.66,12,10,201,203
+usa_roadsigns_1023.jpg,No_standing_any_time,0.4,498,229,565,327

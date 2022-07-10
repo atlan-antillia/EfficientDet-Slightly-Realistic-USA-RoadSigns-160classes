@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1021.jpg,Left_turn_or_straight,0.99,859,520,996,684
-usa_roadsigns_1021.jpg,No_parking_any_time,0.7,229,160,335,318
-usa_roadsigns_1021.jpg,No_entre,0.56,17,35,212,235
-usa_roadsigns_1021.jpg,Do_not_enter,0.51,646,396,814,561
-usa_roadsigns_1021.jpg,Stop_here_for_pedestrians,0.41,439,281,630,409
+usa_roadsigns_1021.jpg,Flagger_present,0.8,9,9,106,105
+usa_roadsigns_1021.jpg,Pedestrian_crossing,0.6,990,449,1087,546
+usa_roadsigns_1021.jpg,No_rollerblading,0.53,497,229,695,425
+usa_roadsigns_1021.jpg,Sharp_turn,0.52,746,340,842,436

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1086.jpg,Bike_lane_slippery_when_wet,0.95,859,518,1055,715
+usa_roadsigns_1086.jpg,No_pedestrians,0.82,441,276,602,361
+usa_roadsigns_1086.jpg,Railroad_crossing,0.63,13,31,177,197
+usa_roadsigns_1086.jpg,Lane_ends,0.61,233,162,391,321
+usa_roadsigns_1086.jpg,No_entre,0.48,647,398,842,591

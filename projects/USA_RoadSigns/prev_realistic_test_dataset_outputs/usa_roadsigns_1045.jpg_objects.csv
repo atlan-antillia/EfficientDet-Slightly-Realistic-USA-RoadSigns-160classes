@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1045.jpg,Be_prepared_to_stop,0.93,231,163,389,322
+usa_roadsigns_1045.jpg,Do_not_pass_stopped_trains,0.9,19,38,148,199
+usa_roadsigns_1045.jpg,Stop_here_for_peds,0.9,651,398,843,595
+usa_roadsigns_1045.jpg,Pass_road,0.85,860,517,985,712

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1088.jpg,Bicycle_wrong_way,0.98,233,162,338,321
+usa_roadsigns_1088.jpg,Steep_grade_percentage,0.91,651,399,808,562
+usa_roadsigns_1088.jpg,Offset_roads,0.73,859,517,1052,715
+usa_roadsigns_1088.jpg,End_detour,0.6,444,281,632,423
+usa_roadsigns_1088.jpg,Hazardous_material_prohibited,0.48,19,40,213,233

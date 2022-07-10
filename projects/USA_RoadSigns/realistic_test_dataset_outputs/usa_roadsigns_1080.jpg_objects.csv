@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1080.jpg,Side_road_at_an_acute_angle,0.99,653,400,843,593
-usa_roadsigns_1080.jpg,Side_road_at_a_perpendicular_angle,0.72,862,518,1051,712
-usa_roadsigns_1080.jpg,Night_speed_limit_45,0.62,438,279,622,464
-usa_roadsigns_1080.jpg,No_parking_bus_stop,0.62,16,38,146,228
-usa_roadsigns_1080.jpg,Stay_in_lane,0.48,227,160,359,323
+usa_roadsigns_1080.jpg,Bike_lane_slippery_when_wet,0.96,258,120,445,311
+usa_roadsigns_1080.jpg,Wrong_way,0.92,741,338,839,405
+usa_roadsigns_1080.jpg,Truck_speed_limit_40,0.86,497,230,606,336
+usa_roadsigns_1080.jpg,Bike_lane,0.8,11,9,103,81
+usa_roadsigns_1080.jpg,Pedestrian_crossing,0.64,988,446,1085,546

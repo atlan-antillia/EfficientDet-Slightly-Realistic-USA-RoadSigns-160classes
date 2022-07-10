@@ -1,6 +1,5 @@
 id, class, count
-1,All_way,1
-2,Turn_only_lanes,1
-3,Dead_end,1
-4,270_degree_loop,1
-5,Ramp_narrows,1
+1,Skewed_railroad_crossing,1
+2,Reverse_turn,1
+3,Railroad_crossing,1
+4,Truck_route_sign,1

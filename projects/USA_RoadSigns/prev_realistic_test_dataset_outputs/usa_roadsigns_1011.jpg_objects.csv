@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1011.jpg,Bicycle_wrong_way,0.99,19,38,127,201
+usa_roadsigns_1011.jpg,Y_roads,0.95,230,161,387,319
+usa_roadsigns_1011.jpg,Bicycles_and_pedestrians,0.91,857,519,1021,681
+usa_roadsigns_1011.jpg,Pass_road,0.88,441,278,568,471
+usa_roadsigns_1011.jpg,Road_narrows,0.62,651,399,808,557

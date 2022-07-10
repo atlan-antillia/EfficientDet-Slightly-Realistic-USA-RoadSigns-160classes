@@ -1,6 +1,6 @@
 id, class, count
-1,Lane_ends,1
-2,Stop_here_for_pedestrians,1
-3,Runaway_vehicles_only,1
-4,No_pedestrians,1
-5,Path_narrows,1
+1,Yield_here_to_peds,1
+2,Stop_here_for_peds,1
+3,Skewed_railroad_crossing,1
+4,No_rollerblading,1
+5,Emergency_signal,1

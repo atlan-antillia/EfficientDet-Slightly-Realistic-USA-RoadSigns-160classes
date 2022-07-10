@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1048.jpg,Bump,0.95,231,160,420,350
+usa_roadsigns_1048.jpg,Deer_crossing,0.93,653,400,809,559
+usa_roadsigns_1048.jpg,Pass_road,0.69,443,279,565,470
+usa_roadsigns_1048.jpg,Offset_roads,0.66,19,35,213,233

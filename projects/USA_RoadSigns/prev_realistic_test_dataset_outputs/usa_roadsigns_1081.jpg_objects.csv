@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1081.jpg,Pedestrian_crossing,0.9,441,278,599,441
+usa_roadsigns_1081.jpg,Tractor_farm_vehicle_crossing,0.83,648,398,810,559
+usa_roadsigns_1081.jpg,Two_direction,0.82,231,159,388,241
+usa_roadsigns_1081.jpg,School_speed_limit_ahead,0.8,20,38,209,229
+usa_roadsigns_1081.jpg,No_straight_through,0.4,859,519,1053,714

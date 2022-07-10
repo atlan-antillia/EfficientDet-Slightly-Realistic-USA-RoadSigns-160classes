@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1087.jpg,Steep_grade,0.89,440,281,601,441
+usa_roadsigns_1087.jpg,Yield_here_to_pedestrians,0.87,20,40,165,228
+usa_roadsigns_1087.jpg,No_stopping_on_pavement,0.55,857,517,990,681
+usa_roadsigns_1087.jpg,Work_zone_for_speed_limit,0.47,230,160,424,303

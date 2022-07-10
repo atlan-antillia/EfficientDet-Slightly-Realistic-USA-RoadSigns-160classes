@@ -1,4 +1,5 @@
 id, class, count
-1,No_straight_through,1
-2,School_speed_limit_ahead,2
-3,Pedestrian_crossing,1
+1,Wait_on_stop,2
+2,National_network_route,1
+3,Stay_in_lane,1
+4,Road_slippery_when_wet,1

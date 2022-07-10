@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1004.jpg,Yield_here_to_peds,0.91,230,158,393,319
+usa_roadsigns_1004.jpg,Speed_limit_80km,0.65,438,279,600,515
+usa_roadsigns_1004.jpg,Night_speed_limit_45,0.51,653,398,861,616
+usa_roadsigns_1004.jpg,Parking_with_time_restrictions,0.5,858,518,986,711

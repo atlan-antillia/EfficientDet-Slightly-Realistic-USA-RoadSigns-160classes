@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1029.jpg,Snowmobile,0.91,232,160,424,353
+usa_roadsigns_1029.jpg,Workers_on_road,0.81,653,401,839,593
+usa_roadsigns_1029.jpg,No_parking_from_830am_to_530pm_2,0.77,19,38,145,227
+usa_roadsigns_1029.jpg,Night_speed_limit_45,0.71,441,278,660,498

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1033.jpg,Left_turn_yield_on_green,0.99,18,38,147,201
-usa_roadsigns_1033.jpg,No_pedestrians,0.98,441,279,630,375
-usa_roadsigns_1033.jpg,Loading_zone,0.97,228,157,392,281
-usa_roadsigns_1033.jpg,No_parking_from_830am_to_530pm,0.78,650,401,758,559
-usa_roadsigns_1033.jpg,Sharp_turn,0.49,859,517,1052,715
+usa_roadsigns_1033.jpg,Steep_grade,0.78,257,121,448,315
+usa_roadsigns_1033.jpg,Parking_with_time_restrictions,0.7,9,5,135,200
+usa_roadsigns_1033.jpg,One_way,0.63,990,454,1182,515
+usa_roadsigns_1033.jpg,No_rollerblading,0.46,499,228,696,425
+usa_roadsigns_1033.jpg,No_train_horn_warning,0.43,745,338,840,436
