@@ -1,4 +1,4 @@
-rem 3_inference.bat
+rem 4_inference_for_prev_test.bat
 python ../../SavedModelInferencer.py ^
   --runmode=saved_model_infer ^
   --model_name=efficientdet-d0 ^

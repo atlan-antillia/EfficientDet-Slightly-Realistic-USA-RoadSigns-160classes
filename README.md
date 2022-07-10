@@ -620,7 +620,7 @@ The 3_inference.bat computes also the COCO metrics(f, map, mar) to the <b>realis
 </pre>
 , which is the folllowing:
 <pre>
-rem 3_inference.bat
+rem 4_inference_for_prev_test.bat
 python ../../SavedModelInferencer.py ^
   --runmode=saved_model_infer ^
   --model_name=efficientdet-d0 ^
@@ -707,7 +707,7 @@ python ../../SavedModelInferencer.py ^
 <br>
 
 <h3>8.3. COCO metrics of inference result</h3>
-The 3_inference.bat computes also the COCO metrics(f, map, mar) to the <b>prev_realistic_test_dataset</b> as shown below:<br>
+The 4_inference_for_prev_test.bat computes also the COCO metrics(f, map, mar) to the <b>prev_realistic_test_dataset</b> as shown below:<br>
 <a href="./projects/USA_RoadSigns/prev_realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
 
 <br>
